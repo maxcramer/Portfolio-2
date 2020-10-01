@@ -8,8 +8,7 @@ function HeadBanner () {
 
     return (
         <div>
-            <h1>Head Banner</h1>
-            <video autoPlay loop>
+            <video id="header_video" autoPlay loop muted >
                 <source src={MyMovie} type="video/mp4" />
             </video>
         </div>
