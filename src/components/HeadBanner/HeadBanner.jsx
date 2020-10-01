@@ -25,4 +25,4 @@ function HeadBanner () {
     )
 }
 
-export default HeadBanner
+export default HeadBanner 
