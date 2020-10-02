@@ -16,3 +16,18 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+  const db = firebase.firestore();
+
+
+  export const getPersonalProjects = async () => {
+      const {docs} = await db
+      .collection('PersonalProjects')
+      .get();
+      const personalProjects = docs.map(docs => {
+          return {
+              ...docs.data(),
+              _id: docs.id
+          }
+      })
+      return personalProjects
+  };
