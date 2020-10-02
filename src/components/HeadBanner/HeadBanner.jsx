@@ -18,7 +18,7 @@ function HeadBanner () {
                     <h3>Web Developer</h3>
                     <h3>Pro Onewheel Rider</h3>
                 </div>           
-                <video id="header_video" autoPlay loop muted>
+                <video id="header_video" autoPlay loop muted playsInline>
                     <source src={MyMovie} type="video/mp4" />
                 </video>
             </div>        
