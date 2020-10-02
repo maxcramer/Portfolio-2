@@ -13,9 +13,11 @@ function App() {
       <header className="App-header">
         <NavBar />
       </header>
+      {/* <div className="smooth-scroll"> */}
         <HeadBanner />
         <GitHubGraph />
         <PersonalProjects />
+      {/* </div> */}
     </div>
   );
 }
