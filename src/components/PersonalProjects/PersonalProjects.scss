@@ -3,8 +3,18 @@
     // z-index: 10;
 }
 
-.personalProjects_container h3 {
-    position: absolute;
-    color: red;
-    z-index: 10;
+.personalProjects_container ul {
+    background-color: black;
+    margin: 0;
+    height: 60px; // this is to small but allowing me to test on the flex wrap on a column, love how this works, use this 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+
+.personalProjects_container h3 {
+    color: white;
+    margin: 0;
+}
+
