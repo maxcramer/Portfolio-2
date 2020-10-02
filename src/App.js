@@ -13,9 +13,9 @@ function App() {
       <header className="App-header">
         <NavBar />
       </header>
-      <HeadBanner />
-      <GitHubGraph />
-      <PersonalProjects />
+        <HeadBanner />
+        <GitHubGraph />
+        <PersonalProjects />
     </div>
   );
 }

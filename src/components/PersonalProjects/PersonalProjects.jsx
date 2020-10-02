@@ -15,7 +15,7 @@ function PersonalProjects() {
         fetchData();
     }, [])
     return (
-        <div className="personalProjects_container">
+        <div className="personalProjects_container" id="personalprojects">
             <ul>
                 {personalProjects.map(p => (
                     <div key={p._id}>
