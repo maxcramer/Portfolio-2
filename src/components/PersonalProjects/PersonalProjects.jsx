@@ -24,6 +24,7 @@ function PersonalProjects() {
                                 {p.title}
                             </h3>
                             <img style={{ height: "50px" }} src={p.image} alt=""/>
+                            <p style={{ color:"white" }}>{p.desc}</p>
                         </li>
                     </div>
                 ))}
