@@ -6,11 +6,24 @@
 .personalProjects_container ul {
     background-color: black;
     margin: 0;
-    height: 60px; // this is to small but allowing me to test on the flex wrap on a column, love how this works, use this 
+    // height: 60px; // this is to small but allowing me to test on the flex wrap on a column, love how this works, use this 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    // align-items: center;
+    z-index: 11;
+    position: relative;
+    padding: 30px 0;
+    margin: auto;
+    justify-content: flex-start;
+}
+
+.personal_projects_list_item {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    // margin: 5%;
     align-items: center;
 }
 

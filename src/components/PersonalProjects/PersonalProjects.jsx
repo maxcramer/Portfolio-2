@@ -18,11 +18,12 @@ function PersonalProjects() {
         <div className="personalProjects_container" id="personalprojects">
             <ul>
                 {personalProjects.map(p => (
-                    <div key={p._id}>
+                    <div key={p._id} className="personal_projects_list_item">
                         <li>
                             <h3>
                                 {p.title}
                             </h3>
+                            <img style={{ height: "50px" }} src={p.image} alt=""/>
                         </li>
                     </div>
                 ))}
