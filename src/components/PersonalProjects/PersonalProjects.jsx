@@ -18,6 +18,7 @@ function PersonalProjects() {
     }, [])
     return (
         <div className="personalProjects_container" id="personalprojects">
+            <h2 id="pp_title">Personal Side Projects</h2>
             <ul>
                 {personalProjects.map(p => (
                     <div key={p._id} className="personal_projects_list_item">

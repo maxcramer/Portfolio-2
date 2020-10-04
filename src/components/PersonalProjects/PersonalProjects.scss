@@ -4,6 +4,13 @@
     background-color: black
 }
 
+#pp_title {
+    color: white;
+    margin: auto;
+    width: 90%;
+    font-size: 40px;
+}
+
 .personalProjects_container ul {
     display: flex;
     flex-direction: row;
@@ -26,5 +33,6 @@
 .personalProjects_container h3 {
     color: white;
     margin: 0;
+    font-size: 20px;
 }
 
