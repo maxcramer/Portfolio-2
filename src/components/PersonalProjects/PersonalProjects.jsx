@@ -23,32 +23,32 @@ function PersonalProjects() {
                 {personalProjects.map(p => (
                     <div key={p._id} className="personal_projects_list_item">
                         <li className="list_item">
-                            <img style={{ height: "165px", margin: "1rem", maxWidth: "300px", objectFit:"contain" }} src={p.image} alt=""/>
-                            <div style={{display: "flex", flexDirection:"row", alignItems:"center", justifyContent:"space-between", width: "95%"}}>
+                            <img className="main_image" src={p.image} alt=""/>
+                            <div className="info_div">
                                 <h3>
                                     {p.title}
                                 </h3>
-                                <div style={{display: "flex", flexDirection:"row", alignItems:"center"}}>
+                                <div className="links">
                                 <a href={p.github}>
-                                    <img src={GitHubLogo} alt="" style={{height: "28px"}}/>
+                                    <img src={GitHubLogo} alt="" className="github_logo"/>
                                 </a>
                                 <a href={p.url}>
-                                    <div style={{ backgroundColor: "white", borderRadius: "100%", height: "25px", width: "25px", display: "flex", alignItems:"center", justifyContent:"center"}}>
-                                        <img src={LinkLogo} alt="" style={{height: "20px"}} />
+                                    <div className="url_container">
+                                        <img src={LinkLogo} alt="" className="url" />
                                     </div>                
                                 </a>
                                 </div>
                             </div>
-                            <div style={{textAlign:"left"}}>
-                                <p style={{color:"white", margin: "0", fontWeight:"700"}}>Status: {p.status}</p>
+                            <div>
+                                <p className="proj_status">Status: {p.status}</p>
                             </div>
                             <div>
-                                <div style={{color:"white"}}>
+                                <div className="stack">
                                     Stack: {p.stack}
                                 </div>
                             </div>
 
-                            <p style={{ color:"white" }}>{p.desc}</p>
+                            <p className="desc">{p.desc}</p>
                         </li>
                     </div>
                 ))}
