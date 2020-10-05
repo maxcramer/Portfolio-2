@@ -1,7 +1,8 @@
 .personalProjects_container {
     height: 100%;
     width: 100%;
-    background-color: black
+    background-color: black;
+    padding-bottom: 2rem;
 }
 
 #pp_title {
@@ -21,6 +22,7 @@
     margin: auto;
     justify-content: space-between;
     width: 90%;
+    border-bottom: 1px solid green;
 }
 
 
