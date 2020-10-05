@@ -39,6 +39,8 @@ function PersonalProjects() {
                                 </a>
                                 </div>
                             </div>
+                            <p style={{color:"white", margin: "0", fontWeight:"700"}}>Status: {p.status}</p>
+
                             <p style={{ color:"white" }}>{p.desc}</p>
                         </li>
                     </div>
