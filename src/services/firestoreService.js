@@ -30,3 +30,16 @@ var firebaseConfig = {
       })
       return personalProjects
   };
+
+  export const getWorks = async () => {
+      const {docs} = await db
+      .collection("Work")
+      .get();
+      const work = docs.map(docs => {
+          return {
+              ...docs.data(),
+              _id: docs.id
+          }
+      })
+      return work
+  };
