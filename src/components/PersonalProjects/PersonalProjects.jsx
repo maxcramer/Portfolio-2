@@ -22,8 +22,8 @@ function PersonalProjects() {
             <ul>
                 {personalProjects.map(p => (
                     <div key={p._id} className="personal_projects_list_item">
-                        <li>
-                            <img style={{ height: "80px", margin: "1rem" }} src={p.image} alt=""/>
+                        <li className="list_item">
+                            <img style={{ height: "165px", margin: "1rem", maxWidth: "300px", objectFit:"contain" }} src={p.image} alt=""/>
                             <div style={{display: "flex", flexDirection:"row", alignItems:"center", justifyContent:"space-between", width: "95%"}}>
                                 <h3>
                                     {p.title}
@@ -39,7 +39,9 @@ function PersonalProjects() {
                                 </a>
                                 </div>
                             </div>
-                            <p style={{color:"white", margin: "0", fontWeight:"700"}}>Status: {p.status}</p>
+                            <div style={{textAlign:"left"}}>
+                                <p style={{color:"white", margin: "0", fontWeight:"700"}}>Status: {p.status}</p>
+                            </div>
 
                             <p style={{ color:"white" }}>{p.desc}</p>
                         </li>
