@@ -27,16 +27,20 @@ function Work() {
                     <div key={w._id}>
                         <li>
                             <img className="work_img" src={w.img} alt=""/>
-                            <h3>{w.ProjectTitle}</h3>
-                            <h4>Company: {w.company}</h4>
-                            <h4>Client: {w.Client}</h4>
-                            {w.url && 
+                            <div className="title_link">
+                                <h3>{w.ProjectTitle}</h3>
+                                {w.url && 
                                 <a href={w.url}>
                                     <div className="url_container">
                                         <img src={LinkLogo} alt="" className="url" />
                                     </div>
                                 </a>
                             }
+                            </div>
+                            <div className="company_client">
+                                <h4>Company: {w.company}</h4>
+                                <h4>Client: {w.Client}</h4>
+                            </div>
                             <p>Build Time: {w.BuildTime}</p>
                             <p>Tech Used{w.TechUsed}</p>
                         </li>
