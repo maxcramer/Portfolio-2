@@ -17,10 +17,23 @@ function Positions() {
     }, [])
 
     return (
-        <div>
-            <h1>
-                POSITIONS
-            </h1>
+        <div className="positions_container">
+           <h1 className="positions_title">
+               Positions
+           </h1>
+           <ul>
+               {positions.map(p => (
+                   <div key={p._id}>
+                       <li>
+                           <img src={p.Logo} alt=""/>
+                           <div className="company_position">
+                                <h3>Company: {p.Company}</h3>
+                                <h3>Position: {p.Position}</h3>
+                           </div>
+                       </li>
+                   </div>
+               ))}
+           </ul>
         </div>
     )
 }

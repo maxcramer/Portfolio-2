@@ -1,4 +1,42 @@
-h1 {
-    color: #ffffff;
-    // background-color:black;
+.positions_container {
+    background-color: black;
+    color: white;
+    padding-bottom: 2rem;
+    ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        z-index: 11;
+        position: relative;
+        padding: 10px 0;
+        margin: auto;
+        justify-content: space-between;
+        width: 90%;
+        li {
+            display: flex;
+            flex-direction: row;
+            margin: 25px 0;
+        }
+    }
+    img {
+        display: flex;
+        max-width: 300px;
+        object-fit: contain;
+        justify-content: space-between;
+    }
 }
+
+.company_position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    margin: 0 20px;
+    h3 {
+        margin: 0;
+        padding-bottom: 2px;
+        text-decoration: underline;
+    }
+}
+
+
