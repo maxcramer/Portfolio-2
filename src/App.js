@@ -7,6 +7,8 @@ import NavBar from './components/NavBar/NavBar';
 import GitHubGraph from './components/GitHubGraph/GitHubGraph';
 import PersonalProjects from './components/PersonalProjects/PersonalProjects';
 import Work from './components/Work/Work';
+import Positions from './components/Positions/Positions';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <GitHubGraph />
         <PersonalProjects />
         <Work />
+        <Positions />
     </div>
   );
 }
