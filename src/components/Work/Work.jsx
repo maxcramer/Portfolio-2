@@ -30,11 +30,13 @@ function Work() {
                             <h3>{w.ProjectTitle}</h3>
                             <h4>Company: {w.company}</h4>
                             <h4>Client: {w.Client}</h4>
-                            <a href={w.url}>
-                                <div className="url_container">
-                                    <img src={LinkLogo} alt="" className="url" />
-                                </div>
-                            </a>
+                            {w.url && 
+                                <a href={w.url}>
+                                    <div className="url_container">
+                                        <img src={LinkLogo} alt="" className="url" />
+                                    </div>
+                                </a>
+                            }
                             <p>Build Time: {w.BuildTime}</p>
                             <p>Tech Used{w.TechUsed}</p>
                         </li>
