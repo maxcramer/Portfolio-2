@@ -18,7 +18,7 @@ function Work() {
     }, [])
 
     return (
-        <div className="work_container">
+        <div className="work_container" id="work">
             <h1 className="work_title">
                 Development Work During Employment 
             </h1>

@@ -17,7 +17,7 @@ function Positions() {
     }, [])
 
     return (
-        <div className="positions_container">
+        <div className="positions_container" id="position">
            <h1 className="positions_title">
                Positions
            </h1>
