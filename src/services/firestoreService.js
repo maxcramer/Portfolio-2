@@ -47,7 +47,7 @@ var firebaseConfig = {
   export const getPositions = async () => {
       const {docs} = await db
       .collection("Positions")
-      .orderBy('StartDate', 'desc')
+      .orderBy('StartDate', 'asc')
       .get();
       const pos = docs.map(docs => {
         return {
