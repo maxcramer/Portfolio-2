@@ -43,3 +43,17 @@ var firebaseConfig = {
       })
       return work
   };
+
+  export const getPositions = async () => {
+      const {docs} = await db
+      .collection("Positions")
+      .orderBy('StartDate', 'desc')
+      .get();
+      const pos = docs.map(docs => {
+        return {
+            ...docs.data(),
+            _id: docs.id
+        }
+    })
+    return pos
+  }
