@@ -49,6 +49,9 @@ function Positions() {
                                         Salary: {p.Salary}                                    
                                     </p>
                                 </div>
+                                <p>
+                                    {p.Desc}
+                                </p>
                            </div>
                        </li>
                    </div>
