@@ -1,6 +1,8 @@
 import React from 'react';
 
 import githubLogo from '../media/githubLogo.png';
+import OnewheelAnimations from '../OnewheelAnimation/OnewheelAnimation';
+
 
 import './GitHubGraph.scss';
 
@@ -14,7 +16,7 @@ function GitHubGraph() {
             </span>
                 <img className="graph_image" src="https://grass-graph.moshimo.works/images/maxcramer.png?background=none" />
             </div>
-            
+            <OnewheelAnimations />
         </div>
     )
 } 
