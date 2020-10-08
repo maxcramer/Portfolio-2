@@ -1,0 +1,35 @@
+#onewheel {
+    background-color: black;
+    color: white;
+    padding-bottom: 2rem;
+    margin: auto;
+    width: 90%;  
+}
+
+#onewheel_title_div {
+    h1 {
+        color: white;
+        padding-bottom: 5px;
+        margin: auto;
+        width: 100%;
+        font-size: 40px;
+        border-bottom: 1px green solid;
+        margin-bottom: 20px;
+    }
+}
+
+#onewheel_about_insta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#about_onewheel {
+    border: 3px solid white;
+    width: 49%;
+}
+
+#insta_feed {
+    border: 3px solid white;
+    width: 49%;
+}
