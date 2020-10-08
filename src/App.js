@@ -8,6 +8,7 @@ import GitHubGraph from './components/GitHubGraph/GitHubGraph';
 import PersonalProjects from './components/PersonalProjects/PersonalProjects';
 import Work from './components/Work/Work';
 import Positions from './components/Positions/Positions';
+import About from './components/About/About';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <PersonalProjects />
         <Work />
         <Positions />
+        <About />
     </div>
   );
 }
