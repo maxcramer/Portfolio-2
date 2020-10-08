@@ -9,7 +9,7 @@ function OnewheelAnimations() {
         <div className="rider">
             {/* This runs in annimation, check CSS file */}
             <p> 
-                ⏜__
+                ⏜___
             </p>
             <p>
                 (⌇•_)
