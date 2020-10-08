@@ -16,7 +16,7 @@ function GitHubGraph() {
             </span>
                 <img className="graph_image" src="https://grass-graph.moshimo.works/images/maxcramer.png?background=none" />
             </div>
-            <OnewheelAnimations />
+            {/* <OnewheelAnimations /> */}
         </div>
     )
 } 
