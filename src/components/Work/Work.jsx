@@ -24,7 +24,7 @@ function Work() {
             </h1>
             <ul>
                 {works.map(w => (
-                    <div key={w._id}>
+                    <div key={w._id} className="work_container_indv_item">
                         <li>
                             <img className="work_img" src={w.img} alt=""/>
                             <div className="title_link">
