@@ -1,4 +1,4 @@
-.navbar {
+.navbar_desktop {
     z-index: 300;
     display: flex;
     flex-direction: row;
@@ -22,4 +22,21 @@ h4 a {
 
 a:hover {
     color: lightgrey;
+}
+
+
+
+
+
+@media (min-width: 550px) {
+    .navbar_toggle-button {
+      display: none;
+    }
+  }
+
+
+@media(max-width: 550px) {
+    .navbar_desktop {
+        display: none;
+    }
 }
