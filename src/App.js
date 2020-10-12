@@ -12,7 +12,7 @@ import About from './components/About/About';
 import Onewheel from './components/Onewheel/Onewheel';
 import Links from './components/Links/Links';
 import Contact from './components/Contact/Contact';
-
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
         <Onewheel />
         <Links />
         <Contact />
+        <Footer />
     </div>
   );
 }
