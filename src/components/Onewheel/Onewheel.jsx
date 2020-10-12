@@ -14,7 +14,13 @@ function Onewheel() {
             <div id="onewheel_about_insta">
                 <div id="about_onewheel">
                     <p>
-                        info about me riding onewheel test test 2
+                        Outside of coding, riding Onewheel is my main passion. I have been riding these boards for a little over three years and am always trying to push the sport. I was the first person to be sponsored for riding in Europe and am currently considered the number one rider in Europe.
+                        <br />
+                        I also run the UK Onewheel community through online groups. I love this fantastic community with such a wide range of riders, both in-person and skill. I have met so many wonderful people while riding around London together and have inspired me to take my tricks to the next level.                        
+                        <br />
+                        I currently have three sponsors for riding Onewheel; Pinkoak who make third party accessories for the boards, Personal Electric Transport who sell Onewheels, along with some incredible scooters and EUC's, and HopBarUK, the UK's first Cricket flour-based protein bar. 
+                        <br />
+                        I enjoy teaching people to ride Onewheel, I am always trying to grow the community. I have been known to (when not in a rush), stop on the street if I am not in a rush to let someone try it out if I see them looking interested in the board. If you would like to learn, please do reach out to me and I will always be happy to try and help. 
                     </p>
                 </div>
                 <div id="instafeed"> 
