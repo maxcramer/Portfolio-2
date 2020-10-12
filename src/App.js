@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -13,14 +13,37 @@ import Onewheel from './components/Onewheel/Onewheel';
 import Links from './components/Links/Links';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import SideDrawer from './components/SideDrawer/SideDrawer';
+import BackDrop from './components/Backdrop/Backdrop';
+class App extends Component {
+  state = {
+    sideDrawerOpen: false,
+  } 
 
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen }
+    });
+  }
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <NavBar />
-      </header>
+  backdropClickHandler = () => {
+    this.setState({ sideDrawerOpen: false });
+  }
+
+  render() {
+    let backdrop;
+
+    if(this.state.sideDrawerOpen) {
+      backdrop = <BackDrop click={this.backdropClickHandler} />
+    }
+
+    return (
+      <div className="App">
+        <header className="App-header">
+        <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer show={this.state.sideDrawerOpen} />
+        {backdrop}
+        </header>
         <HeadBanner />
         <GitHubGraph />
         <PersonalProjects />
@@ -31,8 +54,32 @@ function App() {
         <Links />
         <Contact />
         <Footer />
-    </div>
-  );
-}
+      </div>
+    );
+  }
 
+}
 export default App;
+
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <NavBar />
+//       </header>
+//         <HeadBanner />
+//         <GitHubGraph />
+//         <PersonalProjects />
+//         <Work />
+//         <Positions />
+//         <About />
+//         <Onewheel />
+//         <Links />
+//         <Contact />
+//         <Footer />
+//     </div>
+//   );
+// }
+
+
