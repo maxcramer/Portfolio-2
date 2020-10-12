@@ -14,7 +14,7 @@ function Onewheel() {
             <div id="onewheel_about_insta">
                 <div id="about_onewheel">
                     <p>
-                        info about me riding onewheel
+                        info about me riding onewheel test
                     </p>
                 </div>
                 <div id="instafeed"> 
