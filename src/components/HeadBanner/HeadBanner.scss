@@ -19,7 +19,7 @@
   width: 100%;
   left:50%;
   top: 50%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
   transform: translate(-50%, -50%);
   z-index:  2;
@@ -34,7 +34,7 @@
   position: absolute;
   left:0;
   top: 0;
-  height: 100vh;
+  height: 100%;
   width: 32%;
   color: white;
   z-index: 3;
@@ -56,4 +56,29 @@
 .text_items h3 {
     font-size: 75px;
     margin: 0;
+}
+
+@media(max-width: 550px) {
+  .banner_container {
+    height: 100vh;
+  }
+
+  .text_items{
+      margin: 1rem;
+    h1 {
+      font-size: 70px;
+    } 
+    h3 {
+      font-size: 40px;
+      padding-top: 10px;
+    }
+  }
+
+  .side_background {
+    height: 100%;
+  }
+
+  .full_opaque_background {
+    height: 100%;
+  }
 }
