@@ -91,3 +91,14 @@
     color: white;
 }
 
+@media(max-width: 550px) {
+    .personalProjects_container ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .personal_projects_list_item {
+        width: 100%;
+    }
+}
