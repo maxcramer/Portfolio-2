@@ -42,7 +42,7 @@ function Work() {
                                 <h4>Client: {w.Client}</h4>
                             </div>
                             <p>Build Time: {w.BuildTime}</p>
-                            <p>Tech Used{w.TechUsed}</p>
+                            <p>Tech Used: {w.TechUsed}</p>
                         </li>
                     </div>
                 ))}

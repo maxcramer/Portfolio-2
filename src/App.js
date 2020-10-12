@@ -9,6 +9,8 @@ import PersonalProjects from './components/PersonalProjects/PersonalProjects';
 import Work from './components/Work/Work';
 import Positions from './components/Positions/Positions';
 import About from './components/About/About';
+import Onewheel from './components/Onewheel/Onewheel';
+
 
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
         <Work />
         <Positions />
         <About />
+        <Onewheel />
     </div>
   );
 }

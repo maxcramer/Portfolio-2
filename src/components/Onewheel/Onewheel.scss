@@ -29,7 +29,13 @@
     width: 49%;
 }
 
-#insta_feed {
-    border: 3px solid white;
-    width: 49%;
+#instafeed {
+    max-width: 49%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    video {
+        width: 48%;
+        padding: 0.5%;
+    }
 }
