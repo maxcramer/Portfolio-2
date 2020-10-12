@@ -39,3 +39,22 @@
     margin: auto;
     padding-bottom: 30px;
 }
+
+@media (max-width: 550px) {
+    .graph_container {
+        margin-top: 0;
+        height: auto;
+    }
+
+    #graph_title {
+        font-size: 40px;
+    }
+
+    #github_logo {
+        display: none;
+    }
+
+    .graph_image {
+        width: 100%;
+    }
+}
