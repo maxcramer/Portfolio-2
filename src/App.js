@@ -11,6 +11,7 @@ import Positions from './components/Positions/Positions';
 import About from './components/About/About';
 import Onewheel from './components/Onewheel/Onewheel';
 import Links from './components/Links/Links';
+import Contact from './components/Contact/Contact';
 
 
 
@@ -28,6 +29,7 @@ function App() {
         <About />
         <Onewheel />
         <Links />
+        <Contact />
     </div>
   );
 }
