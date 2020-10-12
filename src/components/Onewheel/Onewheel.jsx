@@ -18,7 +18,6 @@ function Onewheel() {
                     </p>
                 </div>
                 <div id="instafeed">
-                    <h3>Instagram Feed?</h3>
                 </div>
             </div>
 
