@@ -5,7 +5,7 @@ import './Footer.scss';
 function Footer() {
     return (
         <div id="footer">
-            FOOTER
+            © maxcramer101.com 2020
         </div>
     )
 }
