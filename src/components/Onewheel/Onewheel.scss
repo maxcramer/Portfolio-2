@@ -30,12 +30,29 @@
 }
 
 #instafeed {
-    max-width: 49%;
+    width: 49%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     video {
         width: 48%;
         padding: 0.5%;
+    }
+}
+
+@media(max-width: 550px) {
+    #onewheel_about_insta {
+        flex-direction: column;
+    }
+
+    #about_onewheel {
+        width: 100%;
+    }
+
+    #instafeed {
+        width: 100%;
+        margin-top: 5px;
+        height: 15%;
+        display: block;
     }
 }
