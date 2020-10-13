@@ -59,7 +59,6 @@
 .dates {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
     width: 44%;
 }
@@ -68,3 +67,32 @@
     font-weight: 600;
 }
 
+@media (max-width: 550px) {
+    .positions_container {
+        ul {
+            li {
+                flex-direction: column;
+            }
+        }
+        img {
+            width: 100%;
+        }
+    }
+
+    .info {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .company_position {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .dates {
+        align-items: unset;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: 15px;
+    }
+}
