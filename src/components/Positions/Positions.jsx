@@ -45,9 +45,6 @@ function Positions() {
                                     <p>
                                         Technology: {p.TechUsed}
                                     </p>
-                                    <p>
-                                        Salary: {p.Salary}                                    
-                                    </p>
                                 </div>
                                 <p>
                                     {p.Desc}
