@@ -45,7 +45,7 @@ class App extends Component {
         {backdrop}
         </header>
         <HeadBanner />
-        <GitHubGraph />
+        {/* <GitHubGraph /> THE LINK USED TO GENERATE GITHUB SQUARES HAS BROKEN*/}
         <PersonalProjects />
         <Work />
         <Positions />
