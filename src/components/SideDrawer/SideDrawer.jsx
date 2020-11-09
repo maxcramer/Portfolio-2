@@ -9,19 +9,25 @@ const sideDrawer = props => {
     if(props.show) {
         drawerClasses = 'side-drawer open';
     }
+    // if(!props.show) {
+    //   drawerClasses = 'side-drawer';
+    // }
+    
 
     // function closeDrawer () {
     //   let drawerClasses = document.getElementsByClassName('drawerClasses');
-    //   drawerClasses.className += ' closed';
+    //   drawerClasses.className.remove('open');
     // }
     
 
   return (
-  <nav className={drawerClasses}>
+  <nav className={drawerClasses} 
+  // onClick={closeDrawer}
+  onClick={props.click}
+  
+  >
     <ul>
-        <li 
-          // onClick={closeDrawer}
-          ><a href="#personalprojects">Personal Projects</a></li>
+        <li><a href="#personalprojects">Personal Projects</a></li>
         <li><a href="#work">Development Work</a></li>
         <li><a href="#positions">Development Positions</a></li>
         <li><a href="#about_container">About Max</a></li>
