@@ -11,7 +11,7 @@ function Positions() {
         async function fetchData() {
             const positions = await getPositions();
             setPositions(positions)
-            console.log("Positions", positions)
+            // console.log("Positions", positions)
         }
         fetchData();
     }, [])

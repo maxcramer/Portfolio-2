@@ -34,7 +34,7 @@ class App extends Component {
     let backdrop;
 
     if(this.state.sideDrawerOpen) {
-      console.log('this.state.sideDrawerOpen: ', this.state.sideDrawerOpen);
+      // console.log('this.state.sideDrawerOpen: ', this.state.sideDrawerOpen);
       backdrop = <BackDrop click={this.backdropClickHandler} />
     } 
 
