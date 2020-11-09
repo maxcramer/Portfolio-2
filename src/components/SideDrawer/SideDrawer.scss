@@ -16,6 +16,10 @@
     transform: translateX(0)
 }
 
+.closed {
+    transform: translateX(1)
+}
+
 .side-drawer ul {
     height: 100%;
     list-style: none;

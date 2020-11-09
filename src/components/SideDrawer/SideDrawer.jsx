@@ -1,4 +1,6 @@
 import React from 'react';
+import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+
 
 import './SideDrawer.scss';
 
@@ -8,10 +10,18 @@ const sideDrawer = props => {
         drawerClasses = 'side-drawer open';
     }
 
+    // function closeDrawer () {
+    //   let drawerClasses = document.getElementsByClassName('drawerClasses');
+    //   drawerClasses.className += ' closed';
+    // }
+    
+
   return (
   <nav className={drawerClasses}>
     <ul>
-        <li><a href="#personalprojects">Personal Projects</a></li>
+        <li 
+          // onClick={closeDrawer}
+          ><a href="#personalprojects">Personal Projects</a></li>
         <li><a href="#work">Development Work</a></li>
         <li><a href="#positions">Development Positions</a></li>
         <li><a href="#about_container">About Max</a></li>
