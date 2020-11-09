@@ -34,14 +34,15 @@ class App extends Component {
     let backdrop;
 
     if(this.state.sideDrawerOpen) {
+      console.log('this.state.sideDrawerOpen: ', this.state.sideDrawerOpen);
       backdrop = <BackDrop click={this.backdropClickHandler} />
-    }
+    } 
 
     return (
       <div className="App">
         <header className="App-header">
         <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawer show={this.state.sideDrawerOpen} />
+        <SideDrawer show={this.state.sideDrawerOpen} drawerClickHandler={this.drawerToggleClickHandler} />
         {backdrop}
         </header>
         <HeadBanner />

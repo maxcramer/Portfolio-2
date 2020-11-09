@@ -1,44 +1,41 @@
 import React from 'react';
-import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
-
-
 import './SideDrawer.scss';
 
-const sideDrawer = props => {
-    let drawerClasses = 'side-drawer';
-    if(props.show) {
-        drawerClasses = 'side-drawer open';
-    }
-    // if(!props.show) {
-    //   drawerClasses = 'side-drawer';
-    // }
-    
 
-    // function closeDrawer () {
-    //   let drawerClasses = document.getElementsByClassName('drawerClasses');
-    //   drawerClasses.className.remove('open');
-    // }
-    
+function sideDrawer(props) {
+
+  function closeDrawer () {
+    const drawerElements = document.getElementsByClassName('side-drawer');
+    for (let i=0; i< drawerElements.length; i++) {
+        drawerElements.item(i).classList.remove('open');
+    }
+  }
+
+  if (!props.show) {
+    closeDrawer();
+  }
+
+  const menuItems = [
+    { name: 'Personal Projects', to: '#personalprojects' },
+    { name: 'Development Work', to: '#work' },
+    { name: 'Development Positions', to: '#positions' },
+    { name: 'About Max', to: '#about_container' },
+    { name: 'Onewheel', to: '#onewheel' },
+    { name: 'Links', to: '#links' },
+    { name: 'Contact', to: '#contacts' },
+  ];
 
   return (
-  <nav className={drawerClasses} 
-  // onClick={closeDrawer}
-  onClick={props.click}
-  
-  >
-    <ul>
-        <li><a href="#personalprojects">Personal Projects</a></li>
-        <li><a href="#work">Development Work</a></li>
-        <li><a href="#positions">Development Positions</a></li>
-        <li><a href="#about_container">About Max</a></li>
-        <li><a href="#onewheel">Onewheel</a></li>
-        <li><a href="#links">Links</a></li>
-        <li><a href="#contacts">Contact</a></li>
-    </ul>
-  </nav>
-  )
+    <nav className={props.show ? 'side-drawer open' : 'side-drawer'}>
+      <ul>
+          {menuItems.map((menuItem, index) => {
+            return <li key={index}>
+              <a href={menuItem.to} onClick={props.drawerClickHandler}>{menuItem.name}</a>
+            </li>
+          })}
+      </ul>
+    </nav>
+  );
 };
-
   
-  
-  export default sideDrawer;
+export default sideDrawer;
