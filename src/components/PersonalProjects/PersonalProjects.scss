@@ -93,6 +93,10 @@
 }
 
 @media(max-width: 550px) {
+    .personalProjects_container {
+        margin-top: 9rem;
+    }
+
     .personalProjects_container ul {
         flex-direction: column;
         align-items: center;
