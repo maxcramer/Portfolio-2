@@ -15,7 +15,7 @@ function Links() {
                 </a>
                 {/* LINKEDIN */}
                 <a href="https://www.linkedin.com/in/max-cramer/">
-                    <img id="linkedIn" src="https://image.flaticon.com/icons/png/512/174/174857.png" alt=""/>
+                    <img id="linkedIn" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt=""/>
                 </a>
             </div>
         </div>

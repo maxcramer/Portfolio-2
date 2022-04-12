@@ -46,7 +46,6 @@ class App extends Component {
         {backdrop}
         </header>
         <HeadBanner />
-        {/* <GitHu/bGraph />  */}
         <PersonalProjects />
         <Work />
         <Positions />
