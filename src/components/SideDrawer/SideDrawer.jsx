@@ -18,7 +18,7 @@ function sideDrawer(props) {
   const menuItems = [
     { name: 'Personal Projects', to: '#personalprojects' },
     { name: 'Development Work', to: '#work' },
-    { name: 'Development Positions', to: '#positions' },
+    { name: 'Development Positions', to: '#position' },
     { name: 'About Max', to: '#about_container' },
     { name: 'Onewheel', to: '#onewheel' },
     { name: 'Links', to: '#links' },
