@@ -32,7 +32,7 @@
 .personal_projects_list_item {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 30%;
     align-items: center;
 }
 
@@ -42,6 +42,12 @@
     margin: 1rem auto;
     max-width: 300px;
     object-fit: contain;
+}
+
+.personal_projects_list_item:nth-child(3) {
+    .main_image {
+        filter: invert(1);
+    }
 }
 
 .info_div {
