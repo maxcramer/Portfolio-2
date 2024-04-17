@@ -1,12 +1,14 @@
 .App {
-    background-color: black;
+  background-color: white;
 }
 
 .smooth-scroll {
-    display: block;
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+  display: block;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
-html{scroll-behavior:smooth}
+html {
+  scroll-behavior: smooth;
+}

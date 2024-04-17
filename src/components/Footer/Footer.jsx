@@ -1,13 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import './Footer.scss';
+import "./Footer.scss";
 
 function Footer() {
-    return (
-        <div id="footer">
-            © maxcramer101.com 2020
-        </div>
-    )
+  return <div id="footer">© maxcramer101.com 2024</div>;
 }
 
 export default Footer;
