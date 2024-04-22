@@ -10,6 +10,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import BackDrop from "./components/Backdrop/Backdrop";
+import SabButter from "./Pages/SabButter/SabButter";
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
 // import GitHubGraph from "./components/GitHubGraph/GitHubGraph";
@@ -57,6 +58,7 @@ class App extends Component {
         <body>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/Sab-butter" element={<SabButter />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}
