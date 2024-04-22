@@ -3,6 +3,8 @@
   height: 100vh;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 #header_video {
@@ -14,6 +16,14 @@
   object-fit: cover;
   transform: translate(-50%, -50%);
   z-index: 1;
+}
+
+.onewheel_banner_title {
+  z-index: 3;
+  position: relative;
+  width: 70%;
+  top: 30%;
+  margin: 0 auto;
 }
 
 .full_opaque_background {
