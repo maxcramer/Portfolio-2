@@ -23,28 +23,26 @@ const SabButter = () => {
           <p>
             he adventures of Sabba & Butterscotch is a series of children's
             books written by Max, inspired by the true story of Sabba &
-            Butterscotch living on a canal boat in West London. Originally,
-            Butterscotch was adopted as a micro-pig, but quickly grew into a
-            full size pot belly pig.
+            Butterscotch living on a canal boat Blue, in West London.
             <br />
             <br />
-            Later, as a kitten, Sabba turned up at the boat, with the owner of
-            the boat and Butterscotch thinking it was just a friendly visit.
-            Little did they know Sabba had already decided she had found her new
-            home.
+            Originally, Butterscotch was adopted as a micro-pig, but quickly
+            grew into a full size pot belly pig. Later, as a kitten, Sabba
+            turned up at the boat, with the owner of the boat and Butterscotch
+            thinking it was just a friendly visit. Little did they know Sabba
+            had already decided she had found her new home.
             <br />
             <br />
             After a few days, Sabba was still there, so the owner of the boat
             had decided to take her to the vets to get her microchip checked.
-            Surprisingly to all there was no chip so the owner of the boat took
-            Sabba home.
+            Surprisingly to all, there was no chip, so the owner of the boat
+            took Sabba home.
             <br />
             <br />A few weeks later, Butterscotch was getting jealous of the
             attention Sabba was getting. Buttersotch would run over and try and
             squash Sabba, but luckily Sabba would get away every time. The owner
             of the boat decided that it was to dangerous for Sabba to stay, so
-            offered Sabba to Max and she had known he had previously had cats in
-            the past.
+            offered Sabba to Max, having known Max previously had pet cats.
             <br />
             <br />
             When Max arrived to pick up Sabba, he thought to himself "This is a
