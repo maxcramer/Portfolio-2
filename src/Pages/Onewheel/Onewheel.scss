@@ -1,0 +1,40 @@
+.banner_container {
+  width: auto;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#header_video {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.full_opaque_background {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: black;
+  opacity: 0.4;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+  .banner_container {
+    height: 80vh;
+  }
+  .full_opaque_background {
+    height: 100%;
+  }
+}

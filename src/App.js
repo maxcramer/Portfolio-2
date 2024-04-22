@@ -4,13 +4,14 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import Home from "./Pages/Home/Home";
+import SabButter from "./Pages/SabButter/SabButter";
+import Onewheel from "./Pages/Onewheel/Onewheel";
 
 // import HeadBanner from "./components/HeadBanner/HeadBanner";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import BackDrop from "./components/Backdrop/Backdrop";
-import SabButter from "./Pages/SabButter/SabButter";
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
 // import GitHubGraph from "./components/GitHubGraph/GitHubGraph";
@@ -59,6 +60,7 @@ class App extends Component {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Sab-butter" element={<SabButter />} />
+            <Route path="/onewheel" element={<Onewheel />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}

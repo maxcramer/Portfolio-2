@@ -73,7 +73,7 @@ const RightNav = ({ open }) => {
       <a href="/Sab-butter">
         <li>The Adventures of Sabba & Butterscotch - Childrens Book</li>
       </a>
-      <a href="/OW">
+      <a href="/onewheel">
         <li>Onewheel</li>
       </a>
       {/* <a href="/european-onewheel-league">

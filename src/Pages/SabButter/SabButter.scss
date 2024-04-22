@@ -71,9 +71,13 @@
 }
 
 .kb_example {
-  width: 100%;
-  margin-top: 3rem;
+  width: 47%;
+  // margin-top: 3rem;
   text-align: center;
+  background-color: lightblue;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 10px;
 
   .kb_example_title {
     font-size: 30px;
