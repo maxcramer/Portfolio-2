@@ -8,11 +8,19 @@
     position: absolute;
     text-align: center;
     z-index: 2;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    // background-color: rgba(0, 0, 0, 0.5);
+    color: darkcyan;
     padding: 10px;
     font-size: 50px;
     border-radius: 10px;
+  }
+
+  h4 {
+    z-index: 2;
+    position: absolute;
+    top: 160px;
+    color: white;
+    font-size: 20px;
   }
 
   h6 {
@@ -34,6 +42,31 @@
 .kb_main {
   width: auto;
   margin: 3rem 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  img {
+    width: 45%;
+    max-height: auto;
+  }
+
+  .kb_desc {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    width: 50%;
+
+    h3 {
+      font-size: 55px;
+      margin: 0;
+    }
+
+    p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  }
 }
 
 // .kb_title_container {
