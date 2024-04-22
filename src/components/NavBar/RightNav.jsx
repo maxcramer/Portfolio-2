@@ -57,31 +57,34 @@ const UL = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <UL open={open}>
-      <a href="/">{/* <img src={} alt="" /> */}</a>
+      {/* <a href="/"><img src={} alt="" /></a> */}
       <a href="/">
         <li>Home</li>
       </a>
-      <a href="/rules&regs">
-        <li>Rules, Regs, & FAQ</li>
+      <a href="/GD">
+        <li>Graphic Design</li>
       </a>
-      <a href="/team">
-        <li>Meet The Team</li>
+      <a href="/WD">
+        <li>Web Development</li>
       </a>
-      <a href="/accommodation">
-        <li>Accommodation</li>
+      <a href="/CV">
+        <li>CV</li>
       </a>
-      {/* <a href="/shop">
-        <li>Shop</li>
-      </a> */}
+      <a href="/Sab-butter">
+        <li>The Adventures of Sabba & Butterscotch - Childrens Book</li>
+      </a>
+      <a href="/OW">
+        <li>Onewheel</li>
+      </a>
       {/* <a href="/european-onewheel-league">
         <li>EOL</li>
       </a> */}
       {/* <a href="/sponsors">
         <li>Sponsors</li>
       </a> */}
-      <a href="/supporters">
+      {/* <a href="/supporters">
         <li>Supporters</li>
-      </a>
+      </a> */}
     </UL>
   );
 };

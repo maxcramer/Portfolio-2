@@ -1,30 +1,30 @@
 .banner_container {
-    width: auto;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
+  width: auto;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
 }
 
 #header_video {
-    position: absolute;
-    width: 100%;
-    left:50%;
-    top: 50%;
-    height: 100%;
-    object-fit: cover;
-    transform: translate(-50%, -50%);
-    z-index:  1;
-  }
-
-.full_opaque_background {
   position: absolute;
   width: 100%;
-  left:50%;
+  left: 50%;
   top: 50%;
   height: 100%;
   object-fit: cover;
   transform: translate(-50%, -50%);
-  z-index:  2;
+  z-index: 1;
+}
+
+.full_opaque_background {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 2;
   background-color: #484848;
   opacity: 0.7;
   overflow: hidden;
@@ -34,7 +34,7 @@
   background-color: black;
   opacity: 0.5;
   position: absolute;
-  left:0;
+  left: 0;
   top: 0;
   height: 100%;
   width: 32%;
@@ -43,34 +43,41 @@
 }
 
 .text_items h1 {
-  font-size: 150px;
+  font-size: 125px;
   margin-bottom: 0;
 }
 
 .text_items {
-    position: relative;
-    width: 100vw;
-    margin: 10rem 0 10rem 10%;
-    color: white;
-    z-index: 4;
+  position: relative;
+  width: 100vw;
+  margin: 10rem 0 10rem 10%;
+  color: white;
+  z-index: 4;
 }
 
 .text_items h3 {
-    font-size: 75px;
-    margin: 0;
+  font-size: 65px;
+  margin: 0;
+  padding-bottom: 0;
 }
 
-@media(max-width: 550px) {
+.text_items h5 {
+  font-size: 20px;
+  margin: 0 0px 10px 0;
+  font-weight: 300;
+}
+
+@media (max-width: 550px) {
   .banner_container {
     height: 80vh;
   }
 
-  .text_items{
-      margin: 1rem;
+  .text_items {
+    margin: 1rem;
     h1 {
       font-size: 60px;
       margin-top: 100px;
-    } 
+    }
     h3 {
       font-size: 35px;
       padding-top: 10px;
