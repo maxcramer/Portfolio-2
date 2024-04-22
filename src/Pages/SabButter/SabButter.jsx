@@ -49,8 +49,60 @@ const SabButter = () => {
             kids book that needs to be written! A cat and and pig living on a
             canal boat is a story that writes itself!", and this is how The
             Adventures of Sabba & Butterscotch came to be.
+            <br />
+            <br />
+            One of Max's main motivations for learning and getting into graphic
+            design was to try to self publish the series "The Adventures of
+            Sabba & Butterscotch". Having previously looked around at
+            illustrators, as well as trying to work with Ai to illustrate the
+            book, Max came to the conclusion that the best, and most cost
+            effective way would be to learn graphic design himself and work on
+            illustrating The Adventures of Sabba & Butterscotch while upskilling
+            and growing his graphic design skills at the same time.
           </p>
         </div>
+        <div className="kb_example">
+          <h4 className="kb_example_title">
+            The Adventures of
+            <br /> Sabba & Butterscotch:
+          </h4>
+          <h4 className="kb_example_title_sub">Blue Gets a Booboo</h4>
+          <div className="kb_example_text">
+            <p>
+              There once was a boat called Blue, 
+              <br /> Who upon it lived an animal or two.
+            </p>
+            <p>
+              Sabba, a rather curious cat,  <br />
+              And her best friend butterscotch, a pig that’s quite fat! 
+            </p>
+            <p>
+              All day long they would go up and down the canals, <br />
+              All along the way, saying hi to their pals! 
+            </p>
+            <p>
+              But one day their boat got stuck, <br />  “Oh No” Meow’d Sabba,
+              but then saw a duck!
+            </p>
+            <p>
+              “They Call me Larry, Larry La Duck”, <br /> “It Looks like your
+              boat, blue has been struck!”
+            </p>
+            <p>
+              “Do you need some help there?” Quacked Larry,
+              <br />  “I can get my friends, Sally, Barry & Gary”
+            </p>
+            <p>
+              “Yes please” oinked Butterscotch, “we don’t know what to do!”,{" "}
+              <br />
+              Larry looked up and quacked “I think Blue has a booboo!”
+            </p>
+          </div>
+        </div>
+        <h4>
+          To see how Sabba, Butterscotch & Blue make it out of their adventure,
+          you will have to wait until the book has been published
+        </h4>
       </div>
     </div>
   );

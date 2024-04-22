@@ -47,14 +47,15 @@
   flex-wrap: wrap;
 
   img {
-    width: 45%;
+    width: 50%;
+    height: 42rem;
     max-height: auto;
   }
 
   .kb_desc {
     display: flex;
     flex-direction: row;
-    margin-left: 5%;
+    // margin-left: 5%;
     width: 50%;
 
     h3 {
@@ -65,6 +66,27 @@
     p {
       font-size: 20px;
       margin-top: 10px;
+    }
+  }
+
+  .kb_example {
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+
+    .kb_example_title {
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+    .kb_example_title_sub {
+      font-size: 40px;
+      margin-top: 0;
+    }
+    .kb_example_text {
+      font-size: 30px;
+      color: black;
+      font-style: italic;
+      font-family: auto;
     }
   }
 }
