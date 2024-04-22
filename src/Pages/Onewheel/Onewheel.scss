@@ -40,6 +40,35 @@
   overflow: hidden;
 }
 
+.onewheel_info {
+  width: 100%;
+  background-color: #f9f9f9;
+  height: 100vh;
+  padding-top: 5%;
+  .stat_title {
+    text-align: left;
+    margin: 0% 10% 1%;
+  }
+  .onewheel_stats {
+    width: 80%;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    // padding-top: 4rem;
+    .stat_box {
+      width: 17rem;
+      height: 17rem;
+      background-color: white;
+      // border: 10px solid #f9f9f9;
+      border-radius: 50px;
+      box-shadow: 5px 5px 10px lightgrey;
+      padding: 1rem;
+    }
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .banner_container {
     height: 80vh;
