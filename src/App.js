@@ -1,20 +1,26 @@
 import React, { Component } from "react";
+import { Routes, Route } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
 
-import HeadBanner from "./components/HeadBanner/HeadBanner";
+import Home from "./Pages/Home/Home";
+
+// import HeadBanner from "./components/HeadBanner/HeadBanner";
 import NavBar from "./components/NavBar/NavBar";
-import GitHubGraph from "./components/GitHubGraph/GitHubGraph";
-import PersonalProjects from "./components/PersonalProjects/PersonalProjects";
-import Work from "./components/Work/Work";
-import Positions from "./components/Positions/Positions";
-import About from "./components/About/About";
-import Onewheel from "./components/Onewheel/Onewheel";
-import Links from "./components/Links/Links";
-import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import BackDrop from "./components/Backdrop/Backdrop";
+// import { Switch } from "react-router-dom/cjs/react-router-dom.min";
+
+// import GitHubGraph from "./components/GitHubGraph/GitHubGraph";
+// import PersonalProjects from "./components/PersonalProjects/PersonalProjects";
+// import Work from "./components/Work/Work";
+// import Positions from "./components/Positions/Positions";
+// import About from "./components/About/About";
+// import Onewheel from "./components/Onewheel/Onewheel";
+// import Links from "./components/Links/Links";
+// import Contact from "./components/Contact/Contact";
+
 class App extends Component {
   state = {
     sideDrawerOpen: false,
@@ -40,15 +46,20 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header className="App-header">
-          <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
-          <SideDrawer
-            show={this.state.sideDrawerOpen}
-            drawerClickHandler={this.drawerToggleClickHandler}
-          />
-          {backdrop}
-        </header>
-        <HeadBanner />
+        {/* <header className="App-header"> */}
+        <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer
+          show={this.state.sideDrawerOpen}
+          drawerClickHandler={this.drawerToggleClickHandler}
+        />
+        {/* {backdrop} */}
+        {/* </header> */}
+        <body>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </body>
+        {/* <HeadBanner /> */}
         {/* <PersonalProjects />
         <Work />
         <Positions />
