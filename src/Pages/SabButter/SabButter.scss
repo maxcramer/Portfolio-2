@@ -55,8 +55,8 @@
   .kb_desc {
     display: flex;
     flex-direction: row;
-    // margin-left: 5%;
-    width: 50%;
+    width: 47%;
+    padding-left: 3%;
 
     h3 {
       font-size: 55px;
@@ -120,6 +120,7 @@ h4 {
     .kb_desc {
       width: 90%;
       margin: 1rem auto;
+      padding-left: 0;
     }
   }
   .kb_example {
