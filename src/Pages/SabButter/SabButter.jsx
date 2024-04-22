@@ -101,7 +101,13 @@ const SabButter = () => {
         </div>
         <h4>
           To see how Sabba, Butterscotch & Blue make it out of their adventure,
-          you will have to wait until the book has been published
+          you will have to wait until the book has been published.
+          <br />
+          <br />
+          If you are interested and would like to discuss the series further,
+          please email{" "}
+          <a href="mailto:info@maxcramer101.com">info@maxcramer101.com</a> with
+          the subject "The Adventures of Sabba and Butterscotch".
         </h4>
       </div>
     </div>
