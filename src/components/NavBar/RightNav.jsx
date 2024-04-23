@@ -18,15 +18,15 @@ import styled from "styled-components";
 
 const UL = styled.ul`
     flex-flow: column nowrap;
-    background-color: black;
-   
+    background-color: rgba(255, 255, 255, 0.0);
+    backdrop-filter: blur(5px);
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0))" : "translateX(100%)")};
     top: 0;
     right: 0;
     height: 100vh;
-    width: 300px;
-    padding: 3.5rem 1rem;
+    width: 350px;
+    padding: 3.5rem 3rem;
     margin-top: 0;
     transition: transform 0.3s ease;
     z-index: 10;
@@ -44,6 +44,10 @@ const UL = styled.ul`
     font-size: 25px;
     font-weight: bold;
     font-family: arial;
+    }
+
+    li:hover {
+      color: darkgrey;
     }
 
     img {
