@@ -16,12 +16,28 @@ const Onewheel = () => {
       </div>
 
       <div className="onewheel_info">
-        <h4 className="stat_title">Rider Stats</h4>
+        <h4 className="stat_title">Rider Freestyle Stats</h4>
         <div className="onewheel_stats">
-          <div className="stat_box">1</div>
-          <div className="stat_box">2</div>
-          <div className="stat_box">3</div>
-          <div className="stat_box">4</div>
+          <div className="stat_box">
+            <p className="stat_number">6</p>
+            <br />
+            <p className="stat_text">YEARS RIDING</p>
+          </div>
+          <div className="stat_box">
+            <p className="stat_number">3</p>
+            <br />
+            <p className="stat_text">TIMES PODIUM</p>
+          </div>
+          <div className="stat_box">
+            <p className="stat_number">2</p>
+            <br />
+            <p className="stat_text">FIRST PLACE</p>
+          </div>
+          <div className="stat_box">
+            <p className="stat_number">3</p>
+            <br />
+            <p className="stat_text">Competitons / Festivals set up</p>
+          </div>
         </div>
       </div>
     </div>

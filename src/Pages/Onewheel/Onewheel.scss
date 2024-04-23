@@ -65,6 +65,25 @@
       border-radius: 50px;
       box-shadow: 5px 5px 10px lightgrey;
       padding: 1rem;
+
+      .stat_number {
+        font-weight: bold;
+        font-size: 275px;
+        color: slategray;
+        margin: 0;
+        text-align: center;
+        top: 0;
+        margin-top: -55px;
+        text-shadow: 5px 7px darkslategrey;
+      }
+      .stat_text {
+        margin-top: -55px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: arial;
+        text-transform: uppercase;
+      }
     }
   }
 }
