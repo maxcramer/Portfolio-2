@@ -18,12 +18,12 @@ import styled from "styled-components";
 
 const UL = styled.ul`
     flex-flow: column nowrap;
-    background-color: rgba(255, 255, 255, 0.0);
+    background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0))" : "translateX(100%)")};
     top: 0;
-    right: 0;
+    right: -10px;
     height: 100vh;
     width: 350px;
     padding: 3.5rem 3rem;
@@ -32,6 +32,8 @@ const UL = styled.ul`
     z-index: 10;
     list-style: none;
     display: flex;
+    box-shadow: -3px 0px 10px grey;
+
 
     a {
       text-decoration: none

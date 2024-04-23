@@ -3,7 +3,9 @@ import React from "react";
 import "./Onewheel.scss";
 import MyMovie from "../../components/media/MyMovie.mp4";
 import onewheeltext from "../../components/media/onewheeltext.png";
-
+import stoke from "../../components/media/ss.avif";
+import goat from "../../components/media/goatdrinks.png";
+import pet from "../../components/media/logo.svg";
 const Onewheel = () => {
   return (
     <div className="onewheel">
@@ -16,6 +18,7 @@ const Onewheel = () => {
       </div>
 
       <div className="onewheel_info">
+        {/* <img className="Max_OW" src={ow} alt="" /> */}
         <h4 className="stat_title">Rider Freestyle Stats</h4>
         <div className="onewheel_stats">
           <div className="stat_box">
@@ -37,6 +40,14 @@ const Onewheel = () => {
             <p className="stat_number">3</p>
             <br />
             <p className="stat_text">Competitons / Festivals set up</p>
+          </div>
+        </div>
+        <div>
+          <h4 className="ow_sponsors">Sponsors</h4>
+          <div className="ow_spon_img">
+            <img src={goat} alt="" />
+            <img src={stoke} alt="" />
+            <img src={pet} alt="" />
           </div>
         </div>
       </div>
