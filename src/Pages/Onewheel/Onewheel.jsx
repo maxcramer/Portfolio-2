@@ -1,11 +1,13 @@
 import React from "react";
 
 import "./Onewheel.scss";
+
 import MyMovie from "../../components/media/MyMovie.mp4";
+import vid23 from "../../components/media/1713885433445.mp4";
 import onewheeltext from "../../components/media/onewheeltext.png";
 import stoke from "../../components/media/ss.avif";
 import goat from "../../components/media/goatdrinks.png";
-import pet from "../../components/media/logo.svg";
+import pet from "../../components/media/PET.png";
 const Onewheel = () => {
   return (
     <div className="onewheel">
@@ -45,10 +47,21 @@ const Onewheel = () => {
         <div>
           <h4 className="ow_sponsors">Sponsors</h4>
           <div className="ow_spon_img">
-            <img src={goat} alt="" />
-            <img src={stoke} alt="" />
-            <img src={pet} alt="" />
+            <a href="https://goatdrinks.co.uk/" target="#">
+              <img src={goat} alt="" />
+            </a>
+            <a href="https://stoke-solutions.co.uk/MAX10" target="#">
+              <img src={stoke} alt="" />
+            </a>
+            <a href="https://personalelectrictransport.co.uk/" target="#">
+              <img src={pet} alt="" />
+            </a>
           </div>
+        </div>
+        <div>
+          <video id="" autoPlay loop muted playsInline preload="auto">
+            <source src={vid23} type="video/mp4" />
+          </video>
         </div>
       </div>
     </div>
