@@ -57,6 +57,8 @@
   .stat_title {
     text-align: left;
     margin: 0% 10% -2%;
+    font-size: 40px;
+    font-weight: 400;
   }
   .onewheel_stats {
     width: 80%;
@@ -94,6 +96,7 @@
         font-weight: bold;
         font-family: arial;
         text-transform: uppercase;
+        font-weight: 200;
       }
     }
   }
@@ -102,6 +105,8 @@
     width: 80%;
     display: flex;
     flex-direction: column;
+    font-size: 40px;
+    font-weight: 400;
   }
   .ow_spon_img {
     display: flex;
@@ -119,6 +124,9 @@
           max-height: 22rem;
         }
       }
+      p {
+        font-size: 20px;
+      }
     }
   }
   .festivals {
@@ -130,6 +138,7 @@
     .festivals_title {
       margin-bottom: 2rem;
       font-size: 40px;
+      font-weight: 400;
     }
     hr {
       height: 1px;
@@ -143,13 +152,17 @@
     .sts {
       display: flex;
       flex-direction: row;
-      img {
+      .fest_img {
         width: 30%;
-        background-color: black;
+        background-color: lightblue;
         border-radius: 10px;
         box-shadow: 5px 5px 10px lightgrey;
-        padding: 5px;
+        padding: 1rem;
         float: right;
+        height: 100%;
+      }
+      .fth_img {
+        background-color: black;
       }
       div {
         display: flex;
@@ -159,12 +172,41 @@
         margin-right: 2rem;
         h1 {
           margin: 0;
-          font-weight: 500;
+          font-weight: 300;
+          font-size: 30px;
         }
         h3 {
           margin: 0;
           font-size: 20px;
-          font-weight: 400;
+          font-weight: 200;
+          font-size: 25px;
+        }
+        p {
+          font-size: 20px;
+          font-weight: 300;
+        }
+      }
+      .links {
+        bottom: 0;
+        width: 50%;
+        height: 100%;
+        margin-top: 6%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        .link {
+          height: auto;
+          width: 20%;
+          bottom: 0;
+          .link_img {
+            height: auto;
+            width: 100%;
+            bottom: 0;
+          }
+        }
+        .website {
+          margin-left: 2rem;
         }
       }
     }
@@ -173,13 +215,13 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      img {
+      .fest_img {
         width: auto;
         height: 80%;
         // background-color: black;
         border-radius: 10px;
         box-shadow: 5px 5px 10px lightgrey;
-        padding: 5px;
+        padding: 15px;
         min-height: 6rem;
         // float: right;
       }
@@ -187,16 +229,46 @@
         display: flex;
         flex-direction: column;
         // width: 50%;
-        // text-align: right;
-        margin-left: 2rem;
+        text-align: right;
+        margin-left: 3rem;
         h1 {
           margin: 0;
-          font-weight: 500;
+          font-weight: 300;
+          font-size: 30px;
         }
         h3 {
           margin: 0;
           font-size: 20px;
-          font-weight: 400;
+          font-weight: 200;
+          font-size: 25px;
+        }
+        p {
+          font-size: 20px;
+          font-weight: 300;
+        }
+      }
+      .links {
+        bottom: 0;
+        width: 50%;
+        height: 100%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: 50%;
+        .link {
+          height: auto;
+          width: 20%;
+          bottom: 0;
+          .link_img {
+            height: auto;
+            width: 100%;
+            bottom: 0;
+          }
+        }
+        .website {
+          margin-left: 2rem;
         }
       }
     }

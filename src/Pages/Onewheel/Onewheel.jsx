@@ -10,6 +10,9 @@ import goat from "../../components/media/goatdrinks.webp";
 import pet from "../../components/media/PET.png";
 import sts from "../../components/media/sts.webp";
 import trickit from "../../components/media/trickit.png";
+import fth from "../../components/media/FTH_Logo.png";
+import ig from "../../components/media/iglogo.webp";
+import link from "../../components/media/link-2.png";
 const Onewheel = () => {
   return (
     <div className="onewheel">
@@ -97,71 +100,105 @@ const Onewheel = () => {
               <h1>Shred The Shires</h1>
               <h3>Position: Head of Sponsorship | Freestyle | Community</h3>
               <p>
-                ipsum Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Officia corporis modi amet rem perferendis, possimus
-                necessitatibus commodi tempore quasi sapiente esse ratione ad,
-                dolorem praesentium odio non magni fugiat reiciendis.ipsum Lorem
-                ipsum dolor sit amet consectetur, adipisicing elit. Officia
-                corporis modi amet rem perferendis, possimus necessitatibus
-                commodi tempore quasi sapiente esse ratione ad, dolorem
-                praesentium odio non magni fugiat reiciendis.ipsum Lorem ipsum
-                dolor sit amet consectetur, adipisicing elit. Officia corporis
-                modi amet rem perferendis, possimus necessitatibus commodi
-                tempore quasi sapiente esse ratione ad, dolorem praesentium odio
-                non magni fugiat reiciendis.
+                England's first every onewheel festival & competition. Launching
+                at the beginning of May, 2024, it will be a weekend of fun,
+                including organized group rides, time trials, 4 person races,
+                with trick clinics, freestyle competition (run by Max), any many
+                more talks and games put on by some of the best riders in the
+                UK. The team expects to welcome over 100 riders, with 70 already
+                registered to race. To find out more please see the links below.
               </p>
-              <div className="links">LINKS to socials and website</div>
+              <div className="links">
+                <a
+                  className="link"
+                  href="https://www.instagram.com/shred_the_shires"
+                  target="#"
+                >
+                  <img className="link_img" src={ig} alt="" />
+                </a>
+                <a
+                  className="link website"
+                  href="https://www.shredtheshires.co.uk"
+                  target="#"
+                >
+                  <img className="link_img" src={link} alt="" />
+                </a>
+              </div>
             </div>
-            <img src={sts} alt="" />
+            <img className="fest_img" src={sts} alt="" />
           </div>
           <hr />
           <div className="Trickit">
-            <img src={trickit} alt="" />
+            <img className="fest_img" src={trickit} alt="" />
 
             <div>
               <h1>TrickIt</h1>
               <h3>Position: Owner & Sole Organizer</h3>
               <p>
-                ipsum Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Officia corporis modi amet rem perferendis, possimus
-                necessitatibus commodi tempore quasi sapiente esse ratione ad,
-                dolorem praesentium odio non magni fugiat reiciendis.ipsum Lorem
-                ipsum dolor sit amet consectetur, adipisicing elit. Officia
-                corporis modi amet rem perferendis, possimus necessitatibus
-                commodi tempore quasi sapiente esse ratione ad, dolorem
-                praesentium odio non magni fugiat reiciendis.ipsum Lorem ipsum
-                dolor sit amet consectetur, adipisicing elit. Officia corporis
-                modi amet rem perferendis, possimus necessitatibus commodi
-                tempore quasi sapiente esse ratione ad, dolorem praesentium odio
-                non magni fugiat reiciendis.
+                For a long time Max had wanted to put on his own dedicated
+                freestyle competition. In November 2023 was the Launch of
+                TrickIt, the UKs first ever dedicated freestyle only
+                competition. This was a one day event, with freestyle clinics,
+                free for anyone to join to help promote freestyle riding in the
+                UK. In the afternoon, the competition was held, with nine
+                competitors battling it out in a 1v1 knock out game of F.L.O.A.T
+                (the same as SKATE but with float instead).
               </p>
-              <div className="links">LINKS to socials and website</div>
+              <div className="links">
+                <a
+                  className="link"
+                  href="https://www.instagram.com/trickit_comp"
+                  target="#"
+                >
+                  <img className="link_img" src={ig} alt="" />
+                </a>
+                <a
+                  className="link website"
+                  href="https://trickit-comp-a33b0.web.app/"
+                  target="#"
+                >
+                  <img className="link_img" src={link} alt="" />
+                </a>
+              </div>
             </div>
           </div>
           <hr />
           <div className="sts">
             <div>
               <h1>Float The Highlands</h1>
-              <h3>Position: Head of Sponsorship | Freestyle | Community</h3>
+              <h3>Position: Freestyle | Community | Website</h3>
 
               <p>
-                ipsum Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Officia corporis modi amet rem perferendis, possimus
-                necessitatibus commodi tempore quasi sapiente esse ratione ad,
-                dolorem praesentium odio non magni fugiat reiciendis.ipsum Lorem
-                ipsum dolor sit amet consectetur, adipisicing elit. Officia
-                corporis modi amet rem perferendis, possimus necessitatibus
-                commodi tempore quasi sapiente esse ratione ad, dolorem
-                praesentium odio non magni fugiat reiciendis.ipsum Lorem ipsum
-                dolor sit amet consectetur, adipisicing elit. Officia corporis
-                modi amet rem perferendis, possimus necessitatibus commodi
-                tempore quasi sapiente esse ratione ad, dolorem praesentium odio
-                non magni fugiat reiciendis.
+                The UK's first ever Onewheel competition, located at Glencoe
+                Mountain in The Highlands, Scotland. This is a weekend long
+                competition culminating in races down the face of Glencoe
+                Mountain. Launched in 2023, Max was part of the founding team,
+                running, building and designing the website, running the
+                freestyle clinics and competition, as well as being the lead on
+                group rides, showing attendees the way. There were 140 riders
+                that attended in 2023, from all over the world such as Texas,
+                Florida, Spain, Italy and Portugal to name a few.
               </p>
-              <div className="links">LINKS to socials and website</div>
+              <div className="links">
+                <a
+                  className="link"
+                  href="https://www.instagram.com/floatthehighlands"
+                  target="#"
+                >
+                  <img className="link_img" src={ig} alt="" />
+                </a>
+                <a
+                  className="link website"
+                  href="https://floathighlands.web.app/"
+                  target="#"
+                >
+                  <img className="link_img" src={link} alt="" />
+                </a>
+              </div>
             </div>
-            <img src={sts} alt="" />
+            <img className="fth_img fest_img" src={fth} alt="" />
           </div>
+          <hr />
         </div>
         <div className="about_ow">
           {/* <div> */}
