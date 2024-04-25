@@ -279,12 +279,28 @@
     flex-direction: row;
     margin: 0 auto;
     // justify-content: space-evenly;
-    .vert_vid_ow {
-      height: auto;
+    .about_vid_container {
+      margin-right: 4rem;
       width: 35%;
-      margin-right: 5rem;
-      z-index: 1;
+      .vert_vid_ow {
+        height: auto;
+        width: 100%;
+        margin-right: 5rem;
+        z-index: 1;
+        position: relative;
+      }
+      .video_text {
+        position: relative;
+        z-index: 2;
+        color: white;
+        /* bottom: -435px; */
+        /* left: -585px; */
+        font-weight: bold;
+        bottom: 50px;
+        left: 10px;
+      }
     }
+
     // .vert_vid_ow {
     //   color: white;
     //   z-index: 2;

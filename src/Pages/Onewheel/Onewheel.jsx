@@ -93,6 +93,24 @@ const Onewheel = () => {
             </div>
           </div>
         </div>
+        <div className="about_ow">
+          <div className="about_vid_container">
+            <video
+              className="vert_vid_ow"
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="auto"
+            >
+              <source src={vid23} type="video/mp4" />
+            </video>
+            <p className="video_text">2023 Show Reel</p>
+          </div>
+          <div>
+            <h1>About</h1>
+          </div>
+        </div>
         <div className="festivals">
           <h1 className="festivals_title">Festivals & Competitions</h1>
           <div className="sts">
@@ -199,24 +217,6 @@ const Onewheel = () => {
             <img className="fth_img fest_img" src={fth} alt="" />
           </div>
           <hr />
-        </div>
-        <div className="about_ow">
-          {/* <div> */}
-          <video
-            className="vert_vid_ow"
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-          >
-            <source src={vid23} type="video/mp4" />
-          </video>
-          {/* <p className="video_text">2023 Show Reel</p> */}
-          {/* </div> */}
-          <div>
-            <h1>About</h1>
-          </div>
         </div>
       </div>
     </div>
