@@ -62,12 +62,12 @@
   }
   .onewheel_stats {
     width: 80%;
-    height: 10rem;
+    min-height: 10rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 4rem auto;
-    margin-bottom: 10rem;
+    margin-bottom: 4rem;
 
     // padding-top: 4rem;
     .stat_box {
@@ -82,12 +82,12 @@
       .stat_number {
         font-weight: bold;
         font-size: 275px;
-        color: slategray;
+        color: #34ebab;
         margin: 0;
         text-align: center;
         top: 0;
         margin-top: -55px;
-        text-shadow: 5px 7px darkslategrey;
+        text-shadow: 5px 7px #298f6b;
       }
       .stat_text {
         margin-top: -55px;
@@ -281,7 +281,7 @@
     // justify-content: space-evenly;
     .about_vid_container {
       margin-right: 4rem;
-      width: 35%;
+      min-width: 35%;
       .vert_vid_ow {
         height: auto;
         width: 100%;
@@ -308,18 +308,69 @@
     //   left: 0;
     //   bottom: 0;
     // }
-    h1 {
+    .ow_about_title {
       margin-top: 0;
-      font-size: 45px;
+      font-size: 40px;
+      font-weight: 400;
+    }
+    .ow_about_text {
+      font-size: 20px;
+      font-weight: 300;
     }
   }
 }
 
 @media only screen and (max-width: 800px) {
   .banner_container {
-    height: 80vh;
+    height: 100vh;
   }
   .full_opaque_background {
     height: 100%;
+  }
+
+  .onewheel_info {
+    .onewheel_stats {
+      flex-wrap: wrap;
+      margin: 1rem auto;
+      .stat_box {
+        margin: 1rem 0;
+        width: 7rem;
+        height: 7rem;
+
+        .stat_number {
+          font-size: 95px;
+          padding: 40px 0rem;
+          text-shadow: 3px 2px #298f6b;
+        }
+        .stat_text {
+          font-size: 11px;
+          margin-top: -63px;
+        }
+      }
+    }
+    .ow_sponsors {
+      margin-top: 1rem;
+    }
+    .ow_spon_img {
+      flex-direction: column;
+      div {
+        width: auto;
+      }
+    }
+    .festivals {
+      .sts {
+        flex-direction: column-reverse;
+        div {
+          width: auto;
+        }
+      }
+      .Trickit {
+        flex-direction: column;
+        div {
+          width: auto;
+          text-align: left;
+        }
+      }
+    }
   }
 }

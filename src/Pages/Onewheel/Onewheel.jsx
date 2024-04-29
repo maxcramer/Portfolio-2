@@ -108,7 +108,30 @@ const Onewheel = () => {
             <p className="video_text">2023 Show Reel</p>
           </div>
           <div>
-            <h1>About</h1>
+            <h1 className="ow_about_title">About</h1>
+            <p className="ow_about_text">
+              Max has ben riding onewheel for 6 years and has been a sponsored
+              pro rider for 4 of those years. Max was the first person to be
+              sponsored in the UK for riding onewheel and second in Europe. Max
+              has also run the UK onewheel community for fours and the London
+              onewheel community four around three years. Max is currently
+              considered the number one freestyle rider in the UK.
+              <br />
+              <br />
+              Most recently, Max was invited to the first European Freestyle
+              Championship called Float Italia. This was the first European
+              invitation only event, bringing the best freestyle riders from
+              around Europe to compete in a slope style freestyle competition.
+              Each rider would be given the chance to ride the course twice,
+              showing off their best and most impressive tricks along the way.
+              This was then judged by three judges who are all respected in the
+              onewheel riding community and understand how hard it is to pull
+              off these tricks. After battling it out with the other riders, Max
+              managed to take second place!
+              <br />
+              <br />
+              
+            </p>
           </div>
         </div>
         <div className="festivals">
@@ -216,7 +239,7 @@ const Onewheel = () => {
             </div>
             <img className="fth_img fest_img" src={fth} alt="" />
           </div>
-          <hr />
+          {/* <hr /> */}
         </div>
       </div>
     </div>
