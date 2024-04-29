@@ -130,7 +130,15 @@ const Onewheel = () => {
               managed to take second place!
               <br />
               <br />
-              
+              Max is one of the founders of Float The Highlands, the UK's first
+              onewheel competition and festival, and is the only person to also
+              be one of the founders of Shred the Shires, the first onewheel
+              competition and festival in England. This is on a voluntary basis
+              to help grow the community. Max had for many years previously
+              tried to set up these events, but was unable to locate a venue
+              willing to host. Luckily, those with contacts to locations ands
+              private land have recently come to the onewheel community, and
+              were able to provide their expertise.
             </p>
           </div>
         </div>
