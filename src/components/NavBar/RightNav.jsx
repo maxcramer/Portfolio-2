@@ -20,12 +20,13 @@ const UL = styled.ul`
     flex-flow: column nowrap;
     background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0))" : "translateX(100%)")};
     top: 0;
     right: -10px;
     height: 100vh;
-    width: 350px;
+    width: 200px;
     padding: 3.5rem 3rem;
     margin-top: 0;
     transition: transform 0.3s ease;
