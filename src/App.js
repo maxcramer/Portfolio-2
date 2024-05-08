@@ -6,6 +6,7 @@ import "./App.css";
 import Home from "./Pages/Home/Home";
 import SabButter from "./Pages/SabButter/SabButter";
 import Onewheel from "./Pages/Onewheel/Onewheel";
+import Cv from "./Pages/Cv/Cv";
 
 // import HeadBanner from "./components/HeadBanner/HeadBanner";
 import NavBar from "./components/NavBar/NavBar";
@@ -61,6 +62,7 @@ class App extends Component {
             <Route path="/" element={<Home />} />
             <Route path="/Sab-butter" element={<SabButter />} />
             <Route path="/onewheel" element={<Onewheel />} />
+            <Route path="/cv" element={<Cv/>} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}

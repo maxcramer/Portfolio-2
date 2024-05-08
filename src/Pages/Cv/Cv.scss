@@ -1,0 +1,64 @@
+.Cv_Container {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  .cv_title {
+    h1 {
+      font-size: 100px;
+    }
+  }
+  .cv_text {
+    img {
+      float: left;
+      margin: 2rem;
+      width: 25%;
+    }
+    .cv_item {
+      text-align: justify;
+
+      .cv_item_top {
+        display: flex;
+        flex-direction: row;
+
+        .cv_item_top_title {
+          display: flex;
+          flex-direction: column;
+          //   margin-right: 1rem;
+          min-width: 53%;
+          h3 {
+            font-size: 40px;
+            margin-bottom: 0;
+          }
+          p {
+            font-size: 25px;
+            margin: 10px 0;
+          }
+        }
+        .cv_item_top_icons {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-evenly;
+          float: right;
+          //   width: 100%;
+
+          img {
+            width: 20%;
+            margin: 0;
+          }
+        }
+        .logo {
+          img {
+            width: 10rem;
+            height: auto;
+            margin: 1rem 0;
+          }
+        }
+      }
+      p {
+        margin: 0;
+        font-size: 20px;
+      }
+    }
+  }
+}
