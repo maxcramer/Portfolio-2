@@ -23,7 +23,9 @@ import Angular from "../../components/media/Angular.webp";
 import Selfridges from "../../components/media/selfridges.jpg";
 import maxymiser from "../../components/media/maxymiser.png";
 import aem from "../../components/media/AEM.png";
-
+import golin from "../../components/media/golin.png";
+import general_assembly from "../../components/media/general_assembly.png";
+import goVgo from "../../components/media/goVgo.avif";
 const Cv = () => {
   return (
     <div className="Cv_Container">
@@ -228,6 +230,149 @@ const Cv = () => {
               This went extremely well, so having extra time during the contract
               I was able to learn about and practice writing A/B testing while
               running it through Maxymiser.
+            </p>
+          </div>
+          <div className="cv_item">
+            <div className="cv_item_top">
+              <div className="cv_item_top_title">
+                <h3>Golin - Junior Frontend Developer (Contract)</h3>
+                <p>March 2019 - June 2019</p>
+              </div>
+              <div className="logo">
+                <img src={golin} alt="selfridges" />
+              </div>
+              <div className="cv_item_top_icons">
+                <img src={aem} alt="AEM" />
+                <img src={scss} alt="Maxymiser" />
+              </div>
+            </div>
+            <p>
+              At Golin, I built the front-end of websites such as
+              savepangolins.org & Surf from Unilever. I was given designs with
+              measurements to recreate responsively using AEM. I had the
+              opportunity to practice my design and SCSS skills at a
+              professional level, while gaining incredible knowledge from senior
+              developers.
+            </p>
+          </div>
+          <div className="cv_item">
+            <div className="cv_item_top">
+              <div className="cv_item_top_title">
+                <h3>General Assembly - Student</h3>
+                <p>June 2018 - September 2018</p>
+              </div>
+              <div className="logo">
+                <img src={general_assembly} alt="selfridges" />
+              </div>
+              {/* <div className="cv_item_top_icons">
+                <img src={aem} alt="AEM" />
+                <img src={scss} alt="Maxymiser" />
+              </div> */}
+            </div>
+            <p>
+              I was studying web development on a 12 week intensive program. The
+              course was not only studying, but a chance to get a hand on real
+              world situations such as labs (like code tests), as well as able
+              to work on projects finding problems we may come across in the
+              workplace. Each day we started with stand ups, talking about our
+              wins and blockers from the previous day. I really enjoyed pair
+              programming as this was our first taste at working in a team
+              styled environment.
+            </p>
+          </div>
+          <div className="cv_item">
+            <div className="cv_item_top">
+              <div className="cv_item_top_title">
+                <h3>
+                  goVgo: The Vegan & Vegetarian delivery service - Co-Founder
+                </h3>
+                <p>June 2018 - September 2018</p>
+              </div>
+              <div className="logo">
+                <img src={goVgo} alt="goVgo" />
+              </div>
+              {/* <div className="cv_item_top_icons">
+                <img src={aem} alt="AEM" />
+                <img src={scss} alt="Maxymiser" />
+              </div> */}
+            </div>
+            <p>
+              At goVgo I was head of technical development. This entailed
+              building MVPs, UX & UI, building chatbots, and any graphic design
+              that was needed. During testing, I was in charge of ensuring that
+              the chat bots picked up messages, and orders were delivered to the
+              right restaurants in time to prepare orders and deliver to the
+              customer. We initially raised £10,000 on Kickstarter. My business
+              partner and I then tested for a few months where we came to the
+              realization at the time that the demand for this service was not
+              high enough and there were extremely high barriers to entry to the
+              market.
+            </p>
+          </div>
+          <div className="cv_item">
+            <div className="cv_item_top">
+              <div className="cv_item_top_title">
+                <h3>Barnlight LTD - Search Agent</h3>
+                <p>January 2016 - March 2017</p>
+              </div>
+              {/* <div className="logo">
+                <img src={goVgo} alt="goVgo" />
+              </div> */}
+              {/* <div className="cv_item_top_icons">
+                <img src={aem} alt="AEM" />
+                <img src={scss} alt="Maxymiser" />
+              </div> */}
+            </div>
+            <p>
+              At Barnlight I was tasked with searching & finding potential
+              development sites for investors in and around central London. I
+              would also be in charge of day to day running of the office.
+            </p>
+          </div>
+          <div className="cv_item">
+            <div className="cv_item_top">
+              <div className="cv_item_top_title">
+                <h3>
+                  Popup Showroom | Workhaus - Accounts Manager / Marketing
+                  Assistant / Social Media Assistant
+                </h3>
+                <p>January 2015 - December 2015</p>
+              </div>
+              {/* <div className="logo">
+                <img src={goVgo} alt="goVgo" />
+              </div> */}
+              {/* <div className="cv_item_top_icons">
+                <img src={aem} alt="AEM" />
+                <img src={scss} alt="Maxymiser" />
+              </div> */}
+            </div>
+            <p>
+              While working at Popup Showroom I started running their accounts
+              and chasing up late payments. After seeing how well I was able to
+              cope with this, I was given further responsibility such as
+              assisting with marketing and running a number of their
+              professional social media accounts.
+            </p>
+          </div>
+          <div className="cv_item">
+            <div className="cv_item_top">
+              <div className="cv_item_top_title">
+                <h3>Kinleigh Folkard & Hayward - Sales Negotiator</h3>
+                <p>January 2014 - December 2014</p>
+              </div>
+              {/* <div className="logo">
+                <img src={goVgo} alt="goVgo" />
+              </div> */}
+              {/* <div className="cv_item_top_icons">
+                <img src={aem} alt="AEM" />
+                <img src={scss} alt="Maxymiser" />
+              </div> */}
+            </div>
+            <p>
+              During my time at KFH I sold a number of properties ranging from
+              £300,000 to £1,000,000. One of my highest moments during my time
+              at KFH was setting a pound per square foot area record in
+              Bayswater in central London.
             </p>
           </div>
         </div>
