@@ -7,7 +7,7 @@ import Home from "./Pages/Home/Home";
 import SabButter from "./Pages/SabButter/SabButter";
 import Onewheel from "./Pages/Onewheel/Onewheel";
 import Cv from "./Pages/Cv/Cv";
-
+import WebDev from "./Pages/WebDev/WebDev.jsx";
 // import HeadBanner from "./components/HeadBanner/HeadBanner";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
@@ -62,7 +62,8 @@ class App extends Component {
             <Route path="/" element={<Home />} />
             <Route path="/Sab-butter" element={<SabButter />} />
             <Route path="/onewheel" element={<Onewheel />} />
-            <Route path="/cv" element={<Cv/>} />
+            <Route path="/cv" element={<Cv />} />
+            <Route path="/web-development" element={<WebDev />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}
