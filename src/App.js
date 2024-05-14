@@ -74,7 +74,7 @@ class App extends Component {
         <Onewheel />
         <Links />
         <Contact /> */}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
