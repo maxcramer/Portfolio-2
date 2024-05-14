@@ -15,9 +15,10 @@ const WebDev = () => {
         <h1>Web Development</h1>
       </div>
       <div className="pp_container">
-        <a href="" className="pp_item">
+        <a href="/own" className="pp_item">
           <div className="hidden_text">
-            <h3>Some Text</h3>
+            <h3>Onewheel News</h3>
+            <p>Find out the latest news from the world of Onewheel.</p>
           </div>
           <div className="pp_logo">
             <img src={own} alt="" />
