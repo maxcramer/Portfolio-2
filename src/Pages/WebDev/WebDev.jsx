@@ -14,6 +14,7 @@ const WebDev = () => {
       <div className="webdev_title">
         <h1>Web Development</h1>
       </div>
+      <h2>Personal Projects</h2>
       <div className="pp_container">
         <a href="/own" className="pp_item">
           <div className="hidden_text">
