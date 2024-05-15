@@ -72,7 +72,7 @@ const RightNav = ({ open }) => {
         <li>Graphic Design</li>
       </a>
       <a href="/web-development">
-        <li>Web Development</li>
+        <li>UX/UI & Web Development</li>
       </a>
       <a href="/CV">
         <li>CV</li>
@@ -86,15 +86,6 @@ const RightNav = ({ open }) => {
       <a href="/contact">
         <li>Contact</li>
       </a>
-      {/* <a href="/european-onewheel-league">
-        <li>EOL</li>
-      </a> */}
-      {/* <a href="/sponsors">
-        <li>Sponsors</li>
-      </a> */}
-      {/* <a href="/supporters">
-        <li>Supporters</li>
-      </a> */}
     </UL>
   );
 };

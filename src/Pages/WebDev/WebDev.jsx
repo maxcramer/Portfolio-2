@@ -14,7 +14,7 @@ const WebDev = () => {
   return (
     <div className="webdev_container">
       <div className="webdev_title">
-        <h1>Web Development</h1>
+        <h1>UX/UI & Web Development</h1>
       </div>
       <PersonalProjects />
     </div>
