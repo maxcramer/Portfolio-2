@@ -3,7 +3,7 @@ import React from "react";
 import uncrowd from "../media/uncrowd.png";
 import cobidol from "../media/cobidol.png";
 import selfridges from "../media/selfridges.webp";
-
+import golin from "../media/golin.png";
 import "./Work.scss";
 
 const Work = () => {
@@ -45,6 +45,7 @@ const Work = () => {
             end of the data analytics platform.
           </p>
         </div>
+        {/* <div className="work_item_tower"> */}
         <div className="work_item">
           <img className="work_item_logo" src={cobidol} alt="" />
           <div className="work_item_info">
@@ -79,6 +80,27 @@ const Work = () => {
             desk space, were unable to extend my contract.
           </p>
         </div>
+        <div className="work_item">
+          <img className="work_item_logo" src={golin} alt="" />
+          <div className="work_item_info">
+            <h4>Company: Golin</h4>
+            <h4>Position: Junior Frontend Developer</h4>
+            <h4>Duration: March 2019 - June 2019</h4>
+            <h4>
+              Projects: Save The Pangolins | Comfort Cleaning Product | Surf
+              Cleaning Product
+            </h4>
+          </div>
+          <p className="work_item_desc">
+            This was my initial development position after leaving General
+            Assembly. Here I worked on projects such as Comfort, Surf & Save The
+            Pangolins. The technology used was Adobe Experience Manager (AEM)
+            which only gave us access to the styling files. I did very much
+            enjoy this role, but after the end of the contract I was keen to get
+            my teeth back into writing some code.
+          </p>
+        </div>
+        {/* </div> */}
       </div>
     </div>
   );
