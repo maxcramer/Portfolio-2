@@ -42,6 +42,8 @@ const UL = styled.ul`
 
     li {
     color: white;
+      -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
     padding: 1rem 0;
     text-align: left;
     font-size: 25px;
