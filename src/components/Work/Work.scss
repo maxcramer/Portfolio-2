@@ -6,9 +6,19 @@
   }
   .work_container {
     .work_item {
+      margin-bottom: 3rem;
       .work_item_logo {
         width: 40%;
         left: 10%;
+      }
+      .work_item_info {
+        margin-bottom: 1.5rem;
+        h4 {
+          text-align: left;
+          margin: 0;
+          font-size: 25px;
+          font-weight: 400;
+        }
       }
       .work_item_desc {
         margin-top: 0;
