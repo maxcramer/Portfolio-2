@@ -154,17 +154,26 @@ const Cv = () => {
               </div>
             </div>
             <p>
-              During my time with Uncrowd, everything had to be written in
-              Vanilla JavaScript, we were unable to use any frameworks. This did
-              make the development process a fair bit slower and longer to
-              build, but at the same time, ensured full ownership of the code
-              and made sure you knew those JavaScript skills.
-              <br />
-              For the data representation, I had to create graphs in GraphQL. At
-              one point, I was tasked with making a gamifyed version of the
-              platform. As it was a smaller project only going to be used for a
-              few days at a retail show (NRF New York), I was able to build this
-              in ReactJS.
+              During my time at Uncrowd, I was given a task to build a mock
+              version of the data analytics platform, and gamify it. I was in
+              charge of the Front End and decided to use React.js, as I had not
+              had the chance to use it recently, while one of my colleagues did
+              the back end in PHP. We were given just over a week to build the
+              platform, ready to be used at NRF New York. <br />
+              The business would promote itself by giving their clients well
+              designed, branded t-shirts. One of my projects while at Uncrowd
+              was designing and building a website that the clients could order
+              the t-shirts from directly from. This was built using React.js and
+              Google Firebase. <br />
+              Our data collection application was a web application designed for
+              use on mobiles. We were trying to emulate it to look as if while
+              you were filling out the data, to anyone else, would look like you
+              are messaging a friend on whatsapp. I designed the UI using
+              Sketch. <br />I also was tasked into researching Websockets, and
+              implementing onto the platform. Websockets were something I had no
+              previous experience with but always happy to try and learn. Day to
+              day I would be writing A/B tests, as well as working on the front
+              end of the data analytics platform.
             </p>
           </div>
 
