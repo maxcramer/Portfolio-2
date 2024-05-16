@@ -12,9 +12,10 @@
       width: 100%;
       padding-left: 1rem;
       .work_item_logo {
-        width: 40%;
+        width: auto;
         left: 10%;
         margin-bottom: 0.5rem;
+        max-height: 15rem;
       }
       .work_item_info {
         margin-bottom: 0.5rem;
@@ -46,6 +47,7 @@
         padding-left: 0;
         .work_item_logo {
           width: 100%;
+          max-height: 100%;
         }
         .work_item_info {
           h4 {

@@ -13,6 +13,8 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import BackDrop from "./components/Backdrop/Backdrop";
+import FTH from "./Pages/WebDev/FTH/FTH";
+
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
 // import GitHubGraph from "./components/GitHubGraph/GitHubGraph";
@@ -64,6 +66,7 @@ class App extends Component {
             <Route path="/onewheel" element={<Onewheel />} />
             <Route path="/cv" element={<Cv />} />
             <Route path="/web-development" element={<WebDev />} />
+            <Route path="/fth" element={<FTH />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}

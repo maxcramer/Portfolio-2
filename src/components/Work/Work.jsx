@@ -4,6 +4,8 @@ import uncrowd from "../media/uncrowd.png";
 import cobidol from "../media/cobidol.png";
 import selfridges from "../media/selfridges.webp";
 import golin from "../media/golin.png";
+import general_assembly from "../media/general_assembly.png";
+import goVgo from "../media/goVgo.avif";
 import "./Work.scss";
 
 const Work = () => {
@@ -100,7 +102,56 @@ const Work = () => {
             my teeth back into writing some code.
           </p>
         </div>
-        {/* </div> */}
+        <div className="work_item">
+          <img className="work_item_logo" src={general_assembly} alt="" />
+          <div className="work_item_info">
+            <h4>Company: General Assembly</h4>
+            <h4>Position: Student - Web Development Immersive</h4>
+            <h4>Duration: June 2018 - September 2018</h4>
+            {/* <h4>
+              Projects: Save The Pangolins | Comfort Cleaning Product | Surf
+              Cleaning Product
+            </h4>
+          </div>*/}
+            <p className="work_item_desc">
+              I was studying web development on a 12 week intensive program. The
+              course was not only studying, but a chance to get a hand on real
+              world situations such as labs (like code tests). We would also
+              work on projects finding problems we may come across in the
+              workplace. Each day we started with stand ups, talking about our
+              wins and blockers from the previous day. This was mainly using
+              Javascript, with frameworks such as React and Angular
+            </p>
+          </div>
+        </div>
+        <div className="work_item">
+          <img className="work_item_logo" src={goVgo} alt="" />
+          <div className="work_item_info">
+            <h4>Company: goVgo</h4>
+            <h4>Position: Co-founder & Head of Digital</h4>
+            <h4>Duration: March 2017 - April 2018</h4>
+            {/* <h4>
+              Projects: Save The Pangolins | Comfort Cleaning Product | Surf
+              Cleaning Product
+            </h4> */}
+          </div>
+          <p className="work_item_desc">
+            My friend and I founded the UK's first ever Vegan & Vegetarian
+            dedicated food delivery service. We launched in West London with
+            multiple restaurants immediately signing up. <br />I was head of
+            technical development. This entailed building MVPs, designing all
+            the UX & UI using Sketch, building chatbots for taking orders,
+            designing all logos and graphics, general graphic design work that
+            was needed otherwise such as branding. <br /> During testing, I was
+            in charge of ensuring that the chat bots picked up messages, and
+            orders were delivered to the right restaurants in time to prepare
+            orders. We initially raised £10,000 on Kickstarter. My business
+            partner and I then tested for a few months where we came to the
+            realization at the time that the demand for this service was not
+            high enough, and there were extremely high barriers to entry to the
+            market.
+          </p>
+        </div>
       </div>
     </div>
   );

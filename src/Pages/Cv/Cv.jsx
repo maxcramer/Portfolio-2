@@ -281,12 +281,11 @@ const Cv = () => {
             <p>
               I was studying web development on a 12 week intensive program. The
               course was not only studying, but a chance to get a hand on real
-              world situations such as labs (like code tests), as well as able
-              to work on projects finding problems we may come across in the
+              world situations such as labs (like code tests). We would also
+              work on projects finding problems we may come across in the
               workplace. Each day we started with stand ups, talking about our
-              wins and blockers from the previous day. I really enjoyed pair
-              programming as this was our first taste at working in a team
-              styled environment.
+              wins and blockers from the previous day. This was mainly using
+              Javascript, with frameworks such as React and Angular
             </p>
           </div>
           <div className="cv_item">
@@ -295,7 +294,7 @@ const Cv = () => {
                 <h3>
                   goVgo: The Vegan & Vegetarian delivery service - Co-Founder
                 </h3>
-                <p>June 2018 - September 2018</p>
+                <p>March 2017 - April 2018</p>
               </div>
               <div className="logo">
                 <img src={goVgo} alt="goVgo" />
@@ -306,16 +305,20 @@ const Cv = () => {
               </div> */}
             </div>
             <p>
-              At goVgo I was head of technical development. This entailed
-              building MVPs, UX & UI, building chatbots, and any graphic design
-              that was needed. During testing, I was in charge of ensuring that
-              the chat bots picked up messages, and orders were delivered to the
-              right restaurants in time to prepare orders and deliver to the
-              customer. We initially raised £10,000 on Kickstarter. My business
-              partner and I then tested for a few months where we came to the
-              realization at the time that the demand for this service was not
-              high enough and there were extremely high barriers to entry to the
-              market.
+              My friend and I founded the UK's first ever Vegan & Vegetarian
+              dedicated food delivery service. We launched in West London with
+              multiple restaurants immediately signing up. <br />I was head of
+              technical development. This entailed building MVPs, designing all
+              the UX & UI using Sketch, building chatbots for taking orders,
+              designing all logos and graphics, general graphic design work that
+              was needed otherwise such as branding. <br /> During testing, I
+              was in charge of ensuring that the chat bots picked up messages,
+              and orders were delivered to the right restaurants in time to
+              prepare orders. We initially raised £10,000 on Kickstarter. My
+              business partner and I then tested for a few months where we came
+              to the realization at the time that the demand for this service
+              was not high enough, and there were extremely high barriers to
+              entry to the market.
             </p>
           </div>
           <div className="cv_item">
