@@ -81,7 +81,7 @@ const FTH = () => {
                 labour of love that has been developed over the last two years.
                 <br />
                 <br />
-                In terms of Design, there are two features I would like to
+                In terms of Design, there are a few features I would like to
                 highlight. Firstly, the desktop hover state. If you hover your
                 mouse over any of the images in this banner, a hover state is
                 activated. Where the initial text gets an opacity of 0 and the
@@ -97,6 +97,15 @@ const FTH = () => {
                 mobile version of the video. This then allowed me to create two
                 separate elements, one which would only show in desktop, and the
                 other would only show in mobile.
+                <br />
+                <br />
+                Lastly, building the tickets button was an interesting
+                experience. It is made up of of two divs with one being the
+                front and the other being the "pushable" part. I then give it a
+                translation of Y when active to give it the effect that it is
+                being pushed down. With this, giving the effect that it is 3D,
+                and when clicked, looks as if it is being pushed down like a
+                button in the real world.
                 <br />
                 <br />
                 This is a multipage web application, built using React.JS on the
