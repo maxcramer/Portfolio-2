@@ -41,38 +41,43 @@ const FTH = () => {
             <img className="fth_mobile_home" src={FTH_Mobile_Home} alt="" />
           </div>
           <div className="fth_home_hover_container">
-            <p>Desktop: Hover State | Mobile: Click State</p>
-            <img className="fth_hover" src={FTH_Hover} alt="" />
-            <h3>Float The Highlands Website</h3>
-            <h4>React.JS | Firebase</h4>
-            <p>
-              As part of the Float the Highlands team, I was tasked with
-              designing, building and publishing the website alone. This was a
-              labour of love that has been developed over the last two years.
-              <br />
-              <br />
-              In terms of Design, there are two features I would like to
-              highlight. Firstly, the desktop hover state. If you hover your
-              mouse over any of the images in this banner, a hover state is
-              activated. Where the initial text gets an opacity of 0 and the
-              hidden text gets an opacity of 1. I have also added during the
-              hover state, a darker backdrop on the images to slightly fade them
-              out, making it easier for the user to read.
-              <br />
-              <br />
-              The second design feature I wish to discuss is the header banner
-              video. When designing and building the website, I quickly came to
-              realize that it would be impractical to use the desktop size video
-              on mobile. I spoke to the media team who created me a mobile
-              version of the video. This then allowed me to create two separate
-              elements, one which would only show in desktop, and the other
-              would only show in mobile.
-              <br />
-              <br />
-              This is a multipage web application, built using React.JS on the
-              front end, and Google Firebase for the hosting, backend and
-              database.
-            </p>
+            <div>
+              <p>Desktop: Hover State | Mobile: Click State</p>
+              <img className="fth_hover" src={FTH_Hover} alt="" />
+            </div>
+
+            <div className="fth_website_text">
+              <h3>Float The Highlands Website</h3>
+              <h4>React.JS | Firebase</h4>
+              <p>
+                As part of the Float the Highlands team, I was tasked with
+                designing, building and publishing the website alone. This was a
+                labour of love that has been developed over the last two years.
+                <br />
+                <br />
+                In terms of Design, there are two features I would like to
+                highlight. Firstly, the desktop hover state. If you hover your
+                mouse over any of the images in this banner, a hover state is
+                activated. Where the initial text gets an opacity of 0 and the
+                hidden text gets an opacity of 1. I have also added during the
+                hover state, a darker backdrop on the images to slightly fade
+                them out, making it easier for the user to read.
+                <br />
+                <br />
+                The second design feature I wish to discuss is the header banner
+                video. When designing and building the website, I quickly came
+                to realize that it would be impractical to use the desktop size
+                video on mobile. I spoke to the media team who created me a
+                mobile version of the video. This then allowed me to create two
+                separate elements, one which would only show in desktop, and the
+                other would only show in mobile.
+                <br />
+                <br />
+                This is a multipage web application, built using React.JS on the
+                front end, and Google Firebase for the hosting, backend and
+                database.
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -84,4 +84,32 @@
       margin-bottom: 2rem;
     }
   }
+  @media only screen and (max-width: 800px) {
+    h1 {
+      font-size: 80px;
+    }
+    .screenshots {
+      flex-direction: column-reverse;
+      .fth_desktop_home_container {
+        width: 100%;
+      }
+      .fth_mobile_home_container {
+        width: 100%;
+      }
+      .fth_home_hover_container {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        .fth_hover {
+          width: 100%;
+        }
+      }
+    }
+    a {
+      img {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
