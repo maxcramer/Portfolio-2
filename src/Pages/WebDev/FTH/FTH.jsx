@@ -12,15 +12,39 @@ const FTH = () => {
   return (
     <div>
       <div className="banner_container_fth">
+        {/* <img className="header_video" id="header_video_mob" src={dummy} alt="" /> */}
         <video
-          id="header_video_fth"
+          className="header_video"
+          id="header_video_desk"
           autoPlay
           loop
           muted
           playsInline
           preload="auto"
         >
-          <source src={MyMovie} type="video/mp4" />
+          <source
+            src={
+              "https://firebasestorage.googleapis.com/v0/b/floathighlands.appspot.com/o/Hype%20Reel%202%20Landscape.mov?alt=media&token=31c81752-3527-40e8-b32b-0a1e14421cad"
+            }
+            type="video/mp4"
+          />
+        </video>
+        {/* <img className="header_video" id="header_video_mob" src={dummy} alt="" /> */}
+        <video
+          className="header_video"
+          id="header_video_mob"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+        >
+          <source
+            src={
+              "https://firebasestorage.googleapis.com/v0/b/floathighlands.appspot.com/o/Hype%20Reel%202%20Vertical.mov?alt=media&token=1abd774d-db57-4994-9f1c-df9095a17b0f"
+            }
+            type="video/mp4"
+          />
         </video>
       </div>
       <div className="fth_site_container">
