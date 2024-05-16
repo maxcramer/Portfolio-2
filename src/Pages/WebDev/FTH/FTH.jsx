@@ -21,6 +21,7 @@ const FTH = () => {
           muted
           playsInline
           preload="auto"
+        
         >
           <source
             src={
@@ -73,6 +74,7 @@ const FTH = () => {
             <div className="fth_website_text">
               <h3>Float The Highlands Website</h3>
               <h4>React.JS | Firebase</h4>
+              <h4>Latest Build: 2024</h4>
               <p>
                 As part of the Float the Highlands team, I was tasked with
                 designing, building and publishing the website alone. This was a
