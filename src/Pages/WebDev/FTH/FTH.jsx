@@ -21,7 +21,6 @@ const FTH = () => {
           muted
           playsInline
           preload="auto"
-        
         >
           <source
             src={
@@ -52,10 +51,11 @@ const FTH = () => {
         <h1>Float The Highlands Website</h1>
         <h2>
           The UK's first Onewheel competition, Glencoe Mountain, Scotland{" "}
+          <a href="https://floathighlands.web.app" target="#blank">
+            <img src={Link} alt="" />
+          </a>
         </h2>
-        <a href="https://floathighlands.web.app" target="#blank">
-          <img src={Link} alt="" />
-        </a>
+
         <div className="screenshots">
           <div className="fth_desktop_home_container">
             <p>Desktop View</p>
