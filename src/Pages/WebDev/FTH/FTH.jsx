@@ -24,7 +24,7 @@ const FTH = () => {
         </video>
       </div>
       <div className="fth_site_container">
-        <h1>Float The Higlands Website</h1>
+        <h1>Float The Highlands Website</h1>
         <h2>
           The UK's first Onewheel competition, Glencoe Mountain, Scotland{" "}
         </h2>
