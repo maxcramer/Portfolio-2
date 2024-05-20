@@ -1,0 +1,67 @@
+.bis_parent {
+  width: 80%;
+  margin: 0 auto;
+
+  .bisc_title_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    margin: 2rem 0;
+    h1 {
+      font-size: 100px;
+    }
+    img {
+      width: 25%;
+      height: auto;
+    }
+  }
+
+  .bis_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .bis_desktop {
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+      .bis_desktop_item {
+        img {
+          width: 100%;
+          margin-top: 0;
+        }
+        p {
+          margin-bottom: 0;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+  .bis_sec_col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 2rem;
+    .bis_mobile {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+      .bis_mobile_item {
+        width: 30%;
+        // border: 1px s÷olid÷ red;
+        display: flex;
+        flex-direction: column;
+        p {
+          margin-bottom: 0;
+          padding-left: 0;
+        }
+        img {
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

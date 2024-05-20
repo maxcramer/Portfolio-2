@@ -14,6 +14,7 @@ import Footer from "./components/Footer/Footer";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import BackDrop from "./components/Backdrop/Backdrop";
 import FTH from "./Pages/WebDev/FTH/FTH";
+import IsBiscuit from "./Pages/WebDev/IsBiscuit/IsBiscuit.jsx";
 
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -67,6 +68,7 @@ class App extends Component {
             <Route path="/cv" element={<Cv />} />
             <Route path="/web-development" element={<WebDev />} />
             <Route path="/fth" element={<FTH />} />
+            <Route path="/is-biscuit" element={<IsBiscuit />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}
