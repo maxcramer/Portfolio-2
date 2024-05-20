@@ -34,17 +34,15 @@ const IsBiscuit = () => {
           </div>
           <div className="bis_sec_col">
             <p>
-              ipsum Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Accusamus minima placeat repellendus, harum sunt dolorum odio
-              culpa quis, qui ullam, praesentium nobis tenetur illo. Tempora
-              quis laborum fuga dolore repudiandae! ipsum Lorem ipsum dolor sit
-              amet consectetur, adipisicing elit. Accusamus minima placeat
-              repellendus, harum sunt dolorum odio culpa quis, qui ullam,
-              praesentium nobis tenetur illo. Tempora quis laborum fuga dolore
-              repudiandae! ipsum Lorem ipsum dolor sit amet consectetur,
-              adipisicing elit. Accusamus minima placeat repellendus, harum sunt
-              dolorum odio culpa quis, qui ullam, praesentium nobis tenetur
-              illo. Tempora quis laborum fuga dolore repudiandae!
+              Created initially over a drunken arguemnt of "A jaffacake is a
+              biscuit", I set out to build a search engine just for biscuits so
+              this arguemnt could not occour again.
+              <br />
+              <br />
+              This was an interesting build, having to design and implement an
+              entire search engine. This gave me alot of insight into how tricky
+              but at the same time, how simplistic a larger system like this, in
+              its most basic form can work and be programmed.
             </p>
             <div className="bis_mobile">
               <div className="bis_mobile_item">
