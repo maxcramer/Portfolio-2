@@ -7,6 +7,8 @@ import bisc_home_mobile from "../../../components/media/bisc_home_mobile.png";
 import bisc_result_mobile from "../../../components/media/bisc_result_mobile.png";
 import bisc_search_mobile from "../../../components/media/bisc_search_mobile.png";
 import bisc_logo from "../../../components/media/biscuit_logo.png";
+
+import link from "../../../components/media/link-2.png";
 import "./IsBiscuit.scss";
 
 const IsBiscuit = () => {
@@ -16,6 +18,12 @@ const IsBiscuit = () => {
         <div className="bisc_title_container">
           <h1>Is It A Biscuit?</h1>
           <img src={bisc_logo} alt="" />
+        </div>
+        <div className="bis_sub">
+          <p>A Search Enginge dedicated to Biscuits!</p>
+          <a href="https://isitabiscuit-efcd6.web.app/" target="#blank">
+            <img src={link} alt="" />
+          </a>
         </div>
         <div className="bis_container">
           <div className="bis_desktop">
@@ -34,15 +42,15 @@ const IsBiscuit = () => {
           </div>
           <div className="bis_sec_col">
             <p>
-              Created initially over a drunken arguemnt of "A jaffacake is a
-              biscuit", I set out to build a search engine just for biscuits so
-              this arguemnt could not occour again.
+              Created initially over a drunken argument of "Is a Jaffacake a
+              biscuit", I set out to build a search engine just for biscuits
+              just to settle the debate.
               <br />
               <br />
               This was an interesting build, having to design and implement an
-              entire search engine. This gave me alot of insight into how tricky
-              but at the same time, how simplistic a larger system like this, in
-              its most basic form can work and be programmed.
+              entire search engine. This gave me a lot of insight into how
+              tricky but at the same time, how simplistic a larger system like
+              this, in its most basic form can work and be programmed.
             </p>
             <div className="bis_mobile">
               <div className="bis_mobile_item">
