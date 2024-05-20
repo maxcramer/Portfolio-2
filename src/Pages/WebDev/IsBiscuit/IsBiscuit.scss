@@ -67,3 +67,41 @@
     }
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .bis_parent {
+    .bisc_title_container {
+      align-items: center;
+      margin: 1rem 0;
+      h1 {
+        font-size: 80px;
+        width: 50%;
+      }
+      img {
+        width: 50%;
+      }
+    }
+    .bis_container {
+      flex-direction: column-reverse;
+      width: 90%;
+      margin: 0 auto;
+
+      .bis_desktop {
+        width: 100%;
+      }
+      .bis_sec_col {
+        width: 100%;
+        padding-left: 0;
+        p {
+          font-size: 25px;
+        }
+        .bis_mobile {
+          flex-direction: column;
+          .bis_mobile_item {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
