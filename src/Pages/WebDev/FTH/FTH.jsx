@@ -68,7 +68,7 @@ const FTH = () => {
           </div>
           <div className="fth_home_hover_container">
             <div>
-              <p>Desktop: Hover State | Mobile: Click State</p>
+              <p className="fth_hover_tag">Desktop: Hover State | Mobile: Click State</p>
               <img className="fth_hover" src={FTH_Hover} alt="" />
             </div>
 

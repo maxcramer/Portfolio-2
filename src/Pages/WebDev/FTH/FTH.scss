@@ -107,12 +107,19 @@
     .fth_home_hover_container {
       width: 40%;
       margin-left: 2rem;
+      div {
+        margin-top: 0;
+        .fth_hover_tag {
+          font-size: 15px !important;
+        }
+      }
       .fth_hover {
         width: 100%;
         box-shadow: 5px 5px 10px lightgrey;
       }
       p {
         margin-bottom: 0;
+        font-size: 20px;
       }
       h3 {
         font-size: 25px;

@@ -120,16 +120,22 @@ h4 {
     img {
       width: 100%;
       height: auto;
+      margin-bottom: 3rem;
     }
 
     .kb_desc {
       width: 90%;
       margin: 1rem auto;
       padding-left: 0;
+      p {
+        font-size: 25px;
+      }
     }
   }
   .kb_example {
     margin-top: 0;
+    width: 80%;
+    padding: 1rem;
 
     .kb_example_title {
       width: 80%;
@@ -142,7 +148,7 @@ h4 {
     .kb_example_text {
       width: 80%;
       margin: auto;
-      font-size: 22px;
+      font-size: 25px;
     }
   }
   h4 {
