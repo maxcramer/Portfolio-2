@@ -1,0 +1,123 @@
+.ow_sel_container {
+  width: 100%;
+
+  .ow_sel_info_container {
+    width: 80%;
+    margin: 0 auto;
+    .ow_sel_title_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: left;
+      margin-top: 2rem;
+      margin-bottom: 0;
+      align-items: baseline;
+      .ow_sel_title_container_main {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        h1 {
+          font-size: 100px;
+          margin-bottom: 0;
+        }
+        img {
+          height: 10rem;
+          width: 25%;
+        }
+      }
+      .ow_sel_subtitle {
+        display: flex;
+        flex-direction: row;
+        p {
+          margin: 0;
+          font-size: 35px;
+          font-weight: 400;
+        }
+        a {
+          img {
+            width: 3rem;
+            margin-left: 2rem;
+          }
+        }
+      }
+    }
+    .ow_sel_info {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+      .ow_sel_mobile {
+        width: 20%;
+        p {
+          margin-bottom: 0;
+        }
+        img {
+          width: 100%;
+          box-shadow: 5px 5px 10px lightgrey;
+        }
+      }
+      .ow_sel_desktop {
+        width: 45%;
+        p {
+          margin-bottom: 0;
+        }
+        img {
+          width: 100%;
+          box-shadow: 5px 5px 10px lightgrey;
+        }
+      }
+      .ow_sel_text {
+        width: 30%;
+        h3 {
+          font-size: 25px;
+          margin: 0;
+        }
+        h4 {
+          font-size: 20px;
+          text-align: left;
+          margin: 0;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .ow_sel_info_container {
+      .ow_sel_title_container {
+        h1 {
+          font-size: 70px;
+          margin-top: 1rem;
+        }
+        .ow_sel_subtitle {
+          flex-direction: column;
+          a {
+            img {
+              margin-left: 0;
+              margin: 1rem 0;
+            }
+          }
+        }
+      }
+      .ow_sel_info {
+        flex-direction: column-reverse;
+        .ow_sel_text {
+          width: 100%;
+          p {
+            font-size: 25px;
+            margin-top: 1rem;
+          }
+        }
+        .ow_sel_mobile {
+          width: 100%;
+          font-size: 25px;
+        }
+        .ow_sel_desktop {
+          width: 100%;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
