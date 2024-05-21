@@ -1,0 +1,87 @@
+.pev_container {
+  width: 100%;
+  .pev_banner {
+    background-image: url("../../../components/media//pevbanner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    .pev_overlay {
+      height: 100vh;
+      width: 100%;
+      background-color: black;
+      opacity: 0.7;
+      z-index: 1;
+      position: absolute;
+    }
+    .pev_banner_text {
+      z-index: 2;
+      position: relative;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding-top: 12%;
+      align-items: center;
+      h1 {
+        font-size: 65px;
+        margin: 0;
+      }
+      .pev_line {
+        background-color: #f36;
+        display: block;
+        height: 4px;
+        margin: 8px auto 0;
+        width: 20%;
+      }
+      p {
+        font-size: 25px;
+        margin: 10px 0 32px;
+      }
+      .pev_btn {
+        background-color: #f36;
+        border: none;
+        box-shadow: none;
+        color: #fff;
+        font-family: Roboto Condensed, sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        height: 30px;
+        height: auto;
+        min-width: 200px;
+        padding: 16px 40px;
+        text-transform: uppercase;
+        width: 100px;
+        margin-top: 2rem;
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+  }
+  .pev_info {
+    width: 80%;
+    margin: 0 auto;
+    .pev_title_container {
+      h1 {
+        font-size: 100px;
+        margin-bottom: 0;
+      }
+      .pev_subtitle {
+        display: flex;
+        p {
+          margin: 0;
+          font-size: 35px;
+          font-weight: 400;
+        }
+        a {
+          img {
+            width: 3rem;
+            margin-left: 2rem;
+            margin-bottom: 40rem;
+          }
+        }
+      }
+    }
+  }
+}
