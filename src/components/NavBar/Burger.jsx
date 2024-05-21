@@ -21,6 +21,7 @@ const StyledBurger = styled.div`
     display: flex;
     justify-content: space-evenly;
     flex-flow: column nowrap;
+    cursor: pointer;
   
 
   div {

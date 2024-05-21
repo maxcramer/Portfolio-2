@@ -41,34 +41,29 @@ const Pev = () => {
           </div>
           <div className="pev_text">
             <p>
-              ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Rerum labore sint doloremque excepturi adipisci assumenda aliquid
-              repellat neque illum officia quos est aspernatur deleniti sed
-              possimus in ad, unde nisi? ipsum Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Rerum labore sint doloremque
-              excepturi adipisci assumenda aliquid repellat neque illum officia
-              quos est aspernatur deleniti sed possimus in ad, unde nisi? ipsum
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-              labore sint doloremque excepturi adipisci assumenda aliquid
-              repellat neque illum officia quos est aspernatur deleniti sed
-              possimus in ad, unde nisi? ipsum Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Rerum labore sint doloremque
-              excepturi adipisci assumenda aliquid repellat neque illum officia
-              quos est aspernatur deleniti sed possimus in ad, unde nisi? ipsum
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-              labore sint doloremque excepturi adipisci assumenda aliquid
-              repellat neque illum officia quos est aspernatur deleniti sed
-              possimus in ad, unde nisi? ipsum Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Rerum labore sint doloremque
-              excepturi adipisci assumenda aliquid repellat neque illum officia
-              quos est aspernatur deleniti sed possimus in ad, unde nisi? ipsum
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-              labore sint doloremque excepturi adipisci assumenda aliquid
-              repellat neque illum officia quos est aspernatur deleniti sed
-              possimus in ad, unde nisi? ipsum Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Rerum labore sint doloremque
-              excepturi adipisci assumenda aliquid repellat neque illum officia
-              quos est aspernatur deleniti sed possimus in ad, unde nisi?
+              Insure My Pev was a short project I looked at doing, attempting to
+              offer insurance to those who use personal electric vehicles or
+              micro mobility. A landing page, set up and designed primarily for
+              collecting email addresses.
+              <br />
+              <br />
+              Personal Electric Vehicle (PEVs) such as Electric Scooters,
+              Electric Skateboards, Onewheels, EUCs and higher powered e-Bikes
+              that are privately owned, and not rented, are currently illegal to
+              ride in public, and may only be ridden legally on private land
+              with the land owners permission. One of the largest prosecuting
+              techniques we see is using draconian laws from the 1900s to class
+              it as a vehicle and then charge the user for no insurance. I
+              attempted to set up an insurance company to circumnavigate this
+              issue by offering insurance. Unfortunately all insurance licensing
+              is given by the Bank of England, and with current laws, they were
+              unable to issue an insurance license.
+              <br />
+              <br />
+              This website was built using ReactJS on the front end and Google
+              Firebase on the back end. I chose specifically to use Firebase
+              here, as when collecting email addresses, as they are storing them
+              on their system, GDPR is covered.
             </p>
           </div>
         </div>

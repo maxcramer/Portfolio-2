@@ -41,6 +41,9 @@ const IsBiscuit = () => {
             </div>
           </div>
           <div className="bis_sec_col">
+            <h3>Is It A Biscuit Search Engine</h3>
+            <h4>React.JS | Firebase</h4>
+            <h4>Latest Build: 2022</h4>
             <p>
               Created initially over a drunken argument of "Is a Jaffacake a
               biscuit", I set out to build a search engine just for biscuits
