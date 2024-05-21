@@ -59,7 +59,7 @@
       }
     }
   }
-  .pev_info {
+  .pev_info_container {
     width: 80%;
     margin: 0 auto;
     .pev_title_container {
@@ -78,8 +78,38 @@
           img {
             width: 3rem;
             margin-left: 2rem;
-            margin-bottom: 40rem;
           }
+        }
+      }
+    }
+    .pev_info {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+      .pev_mobile {
+        width: 20%;
+        p {
+          margin-bottom: 0;
+        }
+        img {
+          width: 100%;
+          box-shadow: 5px 5px 10px lightgrey;
+        }
+      }
+      .pev_desktop {
+        width: 45%;
+        p {
+          margin-bottom: 0;
+        }
+        img {
+          width: 100%;
+          box-shadow: 5px 5px 10px lightgrey;
+        }
+      }
+      .pev_text {
+        width: 30%;
+        p {
         }
       }
     }
