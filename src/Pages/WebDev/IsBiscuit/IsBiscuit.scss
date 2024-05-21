@@ -63,6 +63,15 @@
     flex-direction: column;
     width: 50%;
     padding-left: 2rem;
+    h3 {
+      font-size: 25px;
+      margin: 0;
+    }
+    h4 {
+      font-size: 20px;
+      text-align: left;
+      margin: 0;
+    }
     .bis_mobile {
       display: flex;
       flex-direction: row;
@@ -93,7 +102,7 @@
       align-items: center;
       margin: 1rem 0;
       h1 {
-        font-size: 80px;
+        font-size: 70px;
         width: 50%;
       }
       img {
@@ -110,7 +119,7 @@
     }
     .bis_container {
       flex-direction: column-reverse;
-      width: 90%;
+      width: 100%;
       margin: 0 auto;
 
       .bis_desktop {

@@ -130,8 +130,9 @@
   }
 
   @media only screen and (max-width: 800px) {
+    width: 80%;
     h1 {
-      font-size: 80px;
+      font-size: 70px;
     }
     h2 {
       display: flex;

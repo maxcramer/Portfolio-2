@@ -110,6 +110,15 @@
       }
       .pev_text {
         width: 30%;
+        h3 {
+          font-size: 25px;
+          margin: 0;
+        }
+        h4 {
+          font-size: 20px;
+          text-align: left;
+          margin: 0;
+        }
         p {
         }
       }
@@ -127,7 +136,7 @@
     .pev_info_container {
       .pev_title_container {
         h1 {
-          font-size: 80px;
+          font-size: 70px;
           margin-top: 1rem;
         }
         .pev_subtitle {
@@ -146,16 +155,16 @@
           width: 100%;
           p {
             font-size: 25px;
-            margin-top: 0;
+            margin-top: 1rem;
           }
         }
         .pev_mobile {
-                width: 100%;
-    font-size: 25px;
+          width: 100%;
+          font-size: 25px;
         }
         .pev_desktop {
-                width: 100%;
-    font-size: 25px;
+          width: 100%;
+          font-size: 25px;
         }
       }
     }

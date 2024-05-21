@@ -40,6 +40,9 @@ const Pev = () => {
             <img src={pev_mobile} alt="" />
           </div>
           <div className="pev_text">
+            <h3>Insure My PEV Landing Page</h3>
+            <h4>React.JS | Firebase</h4>
+            <h4>Latest Build: 2022</h4>
             <p>
               Insure My Pev was a short project I looked at doing, attempting to
               offer insurance to those who use personal electric vehicles or
