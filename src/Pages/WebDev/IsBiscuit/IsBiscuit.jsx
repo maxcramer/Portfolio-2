@@ -51,6 +51,20 @@ const IsBiscuit = () => {
               entire search engine. This gave me a lot of insight into how
               tricky but at the same time, how simplistic a larger system like
               this, in its most basic form can work and be programmed.
+              <br />
+              <br />
+              This project was built using ReactJs on the front end and Google
+              Firebase on the back end. The database is loaded in from Firebase,
+              it is then set into an array using Reacts hook UseState. Once the
+              fetch has returned the promise, the data is loaded in. The search
+              term is then filtered to find the matching result as a live search
+              function. This works on the front end by looking like it is
+              suggesting results similar to the search input.
+              <br />
+              When a suggestion is clicked on, the ID is passed to the results
+              page, and using the item ID, the rest of the data from that item
+              is loaded out of the items array, into the result page as the
+              final result.
             </p>
             <div className="bis_mobile">
               <div className="bis_mobile_item">

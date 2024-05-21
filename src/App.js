@@ -15,6 +15,7 @@ import SideDrawer from "./components/SideDrawer/SideDrawer";
 import BackDrop from "./components/Backdrop/Backdrop";
 import FTH from "./Pages/WebDev/FTH/FTH";
 import IsBiscuit from "./Pages/WebDev/IsBiscuit/IsBiscuit.jsx";
+import Pev from "./Pages/WebDev/Pev/Pev";
 
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -69,6 +70,7 @@ class App extends Component {
             <Route path="/web-development" element={<WebDev />} />
             <Route path="/fth" element={<FTH />} />
             <Route path="/is-biscuit" element={<IsBiscuit />} />
+            <Route path="/insuremypev" element={<Pev />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}
