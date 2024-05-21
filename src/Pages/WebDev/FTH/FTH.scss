@@ -60,6 +60,23 @@
   margin: 0 auto;
   position: relative;
   height: auto;
+  .fth_subheading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+    p {
+      margin: 0;
+      font-size: 35px;
+      font-weight: 400;
+    }
+    a {
+      img {
+        width: 3rem;
+        margin-left: 2rem;
+      }
+    }
+  }
   .screenshots {
     display: flex;
     flex-direction: row;
@@ -161,6 +178,9 @@
         .fth_hover {
           width: 100%;
         }
+        h3 {
+          margin-top: 0;
+        }
         p {
           //   font-size: 20px;
         }
@@ -168,7 +188,7 @@
     }
     a {
       img {
-        margin-bottom: 0;
+        margin: 1rem 0;
       }
     }
   }

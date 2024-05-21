@@ -49,13 +49,14 @@ const FTH = () => {
       </div>
       <div className="fth_site_container">
         <h1>Float The Highlands Website</h1>
-        <h2>
-          The UK's first Onewheel competition, Glencoe Mountain, Scotland{" "}
+        <div className="fth_subheading">
+          <p>
+            The UK's first Onewheel competition, Glencoe Mountain, Scotland{" "}
+          </p>
           <a href="https://floathighlands.web.app" target="#blank">
             <img src={Link} alt="" />
           </a>
-        </h2>
-
+        </div>
         <div className="screenshots">
           <div className="fth_desktop_home_container">
             <p>Desktop View</p>
