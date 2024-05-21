@@ -69,6 +69,7 @@
       }
       .pev_subtitle {
         display: flex;
+        flex-direction: row;
         p {
           margin: 0;
           font-size: 35px;
@@ -110,6 +111,51 @@
       .pev_text {
         width: 30%;
         p {
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .pev_banner {
+      .pev_banner_text {
+        padding-top: 50%;
+        h1 {
+          font-size: 55px;
+        }
+      }
+    }
+    .pev_info_container {
+      .pev_title_container {
+        h1 {
+          font-size: 80px;
+          margin-top: 1rem;
+        }
+        .pev_subtitle {
+          flex-direction: column;
+          a {
+            img {
+              margin-left: 0;
+              margin: 1rem 0;
+            }
+          }
+        }
+      }
+      .pev_info {
+        flex-direction: column-reverse;
+        .pev_text {
+          width: 100%;
+          p {
+            font-size: 25px;
+            margin-top: 0;
+          }
+        }
+        .pev_mobile {
+                width: 100%;
+    font-size: 25px;
+        }
+        .pev_desktop {
+                width: 100%;
+    font-size: 25px;
         }
       }
     }
