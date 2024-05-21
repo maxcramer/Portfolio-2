@@ -115,6 +115,11 @@
 
       .bis_desktop {
         width: 100%;
+        .bis_desktop_item {
+          p {
+            font-size: 25px;
+          }
+        }
       }
       .bis_sec_col {
         width: 100%;
@@ -122,11 +127,13 @@
         p {
           font-size: 25px;
           margin-top: 0;
+          margin-bottom: 0;
         }
         .bis_mobile {
           flex-direction: column;
           .bis_mobile_item {
             width: 100%;
+            margin-top: 1rem;
           }
         }
       }
