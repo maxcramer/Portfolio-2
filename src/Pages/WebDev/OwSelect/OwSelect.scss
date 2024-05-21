@@ -86,10 +86,17 @@
   @media only screen and (max-width: 800px) {
     .ow_sel_info_container {
       .ow_sel_title_container {
-        h1 {
-          font-size: 70px;
-          margin-top: 1rem;
+        .ow_sel_title_container_main {
+          flex-direction: column;
+          h1 {
+            font-size: 70px;
+            margin-top: 1rem;
+          }
+          img {
+            width: 100%;
+          }
         }
+
         .ow_sel_subtitle {
           flex-direction: column;
           a {
