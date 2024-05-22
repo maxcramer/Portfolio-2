@@ -37,33 +37,19 @@ const OwSelect = () => {
           </div>
           <div className="ow_sel_text">
             <h3>Onewheel Selector Web App</h3>
-            <h4>Javascript | Firebase</h4>
+            <h4>Javascript </h4>
             <h4>Latest Build: 2020</h4>
             <p>
-              Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Magni omnis laboriosam corporis quis ad perspiciatis, inventore
-              odit cumque nemo harum suscipit? Deleniti officiis mollitia
-              repellendus fugiat soluta perspiciatis expedita libero? Ipsum
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
-              omnis laboriosam corporis quis ad perspiciatis, inventore odit
-              cumque nemo harum suscipit? Deleniti officiis mollitia repellendus
-              fugiat soluta perspiciatis expedita libero? Ipsum Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit. Magni omnis
-              laboriosam corporis quis ad perspiciatis, inventore odit cumque
-              nemo harum suscipit? Deleniti officiis mollitia repellendus fugiat
-              soluta perspiciatis expedita libero? Ipsum Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Magni omnis laboriosam
-              corporis quis ad perspiciatis, inventore odit cumque nemo harum
-              suscipit? Deleniti officiis mollitia repellendus fugiat soluta
-              perspiciatis expedita libero? Ipsum Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Magni omnis laboriosam corporis quis
-              ad perspiciatis, inventore odit cumque nemo harum suscipit?
-              Deleniti officiis mollitia repellendus fugiat soluta perspiciatis
-              expedita libero? Ipsum Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Magni omnis laboriosam corporis quis ad
-              perspiciatis, inventore odit cumque nemo harum suscipit? Deleniti
-              officiis mollitia repellendus fugiat soluta perspiciatis expedita
-              libero?
+              Onewheel Selector is a single page web application (SPA), that is
+              designed to help you chose the right Onewheel for you.
+              <br />
+              <br />
+              This application is written entirely in Vanilla Javascript. It
+              works by having all the boards having an initial score of 0. As
+              you go through the form, each time you make a selection, points
+              are added to the board that matches best with your answer to each
+              question. The points are then added up, and the boards with the
+              highest points are displayed for the user.
             </p>
           </div>
         </div>
