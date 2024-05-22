@@ -17,6 +17,7 @@ import FTH from "./Pages/WebDev/FTH/FTH";
 import IsBiscuit from "./Pages/WebDev/IsBiscuit/IsBiscuit.jsx";
 import Pev from "./Pages/WebDev/Pev/Pev";
 import OwSelect from "./Pages/WebDev/OwSelect/OwSelect.jsx";
+import Own from "./Pages/WebDev/Own/Own.jsx";
 
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -73,6 +74,7 @@ class App extends Component {
             <Route path="/is-biscuit" element={<IsBiscuit />} />
             <Route path="/insuremypev" element={<Pev />} />
             <Route path="/ow-selector-app" element={<OwSelect />} />
+            <Route path="/own" element={<Own />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}
