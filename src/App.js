@@ -13,6 +13,8 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import BackDrop from "./components/Backdrop/Backdrop";
+import GraphicDesign from "./Pages/GraphicDesign/GraphicDesign.jsx";
+
 import FTH from "./Pages/WebDev/FTH/FTH";
 import IsBiscuit from "./Pages/WebDev/IsBiscuit/IsBiscuit.jsx";
 import Pev from "./Pages/WebDev/Pev/Pev";
@@ -70,6 +72,7 @@ class App extends Component {
             <Route path="/onewheel" element={<Onewheel />} />
             <Route path="/cv" element={<Cv />} />
             <Route path="/web-development" element={<WebDev />} />
+            <Route path="/GD" element={<GraphicDesign />} />
             <Route path="/fth" element={<FTH />} />
             <Route path="/is-biscuit" element={<IsBiscuit />} />
             <Route path="/insuremypev" element={<Pev />} />
@@ -85,7 +88,7 @@ class App extends Component {
         <Onewheel />
         <Links />
         <Contact /> */}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }
