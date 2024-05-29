@@ -76,22 +76,20 @@ const GDPrint = () => {
         <a href="/mlc" className="GDPrint_item">
           <div className="hidden_text">
             <h3>Cook Book Design & Layout</h3>
-            <p>
-              A Dessert Cook Book fully Designed and laid out ready for printing
-            </p>
+            <p>A Dessert Cook Book fully Designed and laid out</p>
           </div>
           <div className="GDPrint_logo">
             <img src={cookbook} alt="" />
           </div>
         </a>
       </div>
-      <div className="branding_items_parent mobile">
+      <div className="print_items_parent mobile">
         <div className="GDPrint_item">
           <div className="hidden_text">
-            <h3>Bespoke Mountain Bikes</h3>
-            <p>Logo Design for Mountain Bikes Business</p>
+            <h3>Bob's Burgers: The Movie - Poster</h3>
+            <p>A Poster Design for Bob's Burgers: The Movie</p>
             <p>
-              <a href="/bespokemtb">Click here</a> for more.
+              <a href="/bespokemtb">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
@@ -100,99 +98,78 @@ const GDPrint = () => {
         </div>
         <div className="GDPrint_item">
           <div className="hidden_text">
-            <h3>Onewheel Selector App</h3>
-            <p>Find the best Onewheel that is right for you!</p>
+            <h3>Night Club Poster</h3>
+            <p>A Promotional Poster for a Nightclub Event</p>
             <p>
-              <a href="/ow-selector-app">Click here</a> for more.
+              <a href="/ow-selector-app">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
-            <img src={FTH_Logo} alt="" />
+            <img src={poster} alt="" />
           </div>
         </div>
         <div className="GDPrint_item">
           <div className="hidden_text">
-            <h3>Float The Highlands</h3>
-            <p>The UK's first ever Onewheel Competition (Launched 2023)</p>
+            <h3>Journey: A Onewheel Movie</h3>
+            <p>A Poster Designed for Journey: A Onewheel Movie</p>
             <p>
-              <a href="/fth">Click here</a> for more.
+              <a href="/fth">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
-            <img src={FTH_Logo} alt="" />
+            <img src={journeyposter} alt="" />
           </div>
         </div>
         <div className="GDPrint_item">
           <div className="hidden_text">
-            <h3>Is It a Biscuit?</h3>
-            <p>Always wondered if it's a biscuit? Now you can check!</p>
+            <h3>The Garden of Secrets</h3>
+            <p>Book Cover Design for a book about Gardening</p>
             <p>
-              <a href="/is-biscuit">Click here</a> for more.
+              <a href="/is-biscuit">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
-            <img src={FTH_Logo} alt="" />
+            <img src={bookcover} alt="" />
           </div>
         </div>
         <div className="GDPrint_item">
           <div className="hidden_text">
-            <h3>Insure My Pev</h3>
+            <h3>Magazine Spread</h3>
+            <p>Designing Layout for Double Page Magazine Spread</p>
             <p>
-              A landing page for an personal electric vehicle insurance
-              business.
-            </p>
-            <p>
-              <a href="/insuremypev">Click here</a> for more.
+              <a href="/insuremypev">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
-            <img src={FTH_Logo} alt="" />
+            <img src={mag} alt="" />
           </div>
         </div>
 
         <div className="GDPrint_item">
           <div className="hidden_text">
-            <h3>Insure My Pev</h3>
+            <h3>Shred The Shires Race Numbers</h3>
             <p>
-              A landing page for an personal electric vehicle insurance
-              business.
+              Design for Race Bibs and Numbers for Shred The Shires Onewheel
+              Festival
             </p>
             <p>
-              <a href="/insuremypev">Click here</a> for more.
+              <a href="/insuremypev">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
-            <img src={FTH_Logo} alt="" />
+            <img src={racebib} alt="" />
           </div>
         </div>
         <div className="GDPrint_item">
           <div className="hidden_text">
-            <h3>Insure My Pev</h3>
+            <h3>Cook Book Design & Layout</h3>
+            <p>A Dessert Cook Book fully Designed and laid out</p>
             <p>
-              A landing page for an personal electric vehicle insurance
-              business.
-            </p>
-            <p>
-              <a href="/insuremypev">Click here</a> for more.
+              <a href="/insuremypev">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
-            <img src={FTH_Logo} alt="" />
-          </div>
-        </div>
-        <div className="GDPrint_item">
-          <div className="hidden_text">
-            <h3>Insure My Pev</h3>
-            <p>
-              A landing page for an personal electric vehicle insurance
-              business.
-            </p>
-            <p>
-              <a href="/insuremypev">Click here</a> for more.
-            </p>
-          </div>
-          <div className="GDPrint_logo">
-            <img src={FTH_Logo} alt="" />
+            <img src={cookbook} alt="" />
           </div>
         </div>
       </div>

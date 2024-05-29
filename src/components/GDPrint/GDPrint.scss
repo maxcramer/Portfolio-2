@@ -4,7 +4,7 @@
     font-size: 40px;
     font-weight: 400;
   }
-   .print_items_parent {
+  .print_items_parent {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -85,7 +85,7 @@
   }
   @media only screen and (max-width: 800px) {
     margin-left: 0;
-    .branding_items_parent {
+    .print_items_parent {
       display: none;
       .GDPrint_item {
         width: auto;

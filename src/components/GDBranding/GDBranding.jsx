@@ -99,7 +99,7 @@ const GDBranding = () => {
             <h3>Bespoke Mountain Bikes</h3>
             <p>Logo Design for Mountain Bikes Business</p>
             <p>
-              <a href="/bespokemtb">Click here</a> for more.
+              <a href="/bespokemtb">Tap here</a> for more.
             </p>
           </div>
           <div className="GDBranding_logo">
@@ -108,99 +108,74 @@ const GDBranding = () => {
         </div>
         <div className="GDBranding_item">
           <div className="hidden_text">
-            <h3>Onewheel Selector App</h3>
-            <p>Find the best Onewheel that is right for you!</p>
+            <h3>Malluable Life Coaching</h3>
+            <p>Brand design for a life coaching business</p>
             <p>
-              <a href="/ow-selector-app">Click here</a> for more.
+              <a href="/ow-selector-app">Tap here</a> for more.
             </p>
           </div>
           <div className="GDBranding_logo">
-            <img src={FTH_Logo} alt="" />
+            <img src={buscardslogo} alt="" />
           </div>
         </div>
         <div className="GDBranding_item">
           <div className="hidden_text">
-            <h3>Float The Highlands</h3>
-            <p>The UK's first ever Onewheel Competition (Launched 2023)</p>
+            <h3>Pacific Calm Logo</h3>
+            <p>A Logo for a Health & wellness Spa.</p>
             <p>
-              <a href="/fth">Click here</a> for more.
+              <a href="/fth">Tap here</a> for more.
             </p>
           </div>
           <div className="GDBranding_logo">
-            <img src={FTH_Logo} alt="" />
+            <img src={pacificcalm} alt="" />
           </div>
         </div>
         <div className="GDBranding_item">
           <div className="hidden_text">
-            <h3>Is It a Biscuit?</h3>
-            <p>Always wondered if it's a biscuit? Now you can check!</p>
+            <h3>MD Zynes</h3>
+            <p>Branding for Graphic Design Business</p>
             <p>
-              <a href="/is-biscuit">Click here</a> for more.
+              <a href="/is-biscuit">Tap here</a> for more.
             </p>
           </div>
           <div className="GDBranding_logo">
-            <img src={FTH_Logo} alt="" />
+            <img src={MDZynes} alt="" />
           </div>
         </div>
         <div className="GDBranding_item">
           <div className="hidden_text">
-            <h3>Insure My Pev</h3>
+            <h3>DynaMix Packaging Design</h3>
+            <p>Package design for a soda can.</p>
             <p>
-              A landing page for an personal electric vehicle insurance
-              business.
-            </p>
-            <p>
-              <a href="/insuremypev">Click here</a> for more.
+              <a href="/insuremypev">Tap here</a> for more.
             </p>
           </div>
           <div className="GDBranding_logo">
-            <img src={FTH_Logo} alt="" />
-          </div>
-        </div>
-
-        <div className="GDBranding_item">
-          <div className="hidden_text">
-            <h3>Insure My Pev</h3>
-            <p>
-              A landing page for an personal electric vehicle insurance
-              business.
-            </p>
-            <p>
-              <a href="/insuremypev">Click here</a> for more.
-            </p>
-          </div>
-          <div className="GDBranding_logo">
-            <img src={FTH_Logo} alt="" />
+            <img src={sodacans} alt="" />
           </div>
         </div>
         <div className="GDBranding_item">
           <div className="hidden_text">
-            <h3>Insure My Pev</h3>
+            <h3>Body Wash Label</h3>
+            <p>Designing a Label for a Body Wash Brand</p>
             <p>
-              A landing page for an personal electric vehicle insurance
-              business.
-            </p>
-            <p>
-              <a href="/insuremypev">Click here</a> for more.
+              <a href="/insuremypev">Tap here</a> for more.
             </p>
           </div>
           <div className="GDBranding_logo">
-            <img src={FTH_Logo} alt="" />
+            <img src={bodywash} alt="" />
           </div>
         </div>
         <div className="GDBranding_item">
           <div className="hidden_text">
-            <h3>Insure My Pev</h3>
+            <h3>VideoFlux</h3>
+            <p>A Logo for a new online streaming platform</p>
             <p>
-              A landing page for an personal electric vehicle insurance
-              business.
-            </p>
-            <p>
-              <a href="/insuremypev">Click here</a> for more.
+              <a href="/insuremypev">Tap here</a> for more.
             </p>
           </div>
           <div className="GDBranding_logo">
-            <img src={FTH_Logo} alt="" />
+            <img src={videoflux} alt="" />
           </div>
         </div>
       </div>
