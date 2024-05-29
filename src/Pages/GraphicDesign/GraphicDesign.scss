@@ -7,8 +7,15 @@
     }
   }
   .gd_main_container {
-    
-        margin-left: 1rem;
-      
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .gd_container {
+    width: 90%;
+    .gd_main_container {
+      margin-left: 0;
+    }
   }
 }
