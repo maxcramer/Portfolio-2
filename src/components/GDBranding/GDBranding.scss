@@ -1,4 +1,5 @@
 .branding_container {
+  margin-bottom: 4rem;
   h2 {
     text-align: left;
     font-size: 40px;
@@ -10,17 +11,16 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     .GDBranding_item {
-      background-color: black;
+      //   background-color: black;
       min-height: 20rem;
       width: 25%;
-      padding: 2rem;
+      padding: 0 2rem;
       align-items: center;
       // text-align: center;
       display: flex;
       justify-content: space-evenly;
       border-radius: 2rem;
-      margin: 1rem;
-      box-shadow: 5px 5px 5px darkgrey;
+      margin: 0 1rem;
       transform: scale(1);
       transition: transform 0.3s ease;
 
@@ -31,13 +31,14 @@
         position: inherit;
         transition: opacity 0.3s ease;
         border-radius: 10px;
+        box-shadow: 5px 5px 5px darkgrey;
       }
       .hidden_text {
         opacity: 0;
         z-index: 2;
         position: absolute;
         transition: opacity 0.3s ease;
-        color: white;
+        color: black;
         text-align: left;
         padding: 0 4rem;
         h3 {
@@ -48,7 +49,7 @@
         p {
           font-size: 20px;
           a {
-            color: white;
+            color: black;
           }
         }
       }
@@ -62,7 +63,7 @@
       }
       .hidden_text {
         opacity: 1;
-        color: white;
+        color: black;
         transition: opacity 0.3s ease;
         text-align: left;
         padding: 0 4rem;
@@ -74,7 +75,7 @@
         p {
           font-size: 20px;
           a {
-            color: white;
+            color: black;
           }
         }
       }
@@ -89,10 +90,19 @@
       display: none;
       .GDBranding_item {
         width: auto;
+        min-height: auto;
+        margin-bottom: 2rem;
       }
       .GDBranding_item:hover {
         .hidden_text {
-          padding: 0 2rem;
+          padding: 3rem;
+          h3 {
+            margin: 0;
+          }
+          p {
+            margin-top: 0;
+            margin-bottom: 5px;
+          }
         }
       }
     }

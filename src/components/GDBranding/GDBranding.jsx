@@ -4,11 +4,10 @@ import FTH_Logo from "../media/FTH_Logo.png";
 
 import bespokemtb from "../media/BespokeMBLogoTests-06.png";
 import bodywash from "../media/Body Wash 3D.png";
-import MDZynes from "../media/MD-Zynes.jpg";
+import MDZynes from "../media/MD-Zynes.png";
 import buscardslogo from "../media/Business Cards Logo-05.png";
 import sodacans from "../media/cans-snapshot.png";
 import pacificcalm from "../media/PacificCalmLogo.png";
-import racebib from "../media/RaceBib.png";
 import videoflux from "../media/Asset 4@3x.png";
 import "./GDBranding.scss";
 
