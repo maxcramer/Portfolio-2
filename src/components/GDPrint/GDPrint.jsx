@@ -63,11 +63,8 @@ const GDPrint = () => {
         </a>
         <a href="/mlc" className="GDPrint_item">
           <div className="hidden_text">
-            <h3>Shred The Shires Race Numbers</h3>
-            <p>
-              Design for Race Bibs and Numbers for Shred The Shires Onewheel
-              Festival
-            </p>
+            <h3>Race Numbers</h3>
+            <p>Design for Race Bibs for Shred The Shires Festival</p>
           </div>
           <div className="GDPrint_logo">
             <img src={racebib} alt="" />
@@ -147,11 +144,9 @@ const GDPrint = () => {
 
         <div className="GDPrint_item">
           <div className="hidden_text">
-            <h3>Shred The Shires Race Numbers</h3>
-            <p>
-              Design for Race Bibs and Numbers for Shred The Shires Onewheel
-              Festival
-            </p>
+            <h3>Race Numbers</h3>
+            <p>Design for Race Bibs for Shred The Shires Festival</p>
+
             <p>
               <a href="/insuremypev">Tap here</a> for more.
             </p>
