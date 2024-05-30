@@ -9,7 +9,6 @@ const GDDigital = () => {
     <div className="digital_container">
       <h2>Digital</h2>
       <div className="digital_items_parent">
-        {" "}
         <a href="/bbmovie" className="GDDig_item">
           <div className="hidden_text">
             <h3>Taste Test</h3>
