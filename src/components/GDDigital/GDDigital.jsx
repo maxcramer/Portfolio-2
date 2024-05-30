@@ -12,7 +12,7 @@ const GDDigital = () => {
         {" "}
         <a href="/bbmovie" className="GDDig_item">
           <div className="hidden_text">
-            <h3>Seltzer Taste Test</h3>
+            <h3>Taste Test</h3>
             <p>A Youtube Thumbnail for a Video Reviewing Seltzers</p>
           </div>
           <div className="GDDig_logo">
@@ -32,7 +32,7 @@ const GDDigital = () => {
       <div className="digital_items_parent mobile">
         <div className="GDDig_item">
           <div className="hidden_text">
-            <h3>Seltzer Taste Test</h3>
+            <h3>Taste Test</h3>
             <p>A Youtube Thumbnail for a Video Reviewing Seltzers</p>
             <p>
               <a href="/bespokemtb">Tap here</a> for more.
