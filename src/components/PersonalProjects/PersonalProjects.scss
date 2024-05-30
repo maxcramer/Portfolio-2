@@ -12,19 +12,19 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     .pp_item {
-      background-color: black;
-      min-height: 15rem;
+      // background-color: black;
+      min-height: 20rem;
       width: 25%;
-      padding: 2rem;
+      padding: 0 2rem;
       align-items: center;
       // text-align: center;
       display: flex;
       justify-content: space-evenly;
       border-radius: 2rem;
       margin: 1rem;
-      box-shadow: 5px 5px 5px darkgrey;
       transform: scale(1);
       transition: transform 0.3s ease;
+      // box-shadow: 5px 5px 5px darkgrey;
 
       img {
         width: 100%;
@@ -32,13 +32,16 @@
         z-index: 1;
         position: inherit;
         transition: opacity 0.3s ease;
+        box-shadow: 5px 5px 5px darkgrey;
+
+        border-radius: 10px;
       }
       .hidden_text {
         opacity: 0;
         z-index: 2;
         position: absolute;
         transition: opacity 0.3s ease;
-        color: white;
+        color: black;
         text-align: left;
         padding: 0 4rem;
         h3 {
@@ -49,7 +52,7 @@
         p {
           font-size: 20px;
           a {
-            color: white;
+            color: black;
           }
         }
       }
@@ -63,7 +66,7 @@
       }
       .hidden_text {
         opacity: 1;
-        color: white;
+        color: black;
         transition: opacity 0.3s ease;
         text-align: left;
         padding: 0 4rem;
