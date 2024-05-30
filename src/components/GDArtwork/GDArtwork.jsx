@@ -16,20 +16,20 @@ const GDArtwork = () => {
         {" "}
         <a href="/bbmovie" className="GDArt_item">
           <div className="hidden_text">
+            <h3>Photoshop AI Generation</h3>
+            <p>Using Photoshop AI Generation Tool to edit an image</p>
+          </div>
+          <div className="GDArt_logo">
+            <img src={fox} alt="" />
+          </div>
+        </a>
+        <a href="/bbmovie" className="GDArt_item">
+          <div className="hidden_text">
             <h3>3D Effect</h3>
             <p>Testing 3D effects in Illustrator</p>
           </div>
           <div className="GDArt_logo">
             <img src={poptext} alt="" />
-          </div>
-        </a>
-        <a href="/pacificcalm" className="GDArt_item">
-          <div className="hidden_text">
-            <h3>Illustrator Characters</h3>
-            <p>Characters made in Illustrator</p>
-          </div>
-          <div className="GDArt_logo">
-            <img src={burgershake} alt="" />
           </div>
         </a>
         <a href="/pacificcalm" className="GDArt_item">
@@ -41,13 +41,13 @@ const GDArtwork = () => {
             <img src={DE2} alt="" />
           </div>
         </a>
-        <a href="/bbmovie" className="GDArt_item">
+        <a href="/pacificcalm" className="GDArt_item">
           <div className="hidden_text">
-            <h3>Photoshop AI Generation</h3>
-            <p>Using Photoshop AI Generation Tool to edit an image</p>
+            <h3>Illustrator Characters</h3>
+            <p>Characters made in Illustrator</p>
           </div>
           <div className="GDArt_logo">
-            <img src={fox} alt="" />
+            <img src={burgershake} alt="" />
           </div>
         </a>
         <a href="/pacificcalm" className="GDArt_item">
@@ -63,6 +63,18 @@ const GDArtwork = () => {
       <div className="artwork_items_parent mobile">
         <div className="GDArt_item">
           <div className="hidden_text">
+            <h3>Photoshop AI Generation</h3>
+            <p>Using Photoshop AI Generation Tool to edit an image</p>
+            <p>
+              <a href="/ow-selector-app">Tap here</a> for more.
+            </p>
+          </div>
+          <div className="GDArt_logo">
+            <img src={fox} alt="" />
+          </div>
+        </div>
+        <div className="GDArt_item">
+          <div className="hidden_text">
             <h3>3D Effect</h3>
             <p>Testing 3D effects in Illustrator</p>
             <p>
@@ -71,18 +83,6 @@ const GDArtwork = () => {
           </div>
           <div className="GDArt_logo">
             <img src={poptext} alt="" />
-          </div>
-        </div>
-        <div className="GDArt_item">
-          <div className="hidden_text">
-            <h3>Illustrator Characters</h3>
-            <p>Characters made in Illustrator</p>
-            <p>
-              <a href="/ow-selector-app">Tap here</a> for more.
-            </p>
-          </div>
-          <div className="GDArt_logo">
-            <img src={burgershake} alt="" />
           </div>
         </div>
         <div className="GDArt_item">
@@ -97,19 +97,19 @@ const GDArtwork = () => {
             <img src={DE2} alt="" />
           </div>
         </div>
-
         <div className="GDArt_item">
           <div className="hidden_text">
-            <h3>Photoshop AI Generation</h3>
-            <p>Using Photoshop AI Generation Tool to edit an image</p>
+            <h3>Illustrator Characters</h3>
+            <p>Characters made in Illustrator</p>
             <p>
               <a href="/ow-selector-app">Tap here</a> for more.
             </p>
           </div>
           <div className="GDArt_logo">
-            <img src={fox} alt="" />
+            <img src={burgershake} alt="" />
           </div>
         </div>
+
         <div className="GDArt_item">
           <div className="hidden_text">
             <h3>Illustrator SpaceX</h3>
