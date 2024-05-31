@@ -53,7 +53,7 @@ const BespokeMTB = () => {
             </span>
           </div>
           <div className="mtb_insp_logo_container">
-            <p>Inspiring Logos</p>
+            <p>Inspiring Logos from Client</p>
             <div className="bmtb_insp">
               <img src={mtbInsp1} alt="" />
               <img src={mtbInsp3} alt="" />
