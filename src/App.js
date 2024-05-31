@@ -15,6 +15,8 @@ import SideDrawer from "./components/SideDrawer/SideDrawer";
 import BackDrop from "./components/Backdrop/Backdrop";
 import GraphicDesign from "./Pages/GraphicDesign/GraphicDesign.jsx";
 
+import BespokeMTB from "./Pages/GraphicDesign/Branding/BespokeMTB/BespokeMTB.jsx";
+
 import FTH from "./Pages/WebDev/FTH/FTH";
 import IsBiscuit from "./Pages/WebDev/IsBiscuit/IsBiscuit.jsx";
 import Pev from "./Pages/WebDev/Pev/Pev";
@@ -78,6 +80,7 @@ class App extends Component {
             <Route path="/insuremypev" element={<Pev />} />
             <Route path="/ow-selector-app" element={<OwSelect />} />
             <Route path="/own" element={<Own />} />
+            <Route path="/bespokemtb" element={<BespokeMTB />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}
