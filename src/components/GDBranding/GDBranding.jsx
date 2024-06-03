@@ -31,7 +31,7 @@ const GDBranding = () => {
             <p>Brand design for a life coaching business</p>
           </div>
           <div className="GDBranding_logo">
-            <img src={buscardslogo} alt="" />
+            <img className="green_background" src={buscardslogo} alt="" />
           </div>
         </a>
         <a href="/pacificcalm" className="GDBranding_item">
