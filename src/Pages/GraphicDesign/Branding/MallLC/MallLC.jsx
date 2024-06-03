@@ -102,26 +102,29 @@ const MallLC = () => {
         <div className="mall_des_imgs">
           <h3>Design Process</h3>
           <div className="mall_des_process">
-            <div className="mall_des_item">
-              <p>Text Design</p>
-              <img src={MallNameDes} alt="" />
+            <div className="row-rev">
+              <div className="mall_des_item">
+                <p>Text Design</p>
+                <img src={MallNameDes} alt="" />
+              </div>
+              <div className="mall_des_item">
+                {/* <h2>About the Design Process</h2> */}
+                <p className="mall_des_text">
+                  Ipsum Lorem ipsum, dolor sit amet consectetur adipisicing
+                  elit. Eligendi quae quo ipsam perspiciatis expedita vitae
+                  quisquam alias beatae sunt culpa dolorum qui quia maxime vel,
+                  porro doloribus. Explicabo, nam impedit! Ipsum Lorem ipsum,
+                  dolor sit amet consectetur adipisicing elit. Eligendi quae quo
+                  ipsam perspiciatis expedita vitae quisquam alias beatae sunt
+                  culpa dolorum qui quia maxime vel, porro doloribus. Explicabo,
+                  nam impedit! Ipsum Lorem ipsum, dolor sit amet consectetur
+                  adipisicing elit. Eligendi quae quo ipsam perspiciatis
+                  expedita vitae quisquam alias beatae sunt culpa dolorum qui
+                  quia maxime vel, porro doloribus. Explicabo, nam impedit!
+                </p>
+              </div>
             </div>
-            <div className="mall_des_item">
-              <h2>About the Design Process</h2>
-              <p>
-                Ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Eligendi quae quo ipsam perspiciatis expedita vitae quisquam
-                alias beatae sunt culpa dolorum qui quia maxime vel, porro
-                doloribus. Explicabo, nam impedit! Ipsum Lorem ipsum, dolor sit
-                amet consectetur adipisicing elit. Eligendi quae quo ipsam
-                perspiciatis expedita vitae quisquam alias beatae sunt culpa
-                dolorum qui quia maxime vel, porro doloribus. Explicabo, nam
-                impedit! Ipsum Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Eligendi quae quo ipsam perspiciatis expedita
-                vitae quisquam alias beatae sunt culpa dolorum qui quia maxime
-                vel, porro doloribus. Explicabo, nam impedit!
-              </p>
-            </div>
+
             <div className="mall_des_item">
               <p>Icon Design</p>
               <img src={MallLogoDes} alt="" />
