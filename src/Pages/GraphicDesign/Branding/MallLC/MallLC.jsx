@@ -107,6 +107,22 @@ const MallLC = () => {
               <img src={MallNameDes} alt="" />
             </div>
             <div className="mall_des_item">
+              <h2>About the Design Process</h2>
+              <p>
+                Ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Eligendi quae quo ipsam perspiciatis expedita vitae quisquam
+                alias beatae sunt culpa dolorum qui quia maxime vel, porro
+                doloribus. Explicabo, nam impedit! Ipsum Lorem ipsum, dolor sit
+                amet consectetur adipisicing elit. Eligendi quae quo ipsam
+                perspiciatis expedita vitae quisquam alias beatae sunt culpa
+                dolorum qui quia maxime vel, porro doloribus. Explicabo, nam
+                impedit! Ipsum Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Eligendi quae quo ipsam perspiciatis expedita
+                vitae quisquam alias beatae sunt culpa dolorum qui quia maxime
+                vel, porro doloribus. Explicabo, nam impedit!
+              </p>
+            </div>
+            <div className="mall_des_item">
               <p>Icon Design</p>
               <img src={MallLogoDes} alt="" />
             </div>
