@@ -2,6 +2,12 @@ import React from "react";
 
 import MallLogo from "../../../../components/media/Business Cards Logo-05.png";
 import MallNameDes from "../../../../components/media/Name_design.png";
+import MallLogoDes from "../../../../components/media/Logo & Name Design-02.png";
+import MallSwatch from "../../../../components/media/Logo & Name Design-03.png";
+import MallBusCardFront from "../../../../components/media/Client Sample - Business Cards-04.jpg";
+import MallBusCardback from "../../../../components/media/Client Sample - Business Cards-03.jpg";
+import MallLetHead from "../../../../components/media/Letter Head.jpg";
+import MallBrandPack from "../../../../components/media/Branding Pack.png";
 
 import "./MallLC.scss";
 
@@ -95,9 +101,44 @@ const MallLC = () => {
         </div>
         <div className="mall_des_imgs">
           <h3>Design Process</h3>
-          <div className="mall_des_item">
-            <p>Text Design</p>
-            <img src={MallNameDes} alt="" />
+          <div className="mall_des_process">
+            <div className="mall_des_item">
+              <p>Text Design</p>
+              <img src={MallNameDes} alt="" />
+            </div>
+            <div className="mall_des_item">
+              <p>Icon Design</p>
+              <img src={MallLogoDes} alt="" />
+            </div>
+            <div className="mall_des_item">
+              <p>Color Design</p>
+              <img src={MallSwatch} alt="" />
+            </div>
+            <div className="mall_des_item">
+              <p>Final Logo Design</p>
+              <img src={MallLogo} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="mall_des_imgs">
+          <h3>Branding</h3>
+          <div className="mall_des_process">
+            <div className="mall_des_item">
+              <p>Business Card Front</p>
+              <img src={MallBusCardFront} alt="" />
+            </div>
+            <div className="mall_des_item">
+              <p>Business Card Back</p>
+              <img src={MallBusCardback} alt="" />
+            </div>
+            <div className="mall_des_item">
+              <p>Letter Head</p>
+              <img src={MallLetHead} alt="" />
+            </div>
+            <div className="mall_des_item">
+              <p>Branding Pack</p>
+              <img src={MallBrandPack} alt="" />
+            </div>
           </div>
         </div>
       </div>
