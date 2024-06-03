@@ -22,6 +22,7 @@ import IsBiscuit from "./Pages/WebDev/IsBiscuit/IsBiscuit.jsx";
 import Pev from "./Pages/WebDev/Pev/Pev";
 import OwSelect from "./Pages/WebDev/OwSelect/OwSelect.jsx";
 import Own from "./Pages/WebDev/Own/Own.jsx";
+import MallLC from "./Pages/GraphicDesign/Branding/MallLC/MallLC.jsx";
 
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -81,6 +82,7 @@ class App extends Component {
             <Route path="/ow-selector-app" element={<OwSelect />} />
             <Route path="/own" element={<Own />} />
             <Route path="/bespokemtb" element={<BespokeMTB />} />
+            <Route path="/mlc" element={<MallLC />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}
