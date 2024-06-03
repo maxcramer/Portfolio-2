@@ -96,7 +96,7 @@
           font-weight: 800;
         }
         p {
-          margin-top: 10p;
+          margin-top: 10px;
           font-size: 20px;
           font-weight: 300;
         }
@@ -143,6 +143,91 @@
         img {
           box-shadow: 5px 5px 10px lightgrey;
           width: 100%;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .bmtb_banner_parent {
+      height: 100vh;
+      padding-top: 0;
+      img {
+        width: 100vw;
+        height: auto;
+      }
+    }
+    .bmtb_parent {
+      .bmtb_title_container {
+        h1 {
+          font-size: 70px;
+        }
+      }
+      .bmtb_info {
+        flex-direction: column;
+        .bmtb_clientBrief {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 0;
+          span {
+            p {
+              font-size: 25px;
+            }
+          }
+        }
+        .mtb_insp_logo_container {
+          width: 100%;
+          p {
+            font-size: 25px;
+          }
+          .bmtb_insp {
+            img {
+              width: 100%;
+              height: auto;
+              max-height: 20rem;
+              margin-bottom: 1.5rem;
+            }
+          }
+        }
+      }
+      .bmtb_sketches {
+        flex-direction: column-reverse;
+        div {
+          width: 100%;
+          margin-left: 0;
+          p {
+            font-size: 25px;
+          }
+          h3 {
+            font-size: 30px;
+          }
+        }
+        img {
+          width: 100%;
+        }
+      }
+      .bmtb_ill_ideas {
+        flex-direction: column-reverse;
+        img {
+          width: 100%;
+        }
+        div {
+          margin-right: 0;
+          width: 100%;
+          h3 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 25px;
+          }
+        }
+      }
+      .bmtb_logos {
+        flex-direction: column;
+        div {
+          width: 100%;
+          p {
+            font-size: 25px;
+          }
         }
       }
     }
