@@ -9,9 +9,9 @@ import MDLH from "../../../../components/media/MDLetterHead.jpg";
 import MDS from "../../../../components/media/MDStationary.png";
 import MDBCF from "../../../../components/media/MDBusCardFront.png";
 import MDBCB from "../../../../components/media/MDBusCardBack.png";
-import MDFCF from '../../../../components/media/MDSnapback1.png';
+import MDFCF from "../../../../components/media/MDSnapback1.png";
 import MDFCS from "../../../../components/media/MDSnapback2.png";
-import MDPC from '../../../../components/media/MDPhoneCase.png';
+import MDPC from "../../../../components/media/MDPhoneCase.png";
 
 import "./MDZynes.scss";
 
@@ -135,11 +135,11 @@ const MDZynes = () => {
           <div className="md_forClient_imgs">
             <div>
               <p>Final Logo</p>
-              <img src={MDFCF} alt="" />
+              <img src={MDFCS} alt="" />
             </div>
             <div>
               <p>Final Logo</p>
-              <img src={MDFCS} alt="" />
+              <img src={MDFCF} alt="" />
             </div>
             <div>
               <p>Final Logo</p>
