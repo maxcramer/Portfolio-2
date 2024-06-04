@@ -52,7 +52,7 @@ const GDBranding = () => {
             <img src={MDZynes} alt="" />
           </div>
         </a>
-        <a href="/insuremypev" className="GDBranding_item">
+        <a href="/dynamix" className="GDBranding_item">
           <div className="hidden_text">
             <h3>DynaMix Packaging Design</h3>
             <p>Package design for a soda can.</p>
@@ -61,7 +61,7 @@ const GDBranding = () => {
             <img src={sodacans} alt="" />
           </div>
         </a>
-        <a href="/ow-selector-app" className="GDBranding_item">
+        <a href="/bodywash" className="GDBranding_item">
           <div className="hidden_text">
             <h3>Body Wash Label</h3>
             <p>Designing a Label for a Body Wash Brand</p>
@@ -70,7 +70,7 @@ const GDBranding = () => {
             <img src={bodywash} alt="" />
           </div>
         </a>
-        <a href="/insuremypev" className="GDBranding_item">
+        <a href="/videoflux" className="GDBranding_item">
           <div className="hidden_text">
             <h3>VideoFlux</h3>
             <p>A Logo for a new online streaming platform</p>
@@ -134,7 +134,7 @@ const GDBranding = () => {
             <h3>MD Zynes</h3>
             <p>Branding for Graphic Design Business</p>
             <p>
-              <a href="/is-biscuit">Tap here</a> for more.
+              <a href="/mdzynes">Tap here</a> for more.
             </p>
           </div>
           <div className="GDBranding_logo">
@@ -146,7 +146,7 @@ const GDBranding = () => {
             <h3>DynaMix Packaging Design</h3>
             <p>Package design for a soda can.</p>
             <p>
-              <a href="/insuremypev">Tap here</a> for more.
+              <a href="/dynamix">Tap here</a> for more.
             </p>
           </div>
           <div className="GDBranding_logo">
@@ -158,7 +158,7 @@ const GDBranding = () => {
             <h3>Body Wash Label</h3>
             <p>Designing a Label for a Body Wash Brand</p>
             <p>
-              <a href="/insuremypev">Tap here</a> for more.
+              <a href="/bodywash">Tap here</a> for more.
             </p>
           </div>
           <div className="GDBranding_logo">
@@ -170,7 +170,7 @@ const GDBranding = () => {
             <h3>VideoFlux</h3>
             <p>A Logo for a new online streaming platform</p>
             <p>
-              <a href="/insuremypev">Tap here</a> for more.
+              <a href="/videoflux">Tap here</a> for more.
             </p>
           </div>
           <div className="GDBranding_logo">
