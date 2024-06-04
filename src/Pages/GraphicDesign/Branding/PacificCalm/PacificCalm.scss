@@ -142,5 +142,63 @@
         }
       }
     }
+    @media only screen and (max-width: 800px) {
+      .pc_title_parent {
+        h1 {
+          font-size: 70px;
+          margin-top: 0.5rem;
+        }
+      }
+      .pc_briefSketches {
+        flex-direction: column;
+        .pc_brief {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 1rem;
+        }
+        .pc_sketches {
+          width: 100%;
+          h3 {
+            font-size: 30px;
+          }
+        }
+      }
+      .pc_process {
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+        div {
+          h3 {
+            font-size: 30px;
+          }
+        }
+
+        img {
+          width: 100%;
+          margin-right: 0;
+        }
+      }
+      .pc_process_cont {
+        flex-direction: column;
+        div {
+          max-width: 100%;
+          p {
+            font-size: 25px;
+          }
+        }
+      }
+      .pc_forClient {
+        flex-direction: column;
+        h3 {
+          font-size: 30px;
+        }
+        .pc_forClient_imgs {
+          flex-direction: column;
+          div {
+            max-width: 100%;
+            margin: 0.5rem 0;
+          }
+        }
+      }
+    }
   }
 }
