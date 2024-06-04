@@ -23,6 +23,7 @@ import Pev from "./Pages/WebDev/Pev/Pev";
 import OwSelect from "./Pages/WebDev/OwSelect/OwSelect.jsx";
 import Own from "./Pages/WebDev/Own/Own.jsx";
 import MallLC from "./Pages/GraphicDesign/Branding/MallLC/MallLC.jsx";
+import PacificCalm from "./Pages/GraphicDesign/Branding/PacificCalm/PacificCalm.jsx";
 
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -83,6 +84,7 @@ class App extends Component {
             <Route path="/own" element={<Own />} />
             <Route path="/bespokemtb" element={<BespokeMTB />} />
             <Route path="/mlc" element={<MallLC />} />
+            <Route path="/pacificcalm" element={<PacificCalm />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}

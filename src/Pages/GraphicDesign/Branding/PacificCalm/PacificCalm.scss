@@ -1,0 +1,27 @@
+.pc_container {
+  .pc_banner_parent {
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+    img {
+      width: 100vw;
+      height: auto;
+      overflow: hidden;
+      //   margin-top: -10rem;
+    }
+  }
+  .pc_info_container {
+    width: 80%;
+    margin: 2rem auto;
+    // margin-bottom: 2rem;
+    h1 {
+      font-size: 100px;
+      margin-bottom: 0;
+    }
+    p {
+      margin: 0;
+      font-size: 35px;
+      font-weight: 400;
+    }
+  }
+}
