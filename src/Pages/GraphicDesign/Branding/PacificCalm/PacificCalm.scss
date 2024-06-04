@@ -155,11 +155,19 @@
           width: 100%;
           margin-right: 0;
           margin-bottom: 1rem;
+          span {
+            p {
+              font-size: 25px;
+            }
+          }
         }
         .pc_sketches {
           width: 100%;
           h3 {
             font-size: 30px;
+          }
+          p {
+            font-size: 25px;
           }
         }
       }
@@ -169,6 +177,9 @@
         div {
           h3 {
             font-size: 30px;
+          }
+          p {
+            font-size: 25px;
           }
         }
 
