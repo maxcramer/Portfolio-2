@@ -116,5 +116,31 @@
         }
       }
     }
+    .pc_forClient {
+      width: 100%;
+      margin-top: 3rem;
+      h3 {
+        margin: 0;
+        font-size: 25px;
+        font-weight: 800;
+      }
+      .pc_forClient_imgs {
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        div {
+          max-width: 48%;
+          margin: 0.5rem;
+          img {
+            width: 100%;
+            box-shadow: 5px 5px 10px lightgrey;
+          }
+          p {
+            display: none;
+          }
+        }
+      }
+    }
   }
 }

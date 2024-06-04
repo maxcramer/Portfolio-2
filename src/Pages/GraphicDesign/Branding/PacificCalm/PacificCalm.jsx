@@ -6,7 +6,16 @@ import PcHands from "../../../../components/media/PacificCalmBranding-07.png";
 import PcSketches from "../../../../components/media/PacificCalmBranding-00.jpg";
 import PcIll01 from "../../../../components/media/PacificCalmBranding-01.png";
 import PcIll02 from "../../../../components/media/PacificCalmBranding-02.png";
+import PcIll09 from "../../../../components/media/PacificCalmBranding-09.png";
+import PcIll08 from "../../../../components/media/PacificCalmBranding-08.png";
+import PcIll10 from "../../../../components/media/PacificCalmBranding-10.png";
 import PcLogo from "../../../../components/media/PacificCalmLogo.png";
+import PcMock1 from "../../../../components/media/Pc_Mock_1.png";
+import PcMock2 from "../../../../components/media/Pc_Mock_2.png";
+import PcMock3 from "../../../../components/media/Pc_Mock_3.png";
+import PcMock4 from "../../../../components/media/Pc_Mock_4.png";
+import PcMock5 from "../../../../components/media/Pc_Mock_5.png";
+import PcMock6 from "../../../../components/media/Pc_Mock_6.png";
 
 import PcIll03 from "../../../../components/media/PacificCalmBranding-03.png";
 
@@ -139,7 +148,59 @@ const PacificCalm = () => {
           </div>
         </div>
         <div className="pc_forClient">
-          <img src="" alt="" />
+          <h3>Brief for Client</h3>
+          <div className="pc_forClient_imgs">
+            <div>
+              <p>Final Logo</p>
+              <img src={PcHands} alt="" />
+            </div>
+            <div>
+              <p>Final Logo</p>
+              <img src={PcFlowers} alt="" />
+            </div>
+            <div>
+              <p>Final Logo</p>
+              <img src={PcIll09} alt="" />
+            </div>
+            <div>
+              <p>Final Logo</p>
+              <img src={PcIll08} alt="" />
+            </div>
+            <div>
+              <p>Final Logo</p>
+              <img src={PcIll10} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="pc_forClient">
+          <h3>Product Mockup</h3>
+          <div className="pc_forClient_imgs">
+            <div>
+              <p>Final Logo</p>
+              <img src={PcMock6} alt="" />
+            </div>
+            <div>
+              <p>Final Logo</p>
+              <img src={PcMock2} alt="" />
+            </div>
+            <div>
+              <p>Final Logo</p>
+              <img src={PcMock4} alt="" />
+            </div>
+
+            <div>
+              <p>Final Logo</p>
+              <img src={PcMock3} alt="" />
+            </div>
+            <div>
+              <p>Final Logo</p>
+              <img src={PcMock1} alt="" />
+            </div>
+            <div>
+              <p>Final Logo</p>
+              <img src={PcMock5} alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
