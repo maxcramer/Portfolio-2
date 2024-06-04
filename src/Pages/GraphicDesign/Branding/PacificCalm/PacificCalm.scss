@@ -7,21 +7,114 @@
       width: 100vw;
       height: auto;
       overflow: hidden;
+      box-shadow: 5px 5px 10px lightgrey;
+
       //   margin-top: -10rem;
     }
   }
   .pc_info_container {
     width: 80%;
     margin: 2rem auto;
-    // margin-bottom: 2rem;
-    h1 {
-      font-size: 100px;
-      margin-bottom: 0;
+    // margin: 0 2rem;
+    .pc_title_parent {
+      margin: 2rem 0;
+      h1 {
+        font-size: 100px;
+        margin-bottom: 0;
+      }
+      p {
+        margin: 0;
+        font-size: 35px;
+        font-weight: 400;
+      }
     }
-    p {
-      margin: 0;
-      font-size: 35px;
-      font-weight: 400;
+    .pc_briefSketches {
+      display: flex;
+      flex-direction: row;
+      .pc_brief {
+        width: 40%;
+        margin-right: 2%;
+        margin-bottom: 4rem;
+        span {
+          margin-bottom: 0.5rem;
+
+          h3 {
+            margin: 0;
+            font-size: 30px;
+            font-weight: 800;
+          }
+          p {
+            margin-top: 0;
+            font-size: 20px;
+            font-weight: 300;
+          }
+          div {
+            margin-bottom: 1.2rem;
+            p {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+      .pc_sketches {
+        width: 60%;
+        img {
+          width: 100%;
+          box-shadow: 5px 5px 10px lightgrey;
+        }
+        h3 {
+          margin: 0;
+          font-size: 25px;
+          font-weight: 800;
+        }
+        p {
+          margin-top: 10px;
+          font-size: 20px;
+          font-weight: 300;
+        }
+      }
+    }
+    .pc_process {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      margin-top: 4rem;
+      img {
+        width: 50%;
+        box-shadow: 5px 5px 10px lightgrey;
+        margin-right: 2rem;
+      }
+      div {
+        h3 {
+          margin: 0;
+          font-size: 25px;
+          font-weight: 800;
+        }
+        p {
+          margin-top: 10px;
+          font-size: 20px;
+          font-weight: 300;
+        }
+      }
+    }
+    .pc_process_cont {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      div {
+        max-width: 48%;
+        margin: 1rem auto 0 auto;
+        p {
+          margin-bottom: 0;
+        }
+        img {
+          width: 100%;
+          box-shadow: 5px 5px 10px lightgrey;
+        }
+      }
     }
   }
 }
