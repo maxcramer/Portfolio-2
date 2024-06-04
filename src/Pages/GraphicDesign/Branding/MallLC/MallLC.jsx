@@ -8,6 +8,7 @@ import MallBusCardFront from "../../../../components/media/Client Sample - Busin
 import MallBusCardback from "../../../../components/media/Client Sample - Business Cards-03.jpg";
 import MallLetHead from "../../../../components/media/Letter Head.jpg";
 import MallBrandPack from "../../../../components/media/Branding Pack.png";
+import MLCSketch from "../../../../components/media/MLCSketches.jpg";
 
 import "./MallLC.scss";
 
@@ -98,17 +99,32 @@ const MallLC = () => {
               </div>
             </span>
           </div>
+          <div className="mall_sketch">
+            <h3>Sketching out initial ideas</h3>
+            <p>
+              ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Corrupti labore, nihil nisi dolorem ipsa quo. Velit enim eius
+              iure, voluptatum nemo, ipsum, facilis alias repellendus optio
+              laudantium dolore tenetur deleniti. ipsum Lorem ipsum, dolor sit
+              amet consectetur adipisicing elit. Corrupti labore, nihil nisi
+              dolorem ipsa quo. Velit enim eius iure, voluptatum nemo, ipsum,
+              facilis alias repellendus optio laudantium dolore tenetur
+              deleniti. ipsum Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Corrupti labore, nihil nisi dolorem ipsa quo.
+              Velit enim eius iure, voluptatum nemo, ipsum, facilis alias
+              repellendus optio laudantium dolore tenetur deleniti.
+            </p>
+            <img src={MLCSketch} alt="" />
+          </div>
         </div>
         <div className="mall_des_imgs">
-          <h3>Design Process</h3>
           <div className="mall_des_process">
             <div className="row-rev">
               <div className="mall_des_item">
-                <p>Text Design</p>
                 <img src={MallNameDes} alt="" />
               </div>
               <div className="mall_des_item">
-                {/* <h2>About the Design Process</h2> */}
+                <h3>Testing Ideas in Illustrator</h3>
                 <p className="mall_des_text">
                   Ipsum Lorem ipsum, dolor sit amet consectetur adipisicing
                   elit. Eligendi quae quo ipsam perspiciatis expedita vitae
