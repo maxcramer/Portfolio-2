@@ -110,7 +110,7 @@ const GDBranding = () => {
             <h3>Malluable Life Coaching</h3>
             <p>Brand design for a life coaching business</p>
             <p>
-              <a href="/ow-selector-app">Tap here</a> for more.
+              <a href="/mlc">Tap here</a> for more.
             </p>
           </div>
           <div className="GDBranding_logo">
@@ -122,7 +122,7 @@ const GDBranding = () => {
             <h3>Pacific Calm Logo</h3>
             <p>A Logo for a Health & wellness Spa.</p>
             <p>
-              <a href="/fth">Tap here</a> for more.
+              <a href="/pacificcalm">Tap here</a> for more.
             </p>
           </div>
           <div className="GDBranding_logo">

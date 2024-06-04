@@ -29,7 +29,10 @@ const MDZynes = () => {
         <div className="md_briefSketch">
           <div className="md_brief">
             <div className="md_brief_item">
-              <h3>Name? </h3> <p>MD Zynes</p>
+              <h3>Name? </h3>
+              <div>
+                <p>MD Zynes</p>
+              </div>
             </div>
             <div className="md_brief_item">
               <h3>What industry?</h3>
