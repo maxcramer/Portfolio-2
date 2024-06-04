@@ -116,19 +116,19 @@ const MDZynes = () => {
           <h3>Office Supply Mockups</h3>
           <div className="md_forClient_imgs">
             <div>
-              <p>Final Logo</p>
+              <p>Business Card Front</p>
               <img src={MDBCF} alt="" />
             </div>
             <div>
-              <p>Final Logo</p>
+              <p>Business Card Back</p>
               <img src={MDBCB} alt="" />
             </div>
             <div>
-              <p>Final Logo</p>
+              <p>Stationary Pack</p>
               <img src={MDS} alt="" />
             </div>
             <div>
-              <p>Final Logo</p>
+              <p>Letter Head</p>
               <img src={MDLH} alt="" />
             </div>
           </div>
@@ -137,15 +137,15 @@ const MDZynes = () => {
           <h3>Product Mockup</h3>
           <div className="md_forClient_imgs">
             <div>
-              <p>Final Logo</p>
+              <p>Flat Cap Side View</p>
               <img src={MDFCS} alt="" />
             </div>
             <div>
-              <p>Final Logo</p>
+              <p>Flat Cap Front View</p>
               <img src={MDFCF} alt="" />
             </div>
             <div>
-              <p>Final Logo</p>
+              <p>iPhone Case</p>
               <img src={MDPC} alt="" />
             </div>
           </div>
