@@ -131,44 +131,58 @@
       }
     }
   }
-}
-@media only screen and (max-width: 800px) {
-  .mall_banner_parent {
-    img {
-      width: 100%;
-    }
-  }
-  .mall_info_parent {
-    .mall_title_container {
-      h1 {
-        font-size: 70px;
+
+  @media only screen and (max-width: 800px) {
+    .mall_banner_parent {
+      img {
+        width: 100%;
       }
     }
-    .mall_info {
-      .mall_brief {
-        span {
-          p {
-            font-size: 25px;
-          }
+    .mall_info_parent {
+      .mall_title_container {
+        h1 {
+          font-size: 70px;
         }
       }
-    }
-    .mall_des_imgs {
-      .mall_des_process {
+      .mall_info {
         flex-direction: column;
-        .row-rev {
-          flex-direction: column-reverse;
-          margin-top: 1rem;
-          .mall_des_text {
-            font-size: 25px;
+        .mall_brief {
+          margin-right: 0;
+          width: 100%;
+          span {
+            p {
+              font-size: 25px;
+            }
           }
         }
-        .mall_des_item {
-          margin: 0.5rem 0;
+        .mall_sketch {
           width: 100%;
-          p {
-            font-size: 25px;
+        }
+      }
+      .mall_des_imgs {
+        .mall_des_process {
+          flex-direction: column;
+          .row-rev {
+            flex-direction: column-reverse;
             margin-top: 1rem;
+            .mall_des_text {
+              font-size: 25px;
+            }
+          }
+          .mall_des_item {
+            margin: 0.5rem 0;
+            width: 100%;
+            h3 {
+              padding-left: 0;
+            }
+            p {
+              font-size: 25px;
+              margin-top: 1rem;
+              padding-left: 0;
+            }
+            img {
+              margin-right: 0;
+            }
           }
         }
       }
