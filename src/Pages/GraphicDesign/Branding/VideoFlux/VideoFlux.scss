@@ -86,5 +86,54 @@
         }
       }
     }
+    @media only screen and (max-width: 800px) {
+      .vf_title_parent {
+        margin-bottom: 1rem;
+        h1 {
+          font-size: 70px;
+          margin-top: 0.5rem;
+        }
+      }
+      .vf_brief {
+        margin-bottom: 2rem;
+        div {
+          h3 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 25px;
+          }
+        }
+      }
+      .vf_process {
+        .vf_process_firstRow {
+          flex-direction: column-reverse;
+          div {
+            width: 100%;
+            h3 {
+              font-size: 30px;
+            }
+            p {
+              font-size: 25px;
+            }
+          }
+        }
+        .vf_process_secRow {
+          flex-direction: column;
+          div {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .vf_banner_container {
+      align-items: center;
+      img {
+        width: 100vw;
+        height: 50%;
+      }
+    }
   }
 }
