@@ -55,4 +55,40 @@
       }
     }
   }
+  @media only screen and (max-width: 800px) {
+    .bw_banner_parent {
+      img {
+        height: auto;
+        width: 100vw;
+      }
+    }
+    .bw_info_container {
+      .bw_title_parent {
+        h1 {
+          font-size: 70px;
+          margin-top: 0.5rem;
+        }
+      }
+      .bw_main_info {
+        flex-direction: column-reverse;
+        div {
+          width: 100%;
+          p {
+            font-size: 25px;
+          }
+          h3 {
+            font-size: 30px;
+          }
+        }
+        .bw_images {
+          flex-direction: column;
+          width: 100%;
+          img {
+            width: 100%;
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
 }
