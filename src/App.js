@@ -26,6 +26,7 @@ import MallLC from "./Pages/GraphicDesign/Branding/MallLC/MallLC.jsx";
 import PacificCalm from "./Pages/GraphicDesign/Branding/PacificCalm/PacificCalm.jsx";
 import MDZynes from "./Pages/GraphicDesign/Branding/MDZynes/MDZynes.jsx";
 import DynaMix from "./Pages/GraphicDesign/Branding/DynaMix/DynaMix.jsx";
+import BodyWash from "./Pages/GraphicDesign/Branding/BodyWash/BodyWash.jsx";
 
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -89,6 +90,7 @@ class App extends Component {
             <Route path="/pacificcalm" element={<PacificCalm />} />
             <Route path="/mdzynes" element={<MDZynes />} />
             <Route path="/dynamix" element={<DynaMix />} />
+            <Route path="/bodywash" element={<BodyWash />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}
