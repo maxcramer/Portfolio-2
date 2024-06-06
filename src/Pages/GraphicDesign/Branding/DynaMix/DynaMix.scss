@@ -1,0 +1,13 @@
+.dm_container {
+  .dm_banner_parent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #26a4ed;
+    height: 100vh;
+    img {
+      height: 80vh;
+    }
+  }
+}
