@@ -1,0 +1,27 @@
+.vf_container {
+  .vf_banner_container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #1fbfe5;
+    img {
+      height: 100%;
+    }
+  }
+  .vf_main_info_container {
+        width: 80%;
+    margin: 0 auto;
+    .vf_title_parent {
+      margin-bottom: 2rem;
+      h1 {
+        font-size: 100px;
+        margin-bottom: 0;
+      }
+      p {
+        margin: 0;
+        font-size: 35px;
+        font-weight: 400;
+      }
+    }
+  }
+}
