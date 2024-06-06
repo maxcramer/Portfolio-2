@@ -5,9 +5,62 @@
     align-items: center;
     justify-content: space-around;
     background-color: #26a4ed;
+    box-shadow: 5px 5px 10px lightgrey;
+
     height: 100vh;
     img {
       height: 80vh;
+    }
+  }
+  .dm_info_container {
+    margin: 2rem auto;
+    width: 80%;
+    h1 {
+      font-size: 100px;
+      margin-bottom: 0;
+    }
+    p {
+      margin: 0;
+      font-size: 35px;
+      font-weight: 400;
+    }
+    .dm_main_info {
+      margin-top: 2rem;
+      .dm_design_text {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        div {
+          width: 49%;
+          margin-bottom: 1rem;
+          img {
+            width: 100%;
+            box-shadow: 5px 5px 10px lightgrey;
+          }
+          h3 {
+            margin: 0;
+            font-size: 30px;
+            font-weight: 800;
+          }
+          p {
+            margin-top: 0;
+            font-size: 20px;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+    .dm_cans_imgs {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      div {
+        width: 49%;
+        img {
+          width: 100%;
+        }
+      }
     }
   }
 }
