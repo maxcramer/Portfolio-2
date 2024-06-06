@@ -40,7 +40,7 @@
           }
           h3 {
             margin: 0;
-            font-size: 30px;
+            font-size: 25px;
             font-weight: 800;
           }
           p {
@@ -59,6 +59,43 @@
         width: 49%;
         img {
           width: 100%;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .dm_banner_parent {
+      img {
+        height: auto;
+        width: 100vw;
+      }
+    }
+    .dm_title_parent {
+      h1 {
+        font-size: 70px;
+        margin-top: 0.5rem;
+      }
+    }
+    .dm_info_container {
+      .dm_main_info {
+        .dm_design_text {
+          flex-direction: column;
+          div {
+            width: 100%;
+            p {
+              font-size: 25px;
+            }
+            h3 {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+      .dm_cans_imgs {
+        flex-direction: column;
+        div {
+          width: 100%;
+          margin-bottom: 1rem;
         }
       }
     }
