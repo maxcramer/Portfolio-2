@@ -9,7 +9,7 @@ const BB = () => {
     <div className="bb_container">
       <div className="bb_title_parent">
         <h1>Bob's Burgers Movie Poster</h1>
-        <p>A Movie Poster Design for Bob's Burgers </p>
+        <p>A Poster Design for Promoting a Film </p>
       </div>
       <div className="bb_info_container">
         <div className="bb_poster">

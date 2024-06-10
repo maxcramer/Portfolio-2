@@ -1,21 +1,21 @@
 import React from "react";
 
-import GuiltPoster from "../../../../components/media/Moden 3.png";
+import JourneyPoster from "../../../../components/media/JourneyMovieOnewheel.png";
 
-import "./Guilt.scss";
+import "./Journey.scss";
 
-const Guilt = () => {
+const Journey = () => {
   return (
-    <div className="guilt_container">
-      <div className="guilt_title_parent">
-        <h1>Guilt Nightclub Poster</h1>
-        <p>A Poster for Promoting an Event </p>
+    <div className="journey_container">
+      <div className="journey_title_parent">
+        <h1>Journey Film Poster</h1>
+        <p>A poster for promoting a movie </p>
       </div>
-      <div className="guilt_info_container">
-        <div className="guilt_poster">
-          <img src={GuiltPoster} alt="" />
+      <div className="journey_info_container">
+        <div className="journey_poster">
+          <img src={JourneyPoster} alt="" />
         </div>
-        <div className="guilt_process">
+        <div className="journey_process">
           <h3>Process</h3>
           <p>
             ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -30,7 +30,7 @@ const Guilt = () => {
             mollitia, ut similique dignissimos ullam voluptatem impedit
             doloremque quidem veniam? Nesciunt, odit. Excepturi, nam?
           </p>
-          {/* <div className="guilt_process_img">
+          {/* <div className="journey_process_img">
             <p>Process & Reference Images</p>
             <img src={} alt="" />
           </div> */}
@@ -40,4 +40,4 @@ const Guilt = () => {
   );
 };
 
-export default Guilt;
+export default Journey;

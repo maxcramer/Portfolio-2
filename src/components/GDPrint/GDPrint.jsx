@@ -34,7 +34,7 @@ const GDPrint = () => {
             <img src={poster} alt="" />
           </div>
         </a>
-        <a href="/mdzynes" className="GDPrint_item">
+        <a href="/journey" className="GDPrint_item">
           <div className="hidden_text">
             <h3>Journey: A Onewheel Movie</h3>
             <p>A Poster Designed for Journey: A Onewheel Movie</p>
