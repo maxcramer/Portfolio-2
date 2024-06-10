@@ -32,6 +32,7 @@ import BB from "./Pages/GraphicDesign/Print/BB/BB.jsx";
 import Guilt from "./Pages/GraphicDesign/Print/Guilt/Guilt.jsx";
 import Journey from "./Pages/GraphicDesign/Print/Journey/Journey.jsx";
 import Gos from "./Pages/GraphicDesign/Print/Gos/Gos.jsx";
+import Mag from "./Pages/GraphicDesign/Print/Mag/Mag.jsx";
 
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -101,6 +102,7 @@ class App extends Component {
             <Route path="/guilt" element={<Guilt />} />
             <Route path="/journey" element={<Journey />} />
             <Route path="/gos" element={<Gos />} />
+            <Route path="/mag" element={<Mag />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}

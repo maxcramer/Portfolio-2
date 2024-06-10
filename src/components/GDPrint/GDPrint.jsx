@@ -52,7 +52,7 @@ const GDPrint = () => {
             <img src={bookcover} alt="" />
           </div>
         </a>
-        <a href="/mlc" className="GDPrint_item">
+        <a href="/mag" className="GDPrint_item">
           <div className="hidden_text">
             <h3>Magazine Spread</h3>
             <p>Designing Layout for Double Page Magazine Spread</p>

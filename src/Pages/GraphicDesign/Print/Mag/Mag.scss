@@ -1,0 +1,74 @@
+.Mag_container {
+  width: 80%;
+  margin: 0 auto;
+  .Mag_title_parent {
+    margin-bottom: 2rem;
+    h1 {
+      font-size: 100px;
+      margin-bottom: 0;
+    }
+    p {
+      margin: 0;
+      font-size: 35px;
+      font-weight: 400;
+    }
+  }
+  .Mag_info_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .Mag_poster {
+      width: 50%;
+      img {
+        width: 100%;
+        box-shadow: 5px 5px 10px lightgrey;
+      }
+    }
+    .Mag_process {
+      width: 48%;
+      display: flex;
+      flex-direction: column;
+      img {
+        width: 100%;
+        box-shadow: 5px 5px 10px lightgrey;
+      }
+      h3 {
+        margin: 0;
+        font-size: 25px;
+        font-weight: 800;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 300;
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .Mag_title_parent {
+      h1 {
+        font-size: 70px;
+      }
+    }
+    .Mag_info_container {
+      flex-direction: column-reverse;
+
+      .Mag_process {
+        width: 100%;
+        h3 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 25px;
+          margin-top: 1rem;
+          padding-left: 0;
+        }
+      }
+      .Mag_poster {
+        width: 100%;
+        margin: 2rem 0;
+      }
+    }
+  }
+}
