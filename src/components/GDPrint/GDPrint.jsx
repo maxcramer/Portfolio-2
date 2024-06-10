@@ -61,7 +61,7 @@ const GDPrint = () => {
             <img src={mag} alt="" />
           </div>
         </a>
-        <a href="/mlc" className="GDPrint_item">
+        <a href="/racenum" className="GDPrint_item">
           <div className="hidden_text">
             <h3>Race Numbers</h3>
             <p>Design for Race Bibs for Shred The Shires Festival</p>
