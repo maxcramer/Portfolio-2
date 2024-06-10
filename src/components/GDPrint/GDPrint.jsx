@@ -1,10 +1,10 @@
 import React from "react";
 
 import FTH_Logo from "../media/FTH_Logo.png";
-import bobs from "../media/FINAL POSTER.png";
+import bobs from "../media/BobsBurgersPosterSmaller.png";
 import bookcover from "../media/Book Cover Final boths sides 2.png";
 import poster from "../media/Moden FINAL.png";
-import journeyposter from "../media/Journey movie Poster.png";
+import journeyposter from "../media/JourneyMovieOnewheel.png";
 import mag from "../media/MagSpred1.png";
 import racebib from "../media/RaceBib.png";
 import cookbook from "../media/Cook Book-Digital.png";
