@@ -8,7 +8,7 @@ const Race = () => {
   return (
     <div className="race_container">
       <div className="race_title_parent">
-        <h1>Race Bib Numbers</h1>
+        <h1>Shred The Shires Race Bib Numbers</h1>
         <p>A Race Bib Number for a Onewheel Race Event</p>
       </div>
       <div className="race_info_container">
