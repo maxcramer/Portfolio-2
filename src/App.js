@@ -31,6 +31,7 @@ import VideoFlux from "./Pages/GraphicDesign/Branding/VideoFlux/VideoFlux.jsx";
 import BB from "./Pages/GraphicDesign/Print/BB/BB.jsx";
 import Guilt from "./Pages/GraphicDesign/Print/Guilt/Guilt.jsx";
 import Journey from "./Pages/GraphicDesign/Print/Journey/Journey.jsx";
+import Gos from "./Pages/GraphicDesign/Print/Gos/Gos.jsx";
 
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -99,6 +100,7 @@ class App extends Component {
             <Route path="/bbmovie" element={<BB />} />
             <Route path="/guilt" element={<Guilt />} />
             <Route path="/journey" element={<Journey />} />
+            <Route path="/gos" element={<Gos />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}

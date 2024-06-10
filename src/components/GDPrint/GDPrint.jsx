@@ -43,7 +43,7 @@ const GDPrint = () => {
             <img src={journeyposter} alt="" />
           </div>
         </a>
-        <a href="/mlc" className="GDPrint_item">
+        <a href="/gos" className="GDPrint_item">
           <div className="hidden_text">
             <h3>The Garden of Secrets</h3>
             <p>Book Cover Design for a book about Gardening</p>
