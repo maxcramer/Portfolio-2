@@ -34,6 +34,7 @@ import Journey from "./Pages/GraphicDesign/Print/Journey/Journey.jsx";
 import Gos from "./Pages/GraphicDesign/Print/Gos/Gos.jsx";
 import Mag from "./Pages/GraphicDesign/Print/Mag/Mag.jsx";
 import Race from "./Pages/GraphicDesign/Print/Race/Race.jsx";
+import CB from "./Pages/GraphicDesign/Print/CB/CB.jsx";
 
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -105,6 +106,7 @@ class App extends Component {
             <Route path="/gos" element={<Gos />} />
             <Route path="/mag" element={<Mag />} />
             <Route path="/racenum" element={<Race />} />
+            <Route path="/cookbook" element={<CB />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}

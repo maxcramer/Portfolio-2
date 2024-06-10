@@ -70,7 +70,7 @@ const GDPrint = () => {
             <img src={racebib} alt="" />
           </div>
         </a>
-        <a href="/mlc" className="GDPrint_item">
+        <a href="/cookbook" className="GDPrint_item">
           <div className="hidden_text">
             <h3>Cook Book Design & Layout</h3>
             <p>A Dessert Cook Book fully Designed and laid out</p>
