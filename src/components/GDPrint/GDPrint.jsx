@@ -25,7 +25,7 @@ const GDPrint = () => {
             <img src={bobs} alt="" />
           </div>
         </a>
-        <a href="/pacificcalm" className="GDPrint_item">
+        <a href="/guilt" className="GDPrint_item">
           <div className="hidden_text">
             <h3>Night Club Poster</h3>
             <p>A Promotional Poster for a Nightclub Event</p>
