@@ -32,7 +32,7 @@ const GDArtwork = () => {
             <img src={poptext} alt="" />
           </div>
         </a>
-        <a href="/doubleexposure" className="GDArt_item">
+        <a href="/double-e" className="GDArt_item">
           <div className="hidden_text">
             <h3>Double Exposure</h3>
             <p>A few projects practicing double exposure.</p>
@@ -90,7 +90,7 @@ const GDArtwork = () => {
             <h3>Double Exposure</h3>
             <p>A few projects practicing double exposure.</p>
             <p>
-              <a href="/doubleexposure">Tap here</a> for more.
+              <a href="/double-e">Tap here</a> for more.
             </p>
           </div>
           <div className="GDArt_logo">
