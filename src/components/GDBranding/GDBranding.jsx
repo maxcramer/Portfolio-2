@@ -13,7 +13,7 @@ import "./GDBranding.scss";
 
 const GDBranding = () => {
   return (
-    <div className="branding_container">
+    <div className="branding_container" id="branding">
       <h2>Branding</h2>
       <div className="branding_items_parent">
         <a href="/bespokemtb" className="GDBranding_item">

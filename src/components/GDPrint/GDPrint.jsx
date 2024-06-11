@@ -12,7 +12,7 @@ import cookbook from "../media/Cook Book-Digital.png";
 import "./GDPrint.scss";
 const GDPrint = () => {
   return (
-    <div className="print_container">
+    <div className="print_container" id="print">
       <h2>Print</h2>
       <div className="print_items_parent">
         {" "}

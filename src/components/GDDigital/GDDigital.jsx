@@ -6,7 +6,7 @@ import YTTravel from "../media/TravelThumbnail.png";
 import "./GDDigital.scss";
 const GDDigital = () => {
   return (
-    <div className="digital_container">
+    <div className="digital_container" id="digital">
       <h2>Digital</h2>
       <div className="digital_items_parent">
         <a href="/seltzer" className="GDDig_item">

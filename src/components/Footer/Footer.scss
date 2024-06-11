@@ -1,4 +1,4 @@
-#footer {
+.footer_container {
   background-color: black;
   color: white;
   padding-bottom: 1rem;
@@ -7,11 +7,43 @@
   width: 100%;
   padding-top: 10px;
   // margin-top: 4rem;
-  height: 50px;
+  height: auto;
   text-align: center;
   position: relative;
   bottom: 0;
   // z-index: 100;
   // position: absolute;
   left: 0;
+  .footer_info {
+    width: 50%;
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 2rem;
+    div {
+      width: auto;
+      max-width: 28%;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      h5 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-size: 20px;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 0;
+        font-size: 15px;
+      }
+      a:hover {
+        cursor: pointer;
+        color: lightgrey;
+        text-decoration: underline;
+      }
+    }
+  }
 }
