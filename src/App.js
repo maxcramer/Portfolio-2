@@ -36,6 +36,7 @@ import Mag from "./Pages/GraphicDesign/Print/Mag/Mag.jsx";
 import Race from "./Pages/GraphicDesign/Print/Race/Race.jsx";
 import CB from "./Pages/GraphicDesign/Print/CB/CB.jsx";
 import Seltzer from "./Pages/GraphicDesign/Digital/Seltzer/Seltzer.jsx";
+import TravTips from "./Pages/GraphicDesign/Digital/TravTips/TravTips.jsx";
 
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -109,6 +110,7 @@ class App extends Component {
             <Route path="/racenum" element={<Race />} />
             <Route path="/cookbook" element={<CB />} />
             <Route path="/seltzer" element={<Seltzer />} />
+            <Route path="/travelhack" element={<TravTips />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}

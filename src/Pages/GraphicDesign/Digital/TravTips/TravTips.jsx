@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
-import TravTipsImg from '../../../../components/media/TravelThumbnail.png';
+import TravTipsImg from "../../../../components/media/TravelThumbnail.png";
 
-import './TravTips.scss';
+import "./TravTips.scss";
 
 const TravTips = () => {
   return (
     <div className="tt_container">
       <div className="tt_title_parent">
-        <h1>The Ultimate Seltzer Tate Test</h1>
+        <h1>Travel Hacks</h1>
         <p>A Thumbmail for a Youtube Video</p>
       </div>
       <div className="tt_main_info">
@@ -17,20 +17,19 @@ const TravTips = () => {
           <div className="tt_brief">
             <div>
               <h4>Video Name: </h4>
-              <p>The Ultimate Seltzer Taste Test</p>
+              <p>Travel Hacks</p>
             </div>
             <div>
               <h4>Video Type: </h4>
-              <p>Product Review</p>
+              <p>Travel Tips</p>
             </div>
             <div>
               <h4>Description: </h4>
               <p>
-                This video will feature 30 different seltzer soda brands in an
-                ultimate showdown for taste and overall flavor. Your goal is to
-                create an eye-catching thumbnail that can grab viewers but also
-                communicate the video’s main premise. You can choose to use the
-                supplied graphic or use your own.
+                A travel channel is launching a new video on YouTube that will
+                feature several travel hacks. It needs to feature a young lady
+                as she is the host of the channel. She wants it light and airy
+                with a soft color palette.
               </p>
             </div>
           </div>
@@ -39,6 +38,6 @@ const TravTips = () => {
       </div>
     </div>
   );
-}
+};
 
-export default TravTips
+export default TravTips;
