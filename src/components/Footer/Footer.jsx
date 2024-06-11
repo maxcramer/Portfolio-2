@@ -7,6 +7,7 @@ function Footer() {
     <div className="footer_container">
       <div className="footer_info">
         <div>
+          <h5>Directory</h5>
           <a href="/">Home</a>
           <a href="/GD">Graphic Design</a>
           <a href="/web-development">UI & UX / Web Development</a>
