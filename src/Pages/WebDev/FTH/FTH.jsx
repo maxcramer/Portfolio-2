@@ -1,6 +1,5 @@
 import React from "react";
 
-import MyMovie from "../../../components/media/MyMovie.mp4";
 import FTH_Desktop_Home from "../../../components/media/fth_home_desktop.png";
 import FTH_Mobile_Home from "../../../components/media/fth_home_mobile.png";
 import FTH_Hover from "../../../components/media/fth_home_hoverstate2.png";

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-import MyMovie from "../media/MyMovie.mp4";
 import "./HeadBanner.scss";
 
 function HeadBanner() {
@@ -17,8 +16,33 @@ function HeadBanner() {
         <h3>Web Developer</h3>
         <h5>Javascript | React | Angular | Sass | HTML5</h5>
       </div>
-      <video id="header_video" autoPlay loop muted playsInline preload="auto">
-        <source src={MyMovie} type="video/mp4" />
+      <video
+        id="header_video"
+        className="vid_desktop"
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="auto"
+      >
+        <source
+          src="https://firebasestorage.googleapis.com/v0/b/funkynana-bf9f1.appspot.com/o/Portfolio%20Video%20Desktop.mp4?alt=media&token=4cd23566-ffe0-4f1d-8ad3-8cab06e5ea4a"
+          type="video/mp4"
+        />
+      </video>
+      <video
+        id="header_video"
+        className="vid_mobile"
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="auto"
+      >
+        <source
+          src="https://firebasestorage.googleapis.com/v0/b/funkynana-bf9f1.appspot.com/o/Portfolio%20Vid%20Mobile.mp4?alt=media&token=668cd040-2736-4af9-8494-f2de9b7f2f02"
+          type="video/mp4"
+        />
       </video>
     </div>
   );

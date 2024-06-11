@@ -2,8 +2,6 @@ import React from "react";
 
 import "./Onewheel.scss";
 
-import MyMovie from "../../components/media/MyMovie.mp4";
-import vid23 from "../../components/media/1713885433445.mp4";
 import onewheeltext from "../../components/media/onewheeltext.png";
 import stoke from "../../components/media/stokesolutions.jpg";
 import goat from "../../components/media/goatdrinks.webp";
@@ -20,7 +18,10 @@ const Onewheel = () => {
         <img src={onewheeltext} alt="" className="onewheel_banner_title" />
         <div className="full_opaque_background"></div>
         <video id="header_video" autoPlay loop muted playsInline preload="auto">
-          <source src={MyMovie} type="video/mp4" />
+          <source
+            src="https://firebasestorage.googleapis.com/v0/b/funkynana-bf9f1.appspot.com/o/MyMovie.mp4?alt=media&token=6d6b44e3-49ee-4584-86af-0dba54f5641b"
+            type="video/mp4"
+          />
         </video>
       </div>
 
@@ -103,7 +104,10 @@ const Onewheel = () => {
               playsInline
               preload="auto"
             >
-              <source src={vid23} type="video/mp4" />
+              <source
+                src="https://firebasestorage.googleapis.com/v0/b/funkynana-bf9f1.appspot.com/o/1713885433445.mp4?alt=media&token=5a611238-c327-4a12-a595-2c3613a375a7"
+                type="video/mp4"
+              />
             </video>
             <p className="video_text">2023 Show Reel</p>
           </div>

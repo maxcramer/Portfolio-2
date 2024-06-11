@@ -67,6 +67,14 @@
   font-weight: 300;
 }
 
+.vid_desktop {
+  display: block;
+}
+
+.vid_mobile {
+  display: none;
+}
+
 @media (max-width: 550px) {
   .banner_container {
     height: 80vh;
@@ -90,5 +98,12 @@
 
   .full_opaque_background {
     height: 100%;
+  }
+  .vid_desktop {
+    display: none;
+  }
+
+  .vid_mobile {
+    display: block;
   }
 }
