@@ -38,6 +38,9 @@ import CB from "./Pages/GraphicDesign/Print/CB/CB.jsx";
 import Seltzer from "./Pages/GraphicDesign/Digital/Seltzer/Seltzer.jsx";
 import TravTips from "./Pages/GraphicDesign/Digital/TravTips/TravTips.jsx";
 import Fox from "./Pages/GraphicDesign/Artwork/Fox/Fox.jsx";
+import ThreeDText from "./Pages/GraphicDesign/Artwork/ThreeDText/ThreeDText.jsx";
+import DoubleExposure from "./Pages/GraphicDesign/Artwork/DoubleExposure/DoubleExposure.jsx";
+import CharIll from "./Pages/GraphicDesign/Artwork/CharIll/CharIll.jsx";
 
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -113,6 +116,9 @@ class App extends Component {
             <Route path="/seltzer" element={<Seltzer />} />
             <Route path="/travelhack" element={<TravTips />} />
             <Route path="/fox" element={<Fox />} />
+            <Route path="/3dtext" element={<ThreeDText />} />
+            <Route path="/double-e" element={<DoubleExposure />} />
+            <Route path="/charill" element={<CharIll />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}
