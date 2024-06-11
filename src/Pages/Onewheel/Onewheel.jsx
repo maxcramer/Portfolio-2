@@ -140,7 +140,7 @@ const Onewheel = () => {
               competition and festival in England. This is on a voluntary basis
               to help grow the community. Max had for many years previously
               tried to set up these events, but was unable to locate a venue
-              willing to host. Luckily, those with contacts to locations ands
+              willing to host. Luckily, those with contacts to locations and
               private land have recently come to the onewheel community, and
               were able to provide their expertise.
             </p>

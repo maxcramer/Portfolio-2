@@ -86,7 +86,7 @@ const GDPrint = () => {
             <h3>Bob's Burgers: The Movie - Poster</h3>
             <p>A Poster Design for Bob's Burgers: The Movie</p>
             <p>
-              <a href="/bespokemtb">Tap here</a> for more.
+              <a href="/bbmovie">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
@@ -98,7 +98,7 @@ const GDPrint = () => {
             <h3>Night Club Poster</h3>
             <p>A Promotional Poster for a Nightclub Event</p>
             <p>
-              <a href="/ow-selector-app">Tap here</a> for more.
+              <a href="/guilt">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
@@ -110,7 +110,7 @@ const GDPrint = () => {
             <h3>Journey: A Onewheel Movie</h3>
             <p>A Poster Designed for Journey: A Onewheel Movie</p>
             <p>
-              <a href="/fth">Tap here</a> for more.
+              <a href="/journey">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
@@ -122,7 +122,7 @@ const GDPrint = () => {
             <h3>The Garden of Secrets</h3>
             <p>Book Cover Design for a book about Gardening</p>
             <p>
-              <a href="/is-biscuit">Tap here</a> for more.
+              <a href="/gos">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
@@ -132,9 +132,9 @@ const GDPrint = () => {
         <div className="GDPrint_item">
           <div className="hidden_text">
             <h3>Magazine Spread</h3>
-            <p>Designing Layout for Double Page Magazine Spread</p>
+            <p>Designing Layout for a Magazine</p>
             <p>
-              <a href="/insuremypev">Tap here</a> for more.
+              <a href="/mag">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
@@ -148,7 +148,7 @@ const GDPrint = () => {
             <p>Design for Race Bibs for Shred The Shires Festival</p>
 
             <p>
-              <a href="/insuremypev">Tap here</a> for more.
+              <a href="/racenum">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
@@ -160,7 +160,7 @@ const GDPrint = () => {
             <h3>Cook Book Design & Layout</h3>
             <p>A Dessert Cook Book fully Designed and laid out</p>
             <p>
-              <a href="/insuremypev">Tap here</a> for more.
+              <a href="/cookbook">Tap here</a> for more.
             </p>
           </div>
           <div className="GDPrint_logo">
