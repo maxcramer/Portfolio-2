@@ -9,7 +9,7 @@ const GDDigital = () => {
     <div className="digital_container">
       <h2>Digital</h2>
       <div className="digital_items_parent">
-        <a href="/bbmovie" className="GDDig_item">
+        <a href="/seltzer" className="GDDig_item">
           <div className="hidden_text">
             <h3>Taste Test</h3>
             <p>A Youtube Thumbnail for a Video Reviewing Seltzers</p>
@@ -18,7 +18,7 @@ const GDDigital = () => {
             <img src={YTCans} alt="" />
           </div>
         </a>
-        <a href="/pacificcalm" className="GDDig_item">
+        <a href="/travelhack" className="GDDig_item">
           <div className="hidden_text">
             <h3>Travel Hacks</h3>
             <p>A Youtube Thumbnail for a Travel Hacks Video </p>
@@ -34,7 +34,7 @@ const GDDigital = () => {
             <h3>Taste Test</h3>
             <p>A Youtube Thumbnail for a Video Reviewing Seltzers</p>
             <p>
-              <a href="/bespokemtb">Tap here</a> for more.
+              <a href="/seltzer">Tap here</a> for more.
             </p>
           </div>
           <div className="GDDig_logo">
@@ -46,7 +46,7 @@ const GDDigital = () => {
             <h3>Travel Hacks</h3>
             <p>A Youtube Thumbnail for a Travel Hacks Video </p>
             <p>
-              <a href="/ow-selector-app">Tap here</a> for more.
+              <a href="/travelhack">Tap here</a> for more.
             </p>
           </div>
           <div className="GDDig_logo">
