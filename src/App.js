@@ -37,6 +37,7 @@ import Race from "./Pages/GraphicDesign/Print/Race/Race.jsx";
 import CB from "./Pages/GraphicDesign/Print/CB/CB.jsx";
 import Seltzer from "./Pages/GraphicDesign/Digital/Seltzer/Seltzer.jsx";
 import TravTips from "./Pages/GraphicDesign/Digital/TravTips/TravTips.jsx";
+import Fox from "./Pages/GraphicDesign/Artwork/Fox/Fox.jsx";
 
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -111,6 +112,7 @@ class App extends Component {
             <Route path="/cookbook" element={<CB />} />
             <Route path="/seltzer" element={<Seltzer />} />
             <Route path="/travelhack" element={<TravTips />} />
+            <Route path="/fox" element={<Fox />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}

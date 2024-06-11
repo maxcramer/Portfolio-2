@@ -14,7 +14,7 @@ const GDArtwork = () => {
       <h2>Artwork</h2>
       <div className="artwork_items_parent">
         {" "}
-        <a href="/bbmovie" className="GDArt_item">
+        <a href="/fox" className="GDArt_item">
           <div className="hidden_text">
             <h3>Photoshop AI Generation</h3>
             <p>Using Photoshop AI Generation Tool to edit an image</p>
@@ -23,7 +23,7 @@ const GDArtwork = () => {
             <img src={fox} alt="" />
           </div>
         </a>
-        <a href="/bbmovie" className="GDArt_item">
+        <a href="/3dtext" className="GDArt_item">
           <div className="hidden_text">
             <h3>3D Effect</h3>
             <p>Testing 3D effects in Illustrator</p>
@@ -32,7 +32,7 @@ const GDArtwork = () => {
             <img src={poptext} alt="" />
           </div>
         </a>
-        <a href="/pacificcalm" className="GDArt_item">
+        <a href="/doubleexposure" className="GDArt_item">
           <div className="hidden_text">
             <h3>Double Exposure</h3>
             <p>A few projects practicing double exposure.</p>
@@ -41,7 +41,7 @@ const GDArtwork = () => {
             <img src={DE2} alt="" />
           </div>
         </a>
-        <a href="/pacificcalm" className="GDArt_item">
+        <a href="/charill" className="GDArt_item">
           <div className="hidden_text">
             <h3>Illustrator Characters</h3>
             <p>Characters made in Illustrator</p>
@@ -50,7 +50,7 @@ const GDArtwork = () => {
             <img src={burgershake} alt="" />
           </div>
         </a>
-        <a href="/pacificcalm" className="GDArt_item">
+        <a href="/spacex" className="GDArt_item">
           <div className="hidden_text">
             <h3>Illustrator SpaceX</h3>
             <p>SpaceX Rocket made in Illustrator</p>
@@ -66,7 +66,7 @@ const GDArtwork = () => {
             <h3>Photoshop AI Generation</h3>
             <p>Using Photoshop AI Generation Tool to edit an image</p>
             <p>
-              <a href="/ow-selector-app">Tap here</a> for more.
+              <a href="/fox">Tap here</a> for more.
             </p>
           </div>
           <div className="GDArt_logo">
@@ -78,7 +78,7 @@ const GDArtwork = () => {
             <h3>3D Effect</h3>
             <p>Testing 3D effects in Illustrator</p>
             <p>
-              <a href="/bespokemtb">Tap here</a> for more.
+              <a href="/3dtext">Tap here</a> for more.
             </p>
           </div>
           <div className="GDArt_logo">
@@ -90,7 +90,7 @@ const GDArtwork = () => {
             <h3>Double Exposure</h3>
             <p>A few projects practicing double exposure.</p>
             <p>
-              <a href="/ow-selector-app">Tap here</a> for more.
+              <a href="/doubleexposure">Tap here</a> for more.
             </p>
           </div>
           <div className="GDArt_logo">
@@ -102,7 +102,7 @@ const GDArtwork = () => {
             <h3>Illustrator Characters</h3>
             <p>Characters made in Illustrator</p>
             <p>
-              <a href="/ow-selector-app">Tap here</a> for more.
+              <a href="/charill">Tap here</a> for more.
             </p>
           </div>
           <div className="GDArt_logo">
@@ -115,7 +115,7 @@ const GDArtwork = () => {
             <h3>Illustrator SpaceX</h3>
             <p>SpaceX Rocket made in Illustrator</p>
             <p>
-              <a href="/ow-selector-app">Tap here</a> for more.
+              <a href="/spacex">Tap here</a> for more.
             </p>
           </div>
           <div className="GDArt_logo">
