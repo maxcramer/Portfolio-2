@@ -74,11 +74,13 @@ const MDZynes = () => {
           <div className="md_sketch">
             <h3>Sketching out initial ideas</h3>
             <p>
-              ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Illum, porro dolores eum aliquid consequuntur inventore, eius
-              laborum earum vitae animi sunt! Velit cupiditate distinctio sint
-              dolore veritatis unde quidem temporibus. ipsum Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Illum, porro dolores eum
+              Initially with this project, thinking about nineties style
+              characters, with bold and bright colors, and 3D lettering. I also
+              played around with a few other ideas such as having a more text
+              based logo with characters coming out of it, as if it were a
+              playground. I also attempted to put the name into a face, making
+              the M and D the eyebrows, while the teeth would spell out the
+              "Zynes" part of the name.
             </p>
             <img src={MDSketches} alt="" />
           </div>
@@ -88,17 +90,22 @@ const MDZynes = () => {
           <div>
             <h3>Testing Ideas in Illustrator</h3>
             <p>
-              Ipsum Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Non natus deserunt asperiores, amet ab distinctio accusamus et
-              odit commodi eum minima quas aliquam, ratione error molestias
-              quisquam cumque earum dicta. Ipsum Lorem ipsum dolor sit amet
-              consectetur, adipisicing elit. Non natus deserunt asperiores, amet
-              ab distinctio accusamus et odit commodi eum minima quas aliquam,
-              ratione error molestias quisquam cumque earum dicta. Ipsum Lorem
-              ipsum dolor sit amet consectetur, adipisicing elit. Non natus
-              deserunt asperiores, amet ab distinctio accusamus et odit commodi
-              eum minima quas aliquam, ratione error molestias quisquam cumque
-              earum dicta.
+              I started off by trying to create the character in a pose with the
+              arms coming out, but after some time, started to play with just
+              the face as an icon with the text.
+              <br />
+              I then went back to the idea of having the character with their
+              arms spread out almost hugging around the logo. I tried to trace
+              this pose from an image but was not happy with the end result.
+              <br />
+              At this point I got a bit distracted and started creating
+              illustration versions of my old tag from when I was younger, TONS.
+              <br />
+              After playing around with this style, I started to see if this
+              could work for the logo. I came to the conclusion that the best
+              result was a mix of both. Using the MD in the Throwie graffiti
+              style, while using a bold and clean Sans Serif font to pair with
+              it.
             </p>
           </div>
         </div>
