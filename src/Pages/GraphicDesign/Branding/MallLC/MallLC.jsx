@@ -102,17 +102,15 @@ const MallLC = () => {
           <div className="mall_sketch">
             <h3>Sketching out initial ideas</h3>
             <p>
-              ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Corrupti labore, nihil nisi dolorem ipsa quo. Velit enim eius
-              iure, voluptatum nemo, ipsum, facilis alias repellendus optio
-              laudantium dolore tenetur deleniti. ipsum Lorem ipsum, dolor sit
-              amet consectetur adipisicing elit. Corrupti labore, nihil nisi
-              dolorem ipsa quo. Velit enim eius iure, voluptatum nemo, ipsum,
-              facilis alias repellendus optio laudantium dolore tenetur
-              deleniti. ipsum Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Corrupti labore, nihil nisi dolorem ipsa quo.
-              Velit enim eius iure, voluptatum nemo, ipsum, facilis alias
-              repellendus optio laudantium dolore tenetur deleniti.
+              Here I started by sketching out some very simple Icons that could
+              work for the brand. Simplistic yet detailed. I was trying to
+              create an icon and shape that looked flexible, and could show off
+              a metallic style well.
+              <br />
+              During sketching out ideas, I also tried to incorporate the icon
+              as part of the letterings of the business name. Unfortunately
+              during this time I could not design something I felt would work or
+              be appropriate for the client, so did not take this any further.
             </p>
             <img src={MLCSketch} alt="" />
           </div>
@@ -126,17 +124,17 @@ const MallLC = () => {
               <div className="mall_des_item">
                 <h3>Testing Ideas in Illustrator</h3>
                 <p className="mall_des_text">
-                  Ipsum Lorem ipsum, dolor sit amet consectetur adipisicing
-                  elit. Eligendi quae quo ipsam perspiciatis expedita vitae
-                  quisquam alias beatae sunt culpa dolorum qui quia maxime vel,
-                  porro doloribus. Explicabo, nam impedit! Ipsum Lorem ipsum,
-                  dolor sit amet consectetur adipisicing elit. Eligendi quae quo
-                  ipsam perspiciatis expedita vitae quisquam alias beatae sunt
-                  culpa dolorum qui quia maxime vel, porro doloribus. Explicabo,
-                  nam impedit! Ipsum Lorem ipsum, dolor sit amet consectetur
-                  adipisicing elit. Eligendi quae quo ipsam perspiciatis
-                  expedita vitae quisquam alias beatae sunt culpa dolorum qui
-                  quia maxime vel, porro doloribus. Explicabo, nam impedit!
+                  As it was important to have the name in the logo, I stated to
+                  play around with typography and different fonts.
+                  <br />
+                  After finding one I liked, I started trying different spacing
+                  between the letters and adding an icon.
+                  <br />
+                  Next I took their need for a metallic look from the design
+                  brief and started trying different parts of the logo in a gold
+                  color. I believed gold would go well with the brand as they
+                  sell them self as a high end product, directed at high
+                  achievers.
                 </p>
               </div>
             </div>
