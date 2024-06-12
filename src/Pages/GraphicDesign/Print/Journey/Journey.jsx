@@ -18,17 +18,13 @@ const Journey = () => {
         <div className="journey_process">
           <h3>Process</h3>
           <p>
-            ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Saepe, sit sed repellendus quia id magni quaerat, mollitia, ut
-            similique dignissimos ullam voluptatem impedit doloremque quidem
-            veniam? Nesciunt, odit. Excepturi, nam? ipsum Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Saepe, sit sed repellendus quia
-            id magni quaerat, mollitia, ut similique dignissimos ullam
-            voluptatem impedit doloremque quidem veniam? Nesciunt, odit.
-            Excepturi, nam? ipsum Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Saepe, sit sed repellendus quia id magni quaerat,
-            mollitia, ut similique dignissimos ullam voluptatem impedit
-            doloremque quidem veniam? Nesciunt, odit. Excepturi, nam?
+            I set myself the task of creating a movie poster. During this
+            project I learnt about how the credits were laid out. This was a
+            great opportunity for me to practice my Photoshop skills.
+            <br />
+            It was interesting to learn with all the different text sizing in
+            the credits at the bottom. Especially how it is common practice to
+            shrink any words down that are not names such as titles.
           </p>
           {/* <div className="journey_process_img">
             <p>Process & Reference Images</p>
