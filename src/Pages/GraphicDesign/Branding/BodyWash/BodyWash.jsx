@@ -24,15 +24,19 @@ const BodyWash = () => {
             <img src={BW3} alt="" />
           </div>
           <div>
-            <h3>Title For shiz </h3>
+            <h3>About the Project</h3>
             <p>
-              ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Vero, quibusdam esse aspernatur nemo sint maxime dolore placeat
-              natus at facilis rerum est aliquid dolorem repellat nisi possimus
-              dignissimos architecto hic. ipsum Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Vero, quibusdam esse aspernatur nemo
-              sint maxime dolore placeat natus at facilis rerum est aliquid
-              dolorem repellat nisi possimus dignissimos architecto hic.
+              Wanting to further practice my Dimensions skills, I decided to
+              create a brand for a body wash business.
+              <br />
+              Here I decided to use pastel colors to give a professional and
+              relaxing feeling for the branding on the packaging.
+              <br />
+              As this wasn't directly a branding project, I found assets online
+              such as the leaves and fruit illustrations to help save time. I
+              would have liked to find ones more matching, but this was the best
+              I could find. If I were to do this for a client I would redesign
+              these illustrations myself.
             </p>
           </div>
         </div>
