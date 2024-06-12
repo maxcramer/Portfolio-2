@@ -17,7 +17,7 @@ const DynaMix = () => {
       <div className="dm_info_container">
         <div className="dm_title_parent">
           <h1>DynaMix Soda Can Design</h1>
-          <p>A Packaging Design for a Soda Can Company</p>
+          <p>A Packaging Design for a Soda Can</p>
         </div>
         <div className="dm_main_info">
           <div className="dm_design_text">
@@ -25,19 +25,20 @@ const DynaMix = () => {
               <img src={cans1} alt="" />
             </div>
             <div>
-              <h3>Title</h3>
+              <h3>About the Project</h3>
               <p>
-                ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium et repellendus quibusdam accusamus, ut quis eaque,
-                sequi cum quas voluptatem soluta rem eveniet numquam odit odio
-                impedit esse, officiis quo! ipsum Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Laudantium et repellendus
-                quibusdam accusamus, ut quis eaque, sequi cum quas voluptatem
-                soluta rem eveniet numquam odit odio impedit esse, officiis quo!
-                ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium et repellendus quibusdam accusamus, ut quis eaque,
-                sequi cum quas voluptatem soluta rem eveniet numquam odit odio
-                impedit esse, officiis quo!
+                Wanting to practice using Adobe Dimensions, I also took it as an
+                opportunity to practice my package branding. I designed three
+                different labels to use on the cans.
+                <br />
+                Here I was going for a bright and vibrant look, something that
+                would stand out on a shelf full of drinks, but would maintain a
+                clear branding style across all packaging on the products.
+                <br />
+                It was amazing to find the power of Dimensions, adding 3D
+                objects, along with splash like effects. Working with a camera
+                and angles was the trickiest part I found, but after a few
+                tutorials managed to get the gist of it.
               </p>
             </div>
             <div>
