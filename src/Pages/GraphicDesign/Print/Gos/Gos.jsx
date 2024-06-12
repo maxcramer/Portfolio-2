@@ -18,17 +18,17 @@ const Gos = () => {
         <div className="Gos_process">
           <h3>Process</h3>
           <p>
-            ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Saepe, sit sed repellendus quia id magni quaerat, mollitia, ut
-            similique dignissimos ullam voluptatem impedit doloremque quidem
-            veniam? Nesciunt, odit. Excepturi, nam? ipsum Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Saepe, sit sed repellendus quia
-            id magni quaerat, mollitia, ut similique dignissimos ullam
-            voluptatem impedit doloremque quidem veniam? Nesciunt, odit.
-            Excepturi, nam? ipsum Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Saepe, sit sed repellendus quia id magni quaerat,
-            mollitia, ut similique dignissimos ullam voluptatem impedit
-            doloremque quidem veniam? Nesciunt, odit. Excepturi, nam?
+            Learning how to design a book cover using Photoshop, I cut out some
+            of the roses, and layered them on top. This allowed me to edit the
+            background of the rose bushes darker than the roses at the front.
+            <br />
+            I was also able to create more depth and tone in the cover by
+            slightly enlarging the foreground roses as well as brighten them up
+            to help them pop out of the image.
+            <br />
+            While doing this, it also allowed me to play around with the text,
+            with part of the title going behind the rose underneath it. This in
+            turn creates more depth to the look of this image.
           </p>
           {/* <div className="Gos_process_img">
             <p>Process & Reference Images</p>
