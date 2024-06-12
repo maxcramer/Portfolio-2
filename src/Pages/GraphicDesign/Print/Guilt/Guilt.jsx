@@ -18,17 +18,20 @@ const Guilt = () => {
         <div className="guilt_process">
           <h3>Process</h3>
           <p>
-            ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Saepe, sit sed repellendus quia id magni quaerat, mollitia, ut
-            similique dignissimos ullam voluptatem impedit doloremque quidem
-            veniam? Nesciunt, odit. Excepturi, nam? ipsum Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Saepe, sit sed repellendus quia
-            id magni quaerat, mollitia, ut similique dignissimos ullam
-            voluptatem impedit doloremque quidem veniam? Nesciunt, odit.
-            Excepturi, nam? ipsum Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Saepe, sit sed repellendus quia id magni quaerat,
-            mollitia, ut similique dignissimos ullam voluptatem impedit
-            doloremque quidem veniam? Nesciunt, odit. Excepturi, nam?
+            I set myself the challenge to design a poster for a club night. The
+            "event" would be for techno night. Thinking about the kind of
+            attendees, these would be people who are very on top of fashion, or
+            art. A majority of students who's main style would be described as
+            "baggie". This gave me the idea that it would need to be dark,
+            attention grabbing and stylish.
+            <br />I decided to use the lips and lollipop for the red of the lips
+            to be eye catching, and the lollipop with the hand disappearing into
+            the darkness to keep the readers eyes scrolling down, to the rest of
+            the information.
+            <br />I took the view that the most important information was the
+            date, so that was put first. I knew the name needed to look
+            interesting and eye catching, while having a hint of early 2000s
+            high tech vibe to it to represent a fashionable and cool brand.
           </p>
           {/* <div className="guilt_process_img">
             <p>Process & Reference Images</p>

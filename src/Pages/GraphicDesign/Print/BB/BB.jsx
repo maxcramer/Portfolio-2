@@ -32,7 +32,7 @@ const BB = () => {
             that during my design I was thinking along the right path for this
             project.
             <br />
-            There are a few parts of this design I would like to talk about.
+            There are a few parts of this design I would like to mention.
             Firstly is the icon of Bob at the bottom of the burger. I designed
             this in illustrator and really enjoyed creating the character. The
             next aspect, and this may seem a small detail, but, the grease lines
