@@ -82,10 +82,9 @@ const BespokeMTB = () => {
               could be used to make an icon, with the text going around, but I
               still didn't feel happy or comfortable with this design.
               <br />
-              So from there I started to look at their natural surroundings of
-              the North West Pacific. When googling the area, I found that it
-              has incredible natural features, from sea arches and beautiful
-              beaches, to mountains and forests. This gave me the idea to try
+              So from there I started to look at their natural surroundings.
+              When googling the area, I found that it has incredible natural
+              features of mountains and forests. This gave me the idea to try
               incorporate the mountains as an icon. I felt this would go well
               especially given that the client builds custom Mountain Bikes for
               their customers.
