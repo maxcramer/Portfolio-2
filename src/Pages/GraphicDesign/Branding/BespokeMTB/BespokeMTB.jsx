@@ -73,17 +73,22 @@ const BespokeMTB = () => {
           <div>
             <h3>Sketching out initial ideas</h3>
             <p>
-              ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Vero neque eum aut, quia facilis maiores aperiam cum minima natus
-              earum dolore, unde temporibus eligendi laudantium cumque quo
-              tenetur ipsa architecto? ipsum Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Vero neque eum aut, quia facilis
-              maiores aperiam cum minima natus earum dolore, unde temporibus
-              eligendi laudantium cumque quo tenetur ipsa architecto ipsum Lorem
-              ipsum, dolor sit amet consectetur adipisicing elit. Vero neque eum
-              aut, quia facilis maiores aperiam cum minima natus earum dolore,
-              unde temporibus eligendi laudantium cumque quo tenetur ipsa
-              architecto
+              Initially, I started by looking at imagery I could use from the
+              name. The first place to start was looking at bike spokes as you
+              can see at the top of the page, but unfortunately does not make a
+              good icon.
+              <br />
+              My next idea was to look at the wheels itself and see if this
+              could be used to make an icon, with the text going around, but I
+              still didn't feel happy or comfortable with this design.
+              <br />
+              So from there I started to look at their natural surroundings of
+              the North West Pacific. When googling the area, I found that it
+              has incredible natural features, from sea arches and beautiful
+              beaches, to mountains and forests. This gave me the idea to try
+              incorporate the mountains as an icon. I felt this would go well
+              especially given that the client builds custom Mountain Bikes for
+              their customers.
             </p>
           </div>
         </div>
@@ -92,17 +97,25 @@ const BespokeMTB = () => {
           <div>
             <h3>Testing Ideas in Illustrator</h3>
             <p>
-              ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Vero neque eum aut, quia facilis maiores aperiam cum minima natus
-              earum dolore, unde temporibus eligendi laudantium cumque quo
-              tenetur ipsa architecto? ipsum Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Vero neque eum aut, quia facilis
-              maiores aperiam cum minima natus earum dolore, unde temporibus
-              eligendi laudantium cumque quo tenetur ipsa architecto ipsum Lorem
-              ipsum, dolor sit amet consectetur adipisicing elit. Vero neque eum
-              aut, quia facilis maiores aperiam cum minima natus earum dolore,
-              unde temporibus eligendi laudantium cumque quo tenetur ipsa
-              architecto
+              I took some of my preferred sketches and started translating them
+              into Illustrator. I wasn't ready yet to give up on the idea with
+              the tyre, so had to test it out but came to the conclusion that
+              this would not look sleek enough for the brand.
+              <br />
+              Next I started to play around with some of the lettering to see if
+              I could use part of it to make it look like bike pedals, giving
+              imagery back to the brand. Unfortunately I couldn't come up with a
+              design that I thought would work well, so left this as just an
+              experiment.
+              <br />
+              Finally I started playing around with the idea of mountains for
+              the icon. As this icon developed I felt comfortable I was on the
+              right path. I found it was clean, easy to read and would work well
+              in small spaces with the bold lettering.
+              <br />
+              After deciding that the mountains was the best way to go, I
+              started to play around with the color and text sizing until I
+              found something that I thought worked well.
             </p>
           </div>
         </div>
