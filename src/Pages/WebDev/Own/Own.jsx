@@ -84,6 +84,11 @@ const Own = () => {
             </div>
           </div>
         </div>
+        <div className="arrow_container">
+          <a href="/ow-selector-app" className="arrow">
+            Next {">"}
+          </a>
+        </div>
       </div>
     </div>
   );

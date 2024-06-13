@@ -53,6 +53,14 @@ const OwSelect = () => {
             </p>
           </div>
         </div>
+        <div className="arrow_container">
+          <a href="/own" className="arrow">
+            {"<"} Prev
+          </a>
+          <a href="/fth" className="arrow">
+            Next {">"}
+          </a>
+        </div>
       </div>
     </div>
   );

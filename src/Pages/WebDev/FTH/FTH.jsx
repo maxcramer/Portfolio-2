@@ -67,7 +67,9 @@ const FTH = () => {
           </div>
           <div className="fth_home_hover_container">
             <div>
-              <p className="fth_hover_tag">Desktop: Hover State | Mobile: Click State</p>
+              <p className="fth_hover_tag">
+                Desktop: Hover State | Mobile: Click State
+              </p>
               <img className="fth_hover" src={FTH_Hover} alt="" />
             </div>
 
@@ -114,6 +116,14 @@ const FTH = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className="arrow_container">
+          <a href="/ow-selector-app" className="arrow">
+            {"<"} Prev
+          </a>
+          <a href="/is-biscuit" className="arrow">
+            Next {">"}
+          </a>
         </div>
       </div>
     </div>

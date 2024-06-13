@@ -10,7 +10,7 @@ import "./Work.scss";
 
 const Work = () => {
   return (
-    <div className="work_parent_cont">
+    <div className="work_parent_cont" id="work">
       <h2>Work</h2>
       <div className="work_container">
         <div className="work_item">

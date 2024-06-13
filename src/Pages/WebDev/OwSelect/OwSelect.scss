@@ -82,6 +82,23 @@
         }
       }
     }
+    .arrow_container {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .arrow {
+        font-size: 25px;
+        font-weight: 300;
+        text-decoration: none;
+        color: black;
+        // float: right;
+        margin: 2rem 0;
+      }
+      .arrow:hover {
+        color: grey;
+      }
+    }
   }
   @media only screen and (max-width: 800px) {
     .ow_sel_info_container {

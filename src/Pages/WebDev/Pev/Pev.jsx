@@ -70,6 +70,14 @@ const Pev = () => {
             </p>
           </div>
         </div>
+        <div className="arrow_container">
+          <a href="/is-biscuit" className="arrow">
+            {"<"} Prev
+          </a>
+          <a href="/web-development#work" className="arrow">
+            Web Dev Positions {">"}
+          </a>
+        </div>
       </div>
     </div>
   );

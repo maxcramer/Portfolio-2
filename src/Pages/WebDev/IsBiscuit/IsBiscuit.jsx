@@ -85,6 +85,14 @@ const IsBiscuit = () => {
             </div>
           </div>
         </div>
+        <div className="arrow_container">
+          <a href="/fth" className="arrow">
+            {"<"} Prev
+          </a>
+          <a href="/insuremypev" className="arrow">
+            Next {">"}
+          </a>
+        </div>
       </div>
     </div>
   );
