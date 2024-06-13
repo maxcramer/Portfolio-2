@@ -44,6 +44,14 @@ const DoubleExposure = () => {
           </div>
         </div>
       </div>
+      <div className="arrow_container">
+        <a href="/3dtext" className="arrow">
+          {"<"} Prev
+        </a>
+        <a href="/charill" className="arrow">
+          Next {">"}
+        </a>
+      </div>
     </div>
   );
 };

@@ -35,8 +35,15 @@ const Seltzer = () => {
             </div>
           </div>
           <img src={SeltImg} alt="" />
-          
         </div>
+      </div>
+      <div className="arrow_container">
+        <a href="/cookbook" className="arrow">
+          {"<"} Prev
+        </a>
+        <a href="/travelhack" className="arrow">
+          Next {">"}
+        </a>
       </div>
     </div>
   );

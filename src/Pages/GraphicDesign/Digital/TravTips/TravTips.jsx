@@ -36,6 +36,14 @@ const TravTips = () => {
           <img src={TravTipsImg} alt="" />
         </div>
       </div>
+      <div className="arrow_container">
+        <a href="/seltzer" className="arrow">
+          {"<"} Prev
+        </a>
+        <a href="/fox" className="arrow">
+          Next {">"}
+        </a>
+      </div>
     </div>
   );
 };

@@ -32,6 +32,14 @@ const Journey = () => {
           </div> */}
         </div>
       </div>
+      <div className="arrow_container">
+        <a href="/guilt" className="arrow">
+          {"<"} Prev
+        </a>
+        <a href="/gos" className="arrow">
+          Next {">"}
+        </a>
+      </div>
     </div>
   );
 };

@@ -39,6 +39,14 @@ const Mag = () => {
           </div>
         </div>
       </div>
+      <div className="arrow_container">
+        <a href="/gos" className="arrow">
+          {"<"} Prev
+        </a>
+        <a href="/racenum" className="arrow">
+          Next {">"}
+        </a>
+      </div>
     </div>
   );
 };

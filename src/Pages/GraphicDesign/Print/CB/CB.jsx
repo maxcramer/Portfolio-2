@@ -54,6 +54,14 @@ const CB = () => {
         <img src={p9} alt="" />
         <img className="last_img" src={p10} alt="" />
       </div>
+      <div className="arrow_container">
+        <a href="/racenum" className="arrow">
+          {"<"} Prev
+        </a>
+        <a href="/seltzer" className="arrow">
+          Next {">"}
+        </a>
+      </div>
     </div>
   );
 };

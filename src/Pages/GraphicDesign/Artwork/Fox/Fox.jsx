@@ -41,6 +41,14 @@ const Fox = () => {
           </div>
         </div>
       </div>
+      <div className="arrow_container">
+        <a href="/travelhack" className="arrow">
+          {"<"} Prev
+        </a>
+        <a href="/3dtext" className="arrow">
+          Next {">"}
+        </a>
+      </div>
     </div>
   );
 };

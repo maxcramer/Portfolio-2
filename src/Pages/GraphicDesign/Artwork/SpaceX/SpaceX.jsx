@@ -44,6 +44,11 @@ const SpaceX = () => {
           </div>
         </div>
       </div>
+      <div className="arrow_container">
+        <a href="/charill" className="arrow">
+          {"<"} Prev
+        </a>
+      </div>
     </div>
   );
 };

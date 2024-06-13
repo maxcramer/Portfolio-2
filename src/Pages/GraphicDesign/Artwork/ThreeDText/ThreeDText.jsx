@@ -37,6 +37,14 @@ const ThreeDText = () => {
           </div> */}
         </div>
       </div>
+      <div className="arrow_container">
+        <a href="/fox" className="arrow">
+          {"<"} Prev
+        </a>
+        <a href="/double-e" className="arrow">
+          Next {">"}
+        </a>
+      </div>
     </div>
   );
 };

@@ -35,6 +35,14 @@ const CharIll = () => {
           </div> */}
         </div>
       </div>
+      <div className="arrow_container">
+        <a href="/double-e" className="arrow">
+          {"<"} Prev
+        </a>
+        <a href="/spacex" className="arrow">
+          Next {">"}
+        </a>
+      </div>
     </div>
   );
 };

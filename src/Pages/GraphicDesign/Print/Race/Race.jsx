@@ -35,6 +35,14 @@ const Race = () => {
           </div>
         </div>
       </div>
+      <div className="arrow_container">
+        <a href="/mag" className="arrow">
+          {"<"} Prev
+        </a>
+        <a href="/cookbook" className="arrow">
+          Next {">"}
+        </a>
+      </div>
     </div>
   );
 };

@@ -39,6 +39,14 @@ const Guilt = () => {
           </div> */}
         </div>
       </div>
+      <div className="arrow_container">
+        <a href="/bbmovie" className="arrow">
+          {"<"} Prev
+        </a>
+        <a href="/journey" className="arrow">
+          Next {">"}
+        </a>
+      </div>
     </div>
   );
 };

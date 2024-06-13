@@ -36,6 +36,14 @@ const Gos = () => {
           </div> */}
         </div>
       </div>
+      <div className="arrow_container">
+        <a href="/journey" className="arrow">
+          {"<"} Prev
+        </a>
+        <a href="/mag" className="arrow">
+          Next {">"}
+        </a>
+      </div>
     </div>
   );
 };

@@ -45,6 +45,14 @@ const BB = () => {
           </div>
         </div>
       </div>
+      <div className="arrow_container">
+        <a href="/bodywash" className="arrow">
+          {"<"} Prev
+        </a>
+        <a href="/guilt" className="arrow">
+          Next {">"}
+        </a>
+      </div>
     </div>
   );
 };
