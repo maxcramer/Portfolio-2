@@ -30,7 +30,10 @@ const Fox = () => {
             was placed a puddle with the idea of a junk yard in the background.
             <br />
             Next I took the Fox's body and turned it into a robot, giving the
-            finished look you see in the AI edited image.
+            finished look you see in the AI edited image. I felt it was
+            important to keep the tail of the fox in as I liked the bushiness of
+            it, and the idea that it goes from fox (the head), to robot (the
+            body), and then back to natural fox (the hind legs tail).
           </p>
           <div>
             <p>AI Edited Image</p>
