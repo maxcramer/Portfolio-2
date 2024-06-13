@@ -3,6 +3,7 @@ import React from "react";
 import "./Race.scss";
 
 import RaceNum from "../../../../components/media/RaceBib.png";
+import RaceNum2 from "../../../../components/media/RaceBib2.jpg";
 
 const Race = () => {
   return (
@@ -18,22 +19,20 @@ const Race = () => {
         <div className="race_process">
           <h3>Process</h3>
           <p>
-            ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Saepe, sit sed repellendus quia id magni quaerat, mollitia, ut
-            similique dignissimos ullam voluptatem impedit doloremque quidem
-            veniam? Nesciunt, odit. Excepturi, nam? ipsum Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Saepe, sit sed repellendus quia
-            id magni quaerat, mollitia, ut similique dignissimos ullam
-            voluptatem impedit doloremque quidem veniam? Nesciunt, odit.
-            Excepturi, nam? ipsum Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Saepe, sit sed repellendus quia id magni quaerat,
-            mollitia, ut similique dignissimos ullam voluptatem impedit
-            doloremque quidem veniam? Nesciunt, odit. Excepturi, nam?
+            As part of the team for Shred The Shires Onewheel Festival, I was
+            tasked with designing the race bib numbers. This would allow staff
+            on site to keep track of riders during racing.
+            <br />
+            We needed the numbers to be big and bold, so readable when someone
+            is going past at speed, but at the same time, did need to include
+            our sponsors on the race bib for advertising.
+            <br />I chose to go with a green border as it helped the sponsors
+            logos pop out, and this is one of the three colors on our logo.
           </p>
-          {/* <div className="race_process_img">
-            <p>Process & Reference Images</p>
-            <img src={} alt="" />
-          </div> */}
+          <div className="race_process_img">
+            {/* <p>Process & Reference Images</p> */}
+            <img src={RaceNum2} alt="" />
+          </div>
         </div>
       </div>
     </div>
