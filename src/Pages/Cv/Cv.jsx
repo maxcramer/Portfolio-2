@@ -54,7 +54,7 @@ const Cv = () => {
               <br />
               It has been interesting learning these tools, as well as getting
               the chance to try to create some mock-up branding. To view these
-              projects, please <a href="/branding">click here</a>.
+              projects, please <a href="/GD#branding">click here</a>.
               <br />
               One of the more interesting projects I did was completely in
               Illustrator. I was tasked with designing a movie poster using
@@ -66,7 +66,7 @@ const Cv = () => {
               was similar tosomething they had actually used for the film. This
               made me believe in terms of branding I was thinking along the
               right lines. to view this project please{" "}
-              <a href="/bobsburgers">click here</a>
+              <a href="/bbmovie">click here</a>
               .
               <br />
               Previously to this I had used the UI / UX tool Sketch to do any
