@@ -10,11 +10,12 @@
   .cv_text {
     img {
       float: left;
-      margin: 2rem 2rem 0.9rem 0rem;
-      width: 25%;
+      margin: 2rem 2rem 0rem 0rem;
+      width: 30%;
     }
     .cv_item {
       text-align: justify;
+      margin-bottom: 2rem;
 
       .cv_item_top {
         display: flex;

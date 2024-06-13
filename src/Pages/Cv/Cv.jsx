@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Cv.scss";
 
-import Max2 from "../../components/media/Max2.jpg";
+import Max2 from "../../components/media/Self.png";
 import photoshop from "../../components/media/photoshop.webp";
 import indesign from "../../components/media/indesign.png";
 import illustrator from "../../components/media/illustrator.png";
