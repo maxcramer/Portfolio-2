@@ -35,6 +35,7 @@ const Seltzer = () => {
             </div>
           </div>
           <img src={SeltImg} alt="" />
+          
         </div>
       </div>
     </div>

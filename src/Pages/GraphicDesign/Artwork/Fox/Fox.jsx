@@ -20,15 +20,17 @@ const Fox = () => {
           </div>
         </div>
         <div className="fox_desc">
-          <h3>Title</h3>
+          <h3>Process</h3>
           <p>
-            Ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-            modi aperiam repellat dolores, ex voluptas voluptatibus, dolorum
-            iste hic fugiat sit, architecto ipsum earum! Sit tenetur tempore
-            delectus natus veniam. Ipsum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Non modi aperiam repellat dolores, ex voluptas
-            voluptatibus, dolorum iste hic fugiat sit, architecto ipsum earum!
-            Sit tenetur tempore delectus natus veniam.
+            This project wsa to learn and practice how to use Photoshops AI
+            Generation Tool.
+            <br />
+            The first thing I did was expand the background, giving a rocky
+            cliff on the left and more bushes on the right. In front of the fox
+            was placed a puddle with the idea of a junk yard in the background.
+            <br />
+            Next I took the Fox's body and turned it into a robot, giving the
+            finished look you see in the AI edited image.
           </p>
           <div>
             <p>AI Edited Image</p>
