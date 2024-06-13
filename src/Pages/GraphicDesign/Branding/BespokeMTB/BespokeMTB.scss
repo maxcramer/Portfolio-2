@@ -146,6 +146,19 @@
         }
       }
     }
+    .arrow {
+      font-size: 25px;
+      font-weight: 300;
+      text-decoration: none;
+      color: black;
+      float: right;
+      margin: 2rem 0;
+    }
+
+    .arrow:hover {
+      color: grey;
+      text-decoration: underline;
+    }
   }
   @media only screen and (max-width: 800px) {
     .bmtb_banner_parent {
