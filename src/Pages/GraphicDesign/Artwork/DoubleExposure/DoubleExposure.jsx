@@ -21,7 +21,7 @@ const DoubleExposure = () => {
           </div>
         </div>
         <div className="de_desc">
-          <h3>Title</h3>
+          <h3>Process</h3>
           <p>
             A great opportunity to grow my Photoshop skills, I attempted to
             combine multiple images to give a seamless blend with using double
