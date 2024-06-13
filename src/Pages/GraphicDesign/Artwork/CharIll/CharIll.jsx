@@ -19,15 +19,15 @@ const CharIll = () => {
           </div>
         </div>
         <div className="ci_desc">
-          <h3>Title</h3>
+          <h3>Process</h3>
           <p>
-            Ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-            modi aperiam repellat dolores, ex voluptas voluptatibus, dolorum
-            iste hic fugiat sit, architecto ipsum earum! Sit tenetur tempore
-            delectus natus veniam. Ipsum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Non modi aperiam repellat dolores, ex voluptas
-            voluptatibus, dolorum iste hic fugiat sit, architecto ipsum earum!
-            Sit tenetur tempore delectus natus veniam.
+            Giving myself a chance to further practice my Illustrator skills, I
+            decided to create a couple of characters that I thought would work
+            well for branding for a burger shop.
+            <br />I wanted to give the effect that the light source was coming
+            from the upper left, and was able to achieve this using highlights
+            on the top left of the characters, as well as adding a shade
+            underneath the characters to really help give that 3D effect.
           </p>
           {/* <div>
             <p>AI Edited Image</p>
