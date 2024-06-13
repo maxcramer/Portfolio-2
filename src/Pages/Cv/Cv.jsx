@@ -34,7 +34,7 @@ const Cv = () => {
       </div>
       <div className="cv">
         <div className="cv_text">
-          <img src={Max2} alt="" />
+          <img className="self_img" src={Max2} alt="" />
           <div className="cv_item">
             <div className="cv_item_top">
               <div className="cv_item_top_title">
