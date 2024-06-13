@@ -145,7 +145,9 @@ const BespokeMTB = () => {
             <img src={mtbLogoWhite} alt="" />
           </div>
         </div>
-        <a href="/mlc" className="next_arrow">Next {">"}</a>
+        <a href="/mlc" className="arrow">
+          Next {">"}
+        </a>
       </div>
     </div>
   );

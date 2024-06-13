@@ -125,6 +125,14 @@ const VideoFlux = () => {
             </div>
           </div>
         </div>
+        <div className="arrow_container">
+          <a href="/mdzynes" className="arrow">
+            {"<"} Prev
+          </a>
+          <a href="/pacificcalm" className="arrow">
+            Next {">"}
+          </a>
+        </div>
       </div>
     </div>
   );

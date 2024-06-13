@@ -57,6 +57,14 @@ const DynaMix = () => {
             <img src={cansSplash} alt="" />
           </div>
         </div>
+        <div className="arrow_container">
+          <a href="/pacificcalm" className="arrow">
+            {"<"} Prev
+          </a>
+          <a href="/bodywash" className="arrow">
+            Next {">"}
+          </a>
+        </div>
       </div>
     </div>
   );

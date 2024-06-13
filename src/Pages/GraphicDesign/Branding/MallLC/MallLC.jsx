@@ -174,6 +174,14 @@ const MallLC = () => {
             </div>
           </div>
         </div>
+        <div className="arrow_container">
+          <a href="/bespokemtb" className="arrow">
+            {"<"} Prev
+          </a>
+          <a href="/mdzynes" className="arrow">
+            Next {">"}
+          </a>
+        </div>
       </div>
     </div>
   );

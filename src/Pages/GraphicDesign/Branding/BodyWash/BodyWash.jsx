@@ -40,6 +40,14 @@ const BodyWash = () => {
             </p>
           </div>
         </div>
+        <div className="arrow_container">
+          <a href="/dynamix" className="arrow">
+            {"<"} Prev
+          </a>
+          <a href="/bbmovie" className="arrow">
+            Next {">"}
+          </a>
+        </div>
       </div>
     </div>
   );

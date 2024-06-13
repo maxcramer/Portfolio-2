@@ -203,6 +203,14 @@ const PacificCalm = () => {
             </div>
           </div>
         </div>
+        <div className="arrow_container">
+          <a href="/videoflux" className="arrow">
+            {"<"} Prev
+          </a>
+          <a href="/dynamix" className="arrow">
+            Next {">"}
+          </a>
+        </div>
       </div>
     </div>
   );

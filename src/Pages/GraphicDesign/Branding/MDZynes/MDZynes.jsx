@@ -157,6 +157,14 @@ const MDZynes = () => {
             </div>
           </div>
         </div>
+        <div className="arrow_container">
+          <a href="/mlc" className="arrow">
+            {"<"} Prev
+          </a>
+          <a href="/videoflux" className="arrow">
+            Next {">"}
+          </a>
+        </div>
       </div>
     </div>
   );
