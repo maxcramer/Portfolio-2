@@ -23,13 +23,16 @@ const SpaceX = () => {
         <div className="sx_desc">
           <h3>Process</h3>
           <p>
-            Ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-            modi aperiam repellat dolores, ex voluptas voluptatibus, dolorum
-            iste hic fugiat sit, architecto ipsum earum! Sit tenetur tempore
-            delectus natus veniam. Ipsum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Non modi aperiam repellat dolores, ex voluptas
-            voluptatibus, dolorum iste hic fugiat sit, architecto ipsum earum!
-            Sit tenetur tempore delectus natus veniam.
+            I set out with this project to improve my Illustrator skills. I
+            initially started by tracing around the original image to get the
+            shape and detailing.
+            <br />I then tried adding some metallic textures to the design to
+            see where this would work. I came to the conclusion that the best
+            look was to keep the main body to singular colors, and have the
+            metallic effect only on the wings. This gave a good contrast between
+            the wings and the body of the rocket.
+            <br />I then created a space themed background, by blending deep
+            blues and purples to give the space effect.
           </p>
           <div>
             <p>Original Image</p>
