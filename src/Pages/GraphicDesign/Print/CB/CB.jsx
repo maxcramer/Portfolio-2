@@ -27,17 +27,19 @@ const CB = () => {
         <div className="cb_process">
           <h3>Process</h3>
           <p>
-            ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Saepe, sit sed repellendus quia id magni quaerat, mollitia, ut
-            similique dignissimos ullam voluptatem impedit doloremque quidem
-            veniam? Nesciunt, odit. Excepturi, nam? ipsum Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Saepe, sit sed repellendus quia
-            id magni quaerat, mollitia, ut similique dignissimos ullam
-            voluptatem impedit doloremque quidem veniam? Nesciunt, odit.
-            Excepturi, nam? ipsum Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Saepe, sit sed repellendus quia id magni quaerat,
-            mollitia, ut similique dignissimos ullam voluptatem impedit
-            doloremque quidem veniam? Nesciunt, odit. Excepturi, nam?
+            This was a project I set out to learn and understand how to layout a
+            cookbook. This also gave me the opportunity to practice and grow my
+            skills in InDesign.
+            <br />
+            Understanding how it would need to be laid out, along with making it
+            an interesting design was a real learning curve but I am glad I set
+            myself this challenge.
+            <br />I found that pairing fonts was a very important pat of this
+            process, as I would need the feel of it to be readable, but at the
+            same time, have a soft flow vibe to it.
+            <br />I also felt that it was important to keep a strict color
+            pattern, to make the book seem uniformed across all pages and
+            covers, only using the dark blue and dark gold tones.
           </p>
         </div>
       </div>
