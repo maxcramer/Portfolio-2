@@ -23,13 +23,19 @@ const DoubleExposure = () => {
         <div className="de_desc">
           <h3>Title</h3>
           <p>
-            Ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-            modi aperiam repellat dolores, ex voluptas voluptatibus, dolorum
-            iste hic fugiat sit, architecto ipsum earum! Sit tenetur tempore
-            delectus natus veniam. Ipsum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Non modi aperiam repellat dolores, ex voluptas
-            voluptatibus, dolorum iste hic fugiat sit, architecto ipsum earum!
-            Sit tenetur tempore delectus natus veniam.
+            A great opportunity to grow my Photoshop skills, I attempted to
+            combine multiple images to give a seamless blend with using double
+            exposure effect.
+            <br />I really enjoyed the process of making the image with the lady
+            with the road going down her shoulder, and her head silhouetted to
+            the shape of the mountains. I like how the road seamlessly comes out
+            of her hed and continues down the shoulder as if it were something
+            natural.
+            <br />I also really enjoyed combining a picture of my cat Sabba,
+            with a dense forest to give the effect that it is growing out of her
+            head. I thought it was important to start the forest in her eys as
+            this would give the effect of reflection as if she was deep in the
+            forest.
           </p>
           <div>
             {/* <p>AI Edited Image</p> */}
