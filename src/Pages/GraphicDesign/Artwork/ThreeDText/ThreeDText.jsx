@@ -19,15 +19,17 @@ const ThreeDText = () => {
           </div>
         </div>
         <div className="td_desc">
-          <h3>Title</h3>
+          <h3>Process</h3>
           <p>
-            Ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-            modi aperiam repellat dolores, ex voluptas voluptatibus, dolorum
-            iste hic fugiat sit, architecto ipsum earum! Sit tenetur tempore
-            delectus natus veniam. Ipsum Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Non modi aperiam repellat dolores, ex voluptas
-            voluptatibus, dolorum iste hic fugiat sit, architecto ipsum earum!
-            Sit tenetur tempore delectus natus veniam.
+            This was a fun way to learn about 3D objects in Illustrator and what
+            can be done.
+            <br />I found it particularly interesting that you can control the
+            light angles, adding highlighting on different objects but keeping
+            it uniformed as a project.
+            <br />
+            The power of illustrator with this tool was a lot of fun to try out,
+            and especially the realism you can create from the different
+            textures and patterns available.
           </p>
           {/* <div>
             <p>AI Edited Image</p>
