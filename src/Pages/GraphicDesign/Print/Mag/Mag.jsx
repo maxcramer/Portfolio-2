@@ -2,6 +2,7 @@ import React from "react";
 
 import MagImg from "../../../../components/media/MagSpred1.png";
 import MagImg2 from "../../../../components/media/MagSpred2.png";
+import MagImg3 from "../../../../components/media/MagSpread3.jpg";
 
 import "./Mag.scss";
 
@@ -22,22 +23,20 @@ const Mag = () => {
         <div className="Mag_process">
           <h3>Process</h3>
           <p>
-            ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Saepe, sit sed repellendus quia id magni quaerat, mollitia, ut
-            similique dignissimos ullam voluptatem impedit doloremque quidem
-            veniam? Nesciunt, odit. Excepturi, nam? ipsum Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Saepe, sit sed repellendus quia
-            id magni quaerat, mollitia, ut similique dignissimos ullam
-            voluptatem impedit doloremque quidem veniam? Nesciunt, odit.
-            Excepturi, nam? ipsum Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Saepe, sit sed repellendus quia id magni quaerat,
-            mollitia, ut similique dignissimos ullam voluptatem impedit
-            doloremque quidem veniam? Nesciunt, odit. Excepturi, nam?
+            This was a learning project, to upskill using InDesign. I had
+            attempted to design some double page magazine spreads.
+            <br />
+            I really enjoyed learning how to wrap text around an image like you
+            can see in the double spread titled "THE END OF THE CRISIS?".
+            <br />I also found that cutting out part of an image to make it look
+            as if it is overlapping the background to be a fun task. You can see
+            this here on the page labeled "FREE RIDING", where the shoulders and
+            head come above, and out of the background of the image.
           </p>
-          {/* <div className="Mag_process_img">
-            <p>Process & Reference Images</p>
-            <img src={} alt="" />
-          </div> */}
+          <div className="Mag_process_img">
+            {/* <p>Process & Reference Images</p> */}
+            <img src={MagImg3} alt="" />
+          </div>
         </div>
       </div>
     </div>
