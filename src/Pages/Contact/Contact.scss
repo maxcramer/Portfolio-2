@@ -1,0 +1,41 @@
+.contact_container {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 50vh;
+  .contact_title_parent {
+    h1 {
+      font-size: 100px;
+    }
+  }
+  .contact_info {
+    p {
+      margin-top: 10px;
+      font-size: 30px;
+      font-weight: 300;
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      a:hover {
+        cursor: pointer;
+        color: grey;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact_container {
+    width: 90%;
+    .contact_title_parent {
+      h1 {
+        font-size: 70px;
+      }
+    }
+    .contact_info {
+      p {
+        font-size: 25px;
+      }
+    }
+  }
+}

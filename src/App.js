@@ -41,7 +41,8 @@ import Fox from "./Pages/GraphicDesign/Artwork/Fox/Fox.jsx";
 import ThreeDText from "./Pages/GraphicDesign/Artwork/ThreeDText/ThreeDText.jsx";
 import DoubleExposure from "./Pages/GraphicDesign/Artwork/DoubleExposure/DoubleExposure.jsx";
 import CharIll from "./Pages/GraphicDesign/Artwork/CharIll/CharIll.jsx";
-import SpaceX from './Pages/GraphicDesign/Artwork/SpaceX/SpaceX.jsx';
+import SpaceX from "./Pages/GraphicDesign/Artwork/SpaceX/SpaceX.jsx";
+import Contact from "./Pages/Contact/Contact.jsx";
 
 // import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -121,6 +122,7 @@ class App extends Component {
             <Route path="/double-e" element={<DoubleExposure />} />
             <Route path="/charill" element={<CharIll />} />
             <Route path="/spacex" element={<SpaceX />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </body>
         {/* <HeadBanner /> */}
