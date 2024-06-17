@@ -55,10 +55,20 @@
   z-index: 4;
 }
 
-.text_items h3 {
-  font-size: 65px;
-  margin: 0;
-  padding-bottom: 0;
+.text_items {
+  a {
+    text-decoration: none;
+    color: white;
+    h3 {
+      font-size: 65px;
+      margin: 0;
+      padding-bottom: 0;
+    }
+    h3:hover {
+      cursor: pointer;
+      color: lightgrey;
+    }
+  }
 }
 
 .text_items h5 {
