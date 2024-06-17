@@ -27,8 +27,8 @@ const Gos = () => {
             to help them pop out of the image.
             <br />
             While doing this, it also allowed me to play around with the text,
-            with part of the title going behind the rose underneath it. This in
-            turn creates more depth to the look of this image.
+            with part of the title going behind the rose. This in turn creates a
+            look of greater depth to the image.
           </p>
           {/* <div className="Gos_process_img">
             <p>Process & Reference Images</p>

@@ -15,7 +15,7 @@ const BodyWash = () => {
       <div className="bw_info_container">
         <div className="bw_title_parent">
           <h1>Body Wash Label Design</h1>
-          <p>A Designing for a Body Wash Brand</p>
+          <p>A Design for a Body Wash Brand</p>
         </div>
         <div className="bw_main_info">
           <div className="bw_images">

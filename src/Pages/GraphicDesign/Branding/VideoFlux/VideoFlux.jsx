@@ -81,10 +81,10 @@ const VideoFlux = () => {
                 Modak and Impact.
                 <br />
                 Initially with Modak, I was trying to make the O use whitespace
-                to create the shape and then have a lense in the middle, to
-                represent the video recording aspect of the app. Over a few
-                iterations, this became a play button, which felt a lot more on
-                trend for an app such as this.
+                to create the shape of the letter, and then have a lense in the
+                middle, to represent the video recording aspect of the app. Over
+                a few iterations, this became a play button, which felt a lot
+                more on trend for an app such as this.
                 <br />
                 Next I started experimenting with the Impact font, attempting to
                 create known video associated icons out of the lettering. This

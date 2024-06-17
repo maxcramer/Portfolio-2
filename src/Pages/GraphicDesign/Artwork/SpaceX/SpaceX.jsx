@@ -28,7 +28,7 @@ const SpaceX = () => {
             shape and detailing.
             <br />I then tried adding some metallic textures to the design to
             see where this would work. I came to the conclusion that the best
-            look was to keep the main body to singular colors, and have the
+            look was to keep the main body as singular tones, and have the
             metallic effect only on the wings. This gave a good contrast between
             the wings and the body of the rocket.
             <br />I then created a space themed background, by blending deep

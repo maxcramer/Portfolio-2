@@ -38,7 +38,7 @@ const DynaMix = () => {
                 It was amazing to find the power of Dimensions, adding 3D
                 objects, along with splash like effects. Working with a camera
                 and angles was the trickiest part I found, but after a few
-                tutorials managed to get the gist of it.
+                tutorials managed to get the hang of it.
               </p>
             </div>
             <div>

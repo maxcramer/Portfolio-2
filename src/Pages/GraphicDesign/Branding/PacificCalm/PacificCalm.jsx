@@ -108,7 +108,7 @@ const PacificCalm = () => {
               Generally, people find being around calm water very relaxing, and
               with the spa, I felt this idea tied in well together. I initially
               started with three lines to represent three calm waves, while
-              really trying to play on that natural calm aspect.
+              really trying to play on that natural calming aspect.
             </p>
             <img src={PcSketches} alt="" />
           </div>
@@ -121,8 +121,8 @@ const PacificCalm = () => {
               When testing out ideas in illustrator, I immediately felt that a
               mid tone blue would give off the perfect calming effect that the
               logo was looking for.
-              <br />I experimented using differnt tones, while also trying to
-              add some other features such as mountains, the sun and even a
+              <br />I experimented using different tones, while also trying to
+              add some other features such as mountains, the sun, and even a
               swimmer, but felt these over complicated the logo and in this
               case, less is more.
               <br />I then added some text, pairing a Serif and Sans Serif font

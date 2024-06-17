@@ -80,16 +80,15 @@ const BespokeMTB = () => {
               can see at the top of the page, but unfortunately does not make a
               good icon.
               <br />
-              My next idea was to look at the wheels itself and see if this
+              My next idea was to look at the wheels itself, and see if this
               could be used to make an icon, with the text going around, but I
               still didn't feel happy or comfortable with this design.
               <br />
-              So from there I started to look at their natural surroundings.
-              When googling the area, I found that it has incredible natural
-              features of mountains and forests. This gave me the idea to try
-              incorporate the mountains as an icon. I felt this would go well
-              especially given that the client builds custom Mountain Bikes for
-              their customers.
+              So from there I started to look at their natural surroundings. I
+              found that it has incredible natural features of mountains and
+              forests. This gave me the idea to try incorporate the mountains as
+              an icon. I felt this would go well especially given that the
+              client builds custom Mountain Bikes for their customers.
             </p>
           </div>
         </div>
@@ -111,8 +110,8 @@ const BespokeMTB = () => {
               <br />
               Finally I started playing around with the idea of mountains for
               the icon. As this icon developed I felt comfortable I was on the
-              right path. I found it was clean, easy to read and would work well
-              in small spaces with the bold lettering.
+              right path. I found it was clean, easy to read, and would work
+              well in small spaces with the bold lettering.
               <br />
               After deciding that the mountains was the best way to go, I
               started to play around with the color and text sizing until I

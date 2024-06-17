@@ -33,7 +33,7 @@ const DoubleExposure = () => {
             natural.
             <br />I also really enjoyed combining a picture of my cat Sabba,
             with a dense forest to give the effect that it is growing out of her
-            head. I thought it was important to start the forest in her eys as
+            head. I thought it was important to start the forest in her eyes as
             this would give the effect of reflection as if she was deep in the
             forest.
           </p>

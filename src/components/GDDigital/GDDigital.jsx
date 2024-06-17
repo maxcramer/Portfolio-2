@@ -12,7 +12,7 @@ const GDDigital = () => {
         <a href="/seltzer" className="GDDig_item">
           <div className="hidden_text">
             <h3>Taste Test</h3>
-            <p>A Youtube Thumbnail for a Video</p>
+            <p>A Youtube Thumbnail for a Seltzer Taste Test Video</p>
           </div>
           <div className="GDDig_logo">
             <img src={YTCans} alt="" />
@@ -44,7 +44,7 @@ const GDDigital = () => {
         <div className="GDDig_item">
           <div className="hidden_text">
             <h3>Travel Hacks</h3>
-            <p>A Youtube Thumbnail for a Video </p>
+            <p>A Youtube Thumbnail for a Seltzer Taste Test Video </p>
             <p>
               <a href="/travelhack">Tap here</a> for more.
             </p>

@@ -22,7 +22,7 @@ const Fox = () => {
         <div className="fox_desc">
           <h3>Process</h3>
           <p>
-            This project wsa to learn and practice how to use Photoshops AI
+            This project was to learn and practice how to use Photoshops AI
             Generation Tool.
             <br />
             The first thing I did was expand the background, giving a rocky

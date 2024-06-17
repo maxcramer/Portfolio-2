@@ -34,7 +34,7 @@ const CB = () => {
             Understanding how it would need to be laid out, along with making it
             an interesting design was a real learning curve but I am glad I set
             myself this challenge.
-            <br />I found that pairing fonts was a very important pat of this
+            <br />I found that pairing fonts was a very important part of this
             process, as I would need the feel of it to be readable, but at the
             same time, have a soft flow vibe to it.
             <br />I also felt that it was important to keep a strict color

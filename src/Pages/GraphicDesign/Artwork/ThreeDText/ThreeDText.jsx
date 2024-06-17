@@ -8,8 +8,8 @@ const ThreeDText = () => {
   return (
     <div className="td_container">
       <div className="td_title_parent">
-        <h1>Photoshop AI Generation</h1>
-        <p>Using Photoshop AI Generation Tool to Edit Images</p>
+        <h1>3D Text & Shapes</h1>
+        <p>Using Illustrator to make 3D Text & Shapes</p>
       </div>
       <div className="td_main_info">
         <div className="td_img">

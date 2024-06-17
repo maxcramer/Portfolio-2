@@ -29,8 +29,7 @@ const Seltzer = () => {
                 This video will feature 30 different seltzer soda brands in an
                 ultimate showdown for taste and overall flavor. Your goal is to
                 create an eye-catching thumbnail that can grab viewers but also
-                communicate the video’s main premise. You can choose to use the
-                supplied graphic or use your own.
+                communicate the video’s main premise.
               </p>
             </div>
           </div>
