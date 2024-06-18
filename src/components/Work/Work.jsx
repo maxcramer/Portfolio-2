@@ -34,8 +34,8 @@ const Work = () => {
             The business would promote itself by giving their clients well
             designed, branded t-shirts. One of my projects while at Uncrowd was
             designing and building a website that the clients could order the
-            t-shirts from directly from. This was built using React.js and
-            Google Firebase. <br />
+            t-shirts from directly. This was built using React.js and Google
+            Firebase. <br />
             Our data collection application was a web application designed for
             use on mobiles. We were trying to emulate it to look as if while you
             were filling out the data, to anyone else, would look like you are

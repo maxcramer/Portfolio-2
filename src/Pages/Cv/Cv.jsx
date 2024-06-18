@@ -63,7 +63,7 @@ const Cv = () => {
               just Bob's arm in view flipping a burger. As I was getting to the
               end of the project I remembered there was a Bob's Burgers movie. I
               had a quick look and soon came to realise that what I had designed
-              was similar tosomething they had actually used for the film. This
+              was similar to something they had actually used for the film. This
               made me believe in terms of branding I was thinking along the
               right lines. to view this project please{" "}
               <a href="/bbmovie">click here</a>
@@ -93,14 +93,14 @@ const Cv = () => {
               Max's Short Stays was comprised of multiple apartments around
               Bayswater. This was an arbitrage business, where I would rent the
               flats from the landlords, and with full permission from them ,
-              woul dthen furnish, and put onto platforms such as Airbnb,
+              would then furnish, and put onto platforms such as Airbnb,
               booking.com, VRBO & Expedia.
               <br />
               This business ran for 10 months before the market crashed in
               January 2024. It had a team of cleaners who would take care of the
               apartments, as well as restock anything that was needed.
               <br />I found this business was mainly about people management,
-              whether it be part of the team, or the guests themseles, ensuring
+              whether it be part of the team, or the guests themselves, ensuring
               they follow the rules, but most of all ensuring they had a comfy
               and enjoyable time while staying at the apartments.
             </p>

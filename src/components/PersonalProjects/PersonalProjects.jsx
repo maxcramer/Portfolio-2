@@ -53,8 +53,7 @@ const PersonalProjects = () => {
           <div className="hidden_text">
             <h3>Insure My Pev</h3>
             <p>
-              A landing page for an personal electric vehicle insurance
-              business.
+              A landing page for a personal electric vehicle insurance business.
             </p>
           </div>
           <div className="pp_logo">
@@ -115,8 +114,7 @@ const PersonalProjects = () => {
           <div className="hidden_text">
             <h3>Insure My Pev</h3>
             <p>
-              A landing page for an personal electric vehicle insurance
-              business.
+              A landing page for a personal electric vehicle insurance business.
             </p>
             <p>
               <a href="/insuremypev">Click here</a> for more.

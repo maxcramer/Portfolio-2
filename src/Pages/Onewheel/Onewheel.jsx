@@ -154,9 +154,9 @@ const Onewheel = () => {
               <h3>Position: Head of Sponsorship | Freestyle | Community</h3>
               <p>
                 England's first every onewheel festival & competition. Launched
-                at the beginning of May, 2024, it was a weekend of fun,
+                at the beginning of May, 2024. It was a weekend of fun,
                 including organized group rides, time trials, 4 person races,
-                with trick clinics, freestyle competition (run by Max), any many
+                with trick clinics, freestyle competition (run by Max), and many
                 more talks and games put on by some of the best riders in the
                 UK. The team welcomed over 100 riders, with 70 that raced. To
                 find out more please see the links below.
