@@ -15,12 +15,13 @@ import styled from "styled-components";
 // }
 
 // @media (max-width: 768px) {}
+//  background-color: rgba(0, 0, 0, 0.1);
+//   backdrop-filter: blur(5px);
+//   -webkit-backdrop-filter: blur(5px);
 
 const UL = styled.ul`
     flex-flow: column nowrap;
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    background-color: white;
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0))" : "translateX(100%)")};
     top: 0;
@@ -33,7 +34,7 @@ const UL = styled.ul`
     z-index: 10;
     list-style: none;
     display: flex;
-    box-shadow: -3px 0px 10px grey;
+    box-shadow: -5px -5px 5px white;
 
 
     a {
@@ -41,13 +42,12 @@ const UL = styled.ul`
     }
 
     li {
-    color: white;
-      -webkit-text-stroke-width: 0.3px;
-  -webkit-text-stroke-color: black;
+    color: black;
+     
     padding: 1rem 0;
     text-align: left;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 300;
     font-family: arial;
     }
 

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import RightNav from "./RightNav";
+import HomeIcon from "../media/Home Icon.png";
 
-// import "./Burger.css";
+import "./Burger.scss";
 
 // display: none;
 
@@ -27,11 +28,11 @@ const StyledBurger = styled.div`
   div {
     width: 2rem;
     height: 0.25rem;
-    background-color: ${({ open }) => (open ? "#ccc" : "#333")};
+    background-color: ${({ open }) => (open ? "black" : "white")};
     border-radius: 10px;
     transform-origin: 3px;
     transition: all 0.3s linear;
-    border: 1px solid lightgrey;
+    border: ${({ open }) => (open ? "none" : "#1px solid black")};
 
     &:nth-child(1) {
       transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0)")};
@@ -50,6 +51,9 @@ const Burger = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
+      <a className="home_icon_container" href="/">
+        <img src={HomeIcon} alt="" />
+      </a>
       <StyledBurger open={open} onClick={() => setOpen(!open)}>
         <div />
         <div />

@@ -1,16 +1,32 @@
-.Burger {
-  width: 2rem;
-  height: 2rem;
-  position: fixed;
-  top: 15px;
-  right: 20px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-flow: column nowrap;
-}
+// .Burger {
+//   width: 2rem;
+//   height: 2rem;
+//   position: fixed;
+//   top: 15px;
+//   right: 20px;
+//   display: flex;
+//   justify-content: space-evenly;
+//   flex-flow: column nowrap;
+// }
 
-.Burger div {
-  width: 2rem;
-  height: 0.25rem;
-  background-color: lightgrey;
+// .Burger div {
+//   width: 2rem;
+//   height: 0.25rem;
+//   background-color: lightgrey;
+// }
+
+.home_icon_container {
+  position: fixed;
+  z-index: 20;
+  img {
+    max-height: 2.5rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    transition: transform 0.2s ease;
+  }
+  img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
+  }
 }
