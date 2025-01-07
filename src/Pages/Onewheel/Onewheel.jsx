@@ -3,7 +3,7 @@ import React from "react";
 import "./Onewheel.scss";
 
 import onewheeltext from "../../components/media/onewheeltext.png";
-import stoke from "../../components/media/stokesolutions.jpg";
+import yeeew from "../../components/media/Artboard 10_3.png";
 import goat from "../../components/media/goatdrinks.webp";
 import pet from "../../components/media/PET.png";
 import sts from "../../components/media/sts.webp";
@@ -66,16 +66,13 @@ const Onewheel = () => {
               </p>
             </div>
             <div>
-              <a href="https://stoke-solutions.co.uk/MAX10" target="#">
-                <img src={stoke} alt="" />
+              <a href="https://yeeew.co.uk/" target="#">
+                <img src={yeeew} alt="" />
               </a>
               <p>
-                Stoke Solutions blasted on to the scene in 2022. Today, they are
-                the number one repair shop for onewheels, and for building
-                onewheel vesc kits in the UK. Having worked with Max on other
-                projects such as Float The Highlands as a sponsor, they invited
-                him to be a part of their team, representing freestyle and the
-                UK community. For 10% off your order, use discount code MAX10.
+                <a href="yeeew.co.uk">Yeeew.co.uk</a> is the UK's largest
+                selection of Onewheel accessories. Offering brands such as The
+                Float Life, Craft & Ride, 1Protect, & Flight Fins.
               </p>
             </div>
             <div>
